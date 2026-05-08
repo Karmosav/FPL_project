@@ -1,0 +1,833 @@
+element,web_name,team,element_type,now_cost,selected_by_percent,form,points_per_game,minutes,goals_scored,assists,clean_sheets,expected_goals,expected_assists,expected_goal_involvements,expected_goals_conceded,transfers_in_event,transfers_out_event,status,news,season,season_start,name_key,name,short_name,strength
+1,Raya,1,1,61,35.2,4.5,4.2,3150,0,0,17,0.00,0.06,0.06,26.22,64674,22655,a,,2025-26,2025,raya,Arsenal,ARS,5
+2,Arrizabalaga,1,1,40,0.4,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,139,222,a,,2025-26,2025,arrizabalaga,Arsenal,ARS,5
+3,Hein,1,1,40,0.2,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,47,u,Has joined Werder Bremen on loan for the rest of the season.,2025-26,2025,hein,Arsenal,ARS,5
+4,Setford,1,1,39,0.2,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,44,194,a,,2025-26,2025,setford,Arsenal,ARS,5
+5,Gabriel,1,2,72,44.8,4.5,6.6,2525,3,5,16,2.64,1.70,4.34,19.74,61047,23607,a,,2025-26,2025,gabriel,Arsenal,ARS,5
+6,Saliba,1,2,62,15.5,4.2,4.3,2434,1,0,13,0.88,1.04,1.92,19.07,54285,15278,a,,2025-26,2025,saliba,Arsenal,ARS,5
+7,Calafiori,1,2,56,5.9,1.5,4.3,1536,1,2,12,3.15,0.51,3.66,9.33,9948,1808,a,,2025-26,2025,calafiori,Arsenal,ARS,5
+8,J.Timber,1,2,60,16.6,0.0,5.0,2452,3,6,13,4.71,1.53,6.24,17.45,114,127021,i,Ankle injury - Unknown return date,2025-26,2025,jtimber,Arsenal,ARS,5
+9,Kiwior,1,2,54,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,5,u,has joined Porto on loan for the rest of the season.,2025-26,2025,kiwior,Arsenal,ARS,5
+10,Lewis-Skelly,1,2,50,1.4,2.0,1.2,500,0,0,1,0.10,0.16,0.26,6.88,3177,394,a,,2025-26,2025,lewisskelly,Arsenal,ARS,5
+11,White,1,2,51,0.6,3.5,4.0,672,0,1,5,0.45,0.68,1.13,8.68,5320,732,a,,2025-26,2025,white,Arsenal,ARS,5
+13,Clarke,1,2,37,0.4,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,1021,509,a,,2025-26,2025,clarke,Arsenal,ARS,5
+14,Kacurri,1,2,39,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,17,u,has joined Morecambe on loan for the rest of the season.,2025-26,2025,kacurri,Arsenal,ARS,5
+15,Nichols,1,2,37,0.2,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,174,425,a,,2025-26,2025,nichols,Arsenal,ARS,5
+16,Saka,1,3,99,9.1,3.0,5.0,2049,7,9,10,7.33,6.62,13.95,14.45,210000,4833,a,,2025-26,2025,saka,Arsenal,ARS,5
+17,Ødegaard,1,3,78,1.6,1.2,3.0,1250,1,6,5,1.04,3.46,4.50,15.25,824,4164,a,,2025-26,2025,degaard,Arsenal,ARS,5
+18,Madueke,1,3,68,0.8,1.5,2.5,1112,2,1,7,1.06,2.55,3.61,12.31,601,2432,a,,2025-26,2025,madueke,Arsenal,ARS,5
+19,Martinelli,1,3,68,0.9,0.5,1.8,974,1,4,2,3.99,1.03,5.02,9.53,432,1500,a,,2025-26,2025,martinelli,Arsenal,ARS,5
+20,Trossard,1,3,65,0.8,2.2,3.7,1817,5,6,9,5.07,3.44,8.51,12.60,4426,1563,a,,2025-26,2025,trossard,Arsenal,ARS,5
+21,Rice,1,3,72,24.0,3.2,5.2,2913,4,9,16,3.15,6.90,10.05,22.53,46126,73428,a,,2025-26,2025,rice,Arsenal,ARS,5
+22,Merino,1,3,54,0.8,0.0,3.1,996,4,3,4,2.99,1.45,4.44,6.59,13,410,i,Foot injury - Unknown return date,2025-26,2025,merino,Arsenal,ARS,5
+23,Fábio Vieira,1,3,54,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,1,u,has joined Hamburger on loan for the rest of the season.,2025-26,2025,fbiovieira,Arsenal,ARS,5
+24,Nørgaard,1,3,51,0.1,0.0,1.0,56,0,0,0,0.05,0.00,0.05,2.23,42,57,a,,2025-26,2025,nrgaard,Arsenal,ARS,5
+25,Nwaneri,1,3,50,0.1,0.0,1.3,165,0,0,1,0.23,0.08,0.31,0.73,0,27,u,has joined Marseille on loan for the rest of the season.,2025-26,2025,nwaneri,Arsenal,ARS,5
+26,Zubimendi,1,3,50,3.0,3.0,3.7,2861,5,1,16,2.84,2.22,5.06,24.72,4134,15285,a,,2025-26,2025,zubimendi,Arsenal,ARS,5
+28,Kabia,1,3,45,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,19,u,has joined Shrewsbury Town on loan for the rest of the season.,2025-26,2025,kabia,Arsenal,ARS,5
+29,Sambi,1,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,4,u,has joined Hamburger permanently.,2025-26,2025,sambi,Arsenal,ARS,5
+30,Havertz,1,4,73,0.6,2.8,2.6,437,1,2,3,2.52,0.13,2.65,4.80,914,8633,a,,2025-26,2025,havertz,Arsenal,ARS,5
+31,G.Jesus,1,4,64,0.3,0.5,1.5,344,2,0,0,1.83,0.23,2.06,3.74,368,839,a,,2025-26,2025,gjesus,Arsenal,ARS,5
+266,Eze,1,3,73,8.8,3.0,3.5,1732,7,3,9,4.34,2.58,6.92,12.88,18634,14585,a,,2025-26,2025,eze,Arsenal,ARS,5
+662,Mosquera,1,2,53,0.2,0.5,1.8,761,0,0,2,0.10,0.51,0.61,6.86,338,610,a,,2025-26,2025,mosquera,Arsenal,ARS,5
+666,Gyökeres,1,4,89,14.0,5.8,3.8,2103,14,1,11,11.98,1.80,13.77,15.91,244868,13663,a,,2025-26,2025,gykeres,Arsenal,ARS,5
+700,Dowman,1,3,42,0.8,0.5,2.6,91,1,1,0,1.19,0.14,1.33,0.67,7842,4810,a,,2025-26,2025,dowman,Arsenal,ARS,5
+711,Harriman-Annous,1,3,44,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,13,13,a,,2025-26,2025,harrimanannous,Arsenal,ARS,5
+725,Hincapie,1,2,51,1.0,2.5,3.7,1679,1,2,5,0.33,1.65,1.98,16.55,2758,10257,a,,2025-26,2025,hincapie,Arsenal,ARS,5
+759,Salmon,1,2,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,30,29,a,,2025-26,2025,salmon,Arsenal,ARS,5
+32,Martinez,2,1,51,4.8,1.8,3.7,2655,0,0,7,0.00,0.07,0.07,39.70,10701,8940,a,,2025-26,2025,martinez,Aston Villa,AVL,3
+33,M.Bizot,2,1,42,0.4,0.8,2.3,495,0,0,1,0.00,0.00,0.00,9.68,147,213,a,,2025-26,2025,mbizot,Aston Villa,AVL,3
+34,Gauci,2,1,40,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,34,u,Has joined Port Vale on loan for the rest of the season.,2025-26,2025,gauci,Aston Villa,AVL,3
+35,Marschall,2,1,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,1,u,Has joined Stevenage permanently.,2025-26,2025,marschall,Aston Villa,AVL,3
+36,Cash,2,2,47,8.2,2.2,3.6,2802,3,3,8,1.13,2.82,3.95,42.24,11148,15017,a,,2025-26,2025,cash,Aston Villa,AVL,3
+37,Digne,2,2,45,1.6,1.8,3.2,1736,0,6,7,0.63,3.10,3.73,26.19,1436,3447,a,,2025-26,2025,digne,Aston Villa,AVL,3
+38,Konsa,2,2,44,7.6,0.8,3.1,2855,0,1,9,1.27,0.57,1.84,45.71,2654,15290,a,,2025-26,2025,konsa,Aston Villa,AVL,3
+39,Maatsen,2,2,42,0.6,1.8,1.7,1422,0,1,2,1.20,2.24,3.44,23.40,371,993,a,,2025-26,2025,maatsen,Aston Villa,AVL,3
+40,Mings,2,2,43,0.6,0.5,3.1,1142,0,1,3,1.30,0.40,1.70,20.24,469,724,a,,2025-26,2025,mings,Aston Villa,AVL,3
+41,Pau,2,2,43,0.3,0.8,3.1,1566,0,1,5,0.63,0.39,1.02,21.25,228,343,a,,2025-26,2025,pau,Aston Villa,AVL,3
+42,A.García,2,2,39,0.2,0.2,0.8,38,0,0,0,0.00,0.01,0.01,1.55,124,156,a,,2025-26,2025,agarca,Aston Villa,AVL,3
+43,Alex Moreno,2,2,40,1.5,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,361,u,Has joined Girona permanently.,2025-26,2025,alexmoreno,Aston Villa,AVL,3
+44,Bogarde,2,2,40,0.5,0.8,1.4,960,0,0,2,0.00,0.20,0.20,13.99,549,538,a,,2025-26,2025,bogarde,Aston Villa,AVL,3
+45,Sousa,2,2,38,0.2,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,169,u,has joined Rotherham on loan for the rest of the season.,2025-26,2025,sousa,Aston Villa,AVL,3
+46,Yasin,2,2,40,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,24,u,has joined Anderlecht on loan for the rest of the season.,2025-26,2025,yasin,Aston Villa,AVL,3
+47,Rogers,2,3,75,24.3,4.2,4.4,3100,9,7,9,6.65,4.02,10.67,48.33,31743,127662,a,,2025-26,2025,rogers,Aston Villa,AVL,3
+48,Tielemans,2,3,59,0.7,2.0,2.8,1661,0,4,4,1.03,2.88,3.91,28.26,1072,757,a,,2025-26,2025,tielemans,Aston Villa,AVL,3
+49,Bailey,2,3,55,0.1,0.5,1.4,355,0,1,0,0.31,1.43,1.74,5.54,187,209,a,,2025-26,2025,bailey,Aston Villa,AVL,3
+50,Buendía,2,3,53,0.4,2.5,2.8,1563,6,2,3,3.21,1.95,5.16,25.36,2378,973,a,,2025-26,2025,buenda,Aston Villa,AVL,3
+51,Iling Jr,2,3,55,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,2,u,has joined Pisa on loan for the rest of the season.,2025-26,2025,ilingjr,Aston Villa,AVL,3
+53,Malen,2,3,51,0.4,0.0,2.6,640,4,2,1,4.03,0.35,4.38,10.59,0,119,u,has joined Roma on loan for the rest of the season.,2025-26,2025,malen,Aston Villa,AVL,3
+54,McGinn,2,3,53,0.7,2.0,3.4,1959,4,3,8,2.72,3.49,6.21,30.18,1867,6112,a,,2025-26,2025,mcginn,Aston Villa,AVL,3
+55,Barkley,2,3,48,0.1,1.5,2.3,635,2,1,1,0.81,1.12,1.93,9.08,255,560,a,,2025-26,2025,barkley,Aston Villa,AVL,3
+56,Barrenechea,2,3,50,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,0,u,Season-long loan to Benfica,2025-26,2025,barrenechea,Aston Villa,AVL,3
+57,Dobbin,2,3,50,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,3,u,Has joined Preston North End on loan for the rest of the season.,2025-26,2025,dobbin,Aston Villa,AVL,3
+58,Kamara,2,3,49,0.2,0.0,3.4,1410,1,3,5,0.53,0.84,1.36,20.80,11,106,a,,2025-26,2025,kamara,Aston Villa,AVL,3
+59,Onana,2,3,48,0.6,1.0,3.1,1738,2,0,6,1.68,0.69,2.37,28.40,9,2873,i,Knock - Unknown return date,2025-26,2025,onana,Aston Villa,AVL,3
+60,Broggio,2,3,44,0.2,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,113,u,has joined Falkirk on loan for the rest of the season.,2025-26,2025,broggio,Aston Villa,AVL,3
+61,Dendoncker,2,3,45,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,10,u,Has joined Real Oviedo permanently.,2025-26,2025,dendoncker,Aston Villa,AVL,3
+62,Jimoh-Aloba,2,3,45,0.1,0.0,1.0,8,0,0,0,0.00,0.00,0.00,0.61,0,38,u,has joined West Brom on loan for the rest of the season.,2025-26,2025,jimohaloba,Aston Villa,AVL,3
+63,Young,2,3,43,0.5,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,452,u,has joined Reading on loan for the rest of the season.,2025-26,2025,young,Aston Villa,AVL,3
+64,Watkins,2,4,88,14.8,5.2,3.8,2563,11,3,9,12.50,1.14,13.64,38.83,38589,127363,a,,2025-26,2025,watkins,Aston Villa,AVL,3
+65,Redmond,2,4,45,0.3,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,47,u,has joined Huddersfield Town on loan for the rest of the season.,2025-26,2025,redmond,Aston Villa,AVL,3
+389,Elliott,2,3,51,0.2,0.0,1.0,110,0,0,0,0.29,0.08,0.37,1.74,114,84,a,,2025-26,2025,elliott,Aston Villa,AVL,3
+456,Sancho,2,3,58,0.2,1.0,1.6,862,0,2,2,0.61,1.85,2.46,13.84,285,248,a,,2025-26,2025,sancho,Aston Villa,AVL,3
+688,Wright,2,1,39,0.6,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,84,268,a,,2025-26,2025,wright,Aston Villa,AVL,3
+699,Douglas Luiz,2,3,49,0.1,0.2,1.7,830,1,1,1,0.50,1.40,1.90,11.58,111,352,a,,2025-26,2025,douglasluiz,Aston Villa,AVL,3
+701,Rowe,2,2,40,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,12,u,has joined Annecy on loan for the rest of the season.,2025-26,2025,rowe,Aston Villa,AVL,3
+702,Burrowes,2,3,43,0.1,0.0,1.0,16,0,0,0,0.00,0.00,0.00,0.90,1500,384,a,,2025-26,2025,burrowes,Aston Villa,AVL,3
+703,Proctor,2,1,39,0.6,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,117,556,a,,2025-26,2025,proctor,Aston Villa,AVL,3
+710,Patterson,2,2,39,0.2,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,59,99,a,,2025-26,2025,patterson,Aston Villa,AVL,3
+719,Lindelöf,2,2,45,0.1,0.8,1.8,752,0,1,1,0.28,0.08,0.36,12.89,137,162,a,,2025-26,2025,lindelf,Aston Villa,AVL,3
+754,George Hemmings,2,3,45,0.0,0.0,1.0,25,0,0,0,0.04,0.01,0.05,0.61,24,16,a,,2025-26,2025,georgehemmings,Aston Villa,AVL,3
+757,Hollingshead,2,1,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,19,22,a,,2025-26,2025,hollingshead,Aston Villa,AVL,3
+768,Leon Routh,2,2,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,10,19,a,,2025-26,2025,leonrouth,Aston Villa,AVL,3
+781,Carroll,2,2,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,23,17,a,,2025-26,2025,carroll,Aston Villa,AVL,3
+792,Alysson,2,3,50,0.0,0.0,1.0,47,0,0,0,0.05,0.05,0.10,1.87,11,11,a,,2025-26,2025,alysson,Aston Villa,AVL,3
+808,Abraham,2,4,58,0.2,2.0,1.9,278,2,0,0,2.05,0.36,2.41,5.12,593,1590,a,,2025-26,2025,abraham,Aston Villa,AVL,3
+183,Weiss,3,1,42,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,47,80,a,,2025-26,2025,weiss,Burnley,BUR,2
+184,Green,3,1,40,0.2,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,48,u,has joined FC Fredericia permanently.,2025-26,2025,green,Burnley,BUR,2
+185,Hladký,3,1,39,0.2,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,34,101,a,,2025-26,2025,hladk,Burnley,BUR,2
+186,Roberts,3,2,43,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,14,11,i,Achilles injury - Unknown return date,2025-26,2025,roberts,Burnley,BUR,2
+187,Walker,3,2,44,1.1,0.8,2.0,2825,0,2,4,0.15,1.22,1.37,62.71,284,937,a,,2025-26,2025,walker,Burnley,BUR,2
+188,Delcroix,3,2,38,0.2,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,130,u,has joined Lugano permanently.,2025-26,2025,delcroix,Burnley,BUR,2
+189,Dodgson,3,2,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,2,u,Has joined Stockport County on loan for the rest of the season.,2025-26,2025,dodgson,Burnley,BUR,2
+190,Ekdal,3,2,38,0.7,2.0,2.7,1539,0,0,2,0.25,0.32,0.57,31.03,997,703,a,,2025-26,2025,ekdal,Burnley,BUR,2
+191,Estève,3,2,39,6.9,2.8,2.5,2762,0,0,3,0.73,0.58,1.31,64.35,1850,6956,a,,2025-26,2025,estve,Burnley,BUR,2
+192,Hartman,3,2,40,0.6,2.5,3.0,1825,0,6,3,0.32,1.98,2.30,42.91,469,822,a,,2025-26,2025,hartman,Burnley,BUR,2
+193,Humphreys,3,2,39,0.1,1.0,2.4,1476,0,2,2,0.42,0.67,1.09,33.18,54,300,a,,2025-26,2025,humphreys,Burnley,BUR,2
+194,Jordan,3,2,39,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,12,24,i,Hamstring injury - Unknown return date,2025-26,2025,jordan,Burnley,BUR,2
+195,Lucas Pires,3,2,38,0.3,0.5,1.2,1135,0,0,1,0.33,1.21,1.54,23.37,94,373,a,,2025-26,2025,lucaspires,Burnley,BUR,2
+196,Sambo,3,2,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,2,u,has joined Sparta Rotterdam on loan for the rest of the season.,2025-26,2025,sambo,Burnley,BUR,2
+197,Sonne,3,2,38,0.2,0.0,1.9,164,1,0,0,0.55,0.08,0.63,3.79,0,188,u,has joined Sparta Prague on loan for the rest of the season.,2025-26,2025,sonne,Burnley,BUR,2
+198,Tuanzebe,3,2,39,0.9,0.0,2.5,931,1,0,1,0.61,0.11,0.72,24.88,84,419,a,,2025-26,2025,tuanzebe,Burnley,BUR,2
+199,Worrall,3,2,38,0.2,0.0,1.8,496,0,0,0,0.08,0.02,0.10,11.68,55,389,a,,2025-26,2025,worrall,Burnley,BUR,2
+200,Anthony,3,3,50,1.8,2.8,3.4,2456,7,4,4,4.48,2.76,7.24,54.58,923,3653,a,,2025-26,2025,anthony,Burnley,BUR,2
+201,Benson,3,3,54,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,0,u,has joined Maccabi Haifa permanently.,2025-26,2025,benson,Burnley,BUR,2
+202,Bruun Larsen,3,3,52,0.0,0.5,1.5,998,0,1,3,1.35,1.07,2.42,23.03,36,48,a,,2025-26,2025,bruunlarsen,Burnley,BUR,2
+203,Boateng,3,3,47,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,66,38,a,,2025-26,2025,boateng,Burnley,BUR,2
+204,Churlinov,3,3,49,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,0,u,has joined Kocaelispor  permanently.,2025-26,2025,churlinov,Burnley,BUR,2
+205,Cullen,3,3,49,0.8,0.0,3.9,1513,2,2,3,0.94,1.36,2.30,32.50,18,355,i,Knee injury - Expected back 30 Sep,2025-26,2025,cullen,Burnley,BUR,2
+206,Edwards,3,3,47,0.1,1.2,2.3,1043,1,3,1,1.48,1.70,3.18,24.12,51,246,a,,2025-26,2025,edwards,Burnley,BUR,2
+207,Hannibal,3,3,47,0.1,0.0,2.2,1017,1,4,2,0.62,1.35,1.97,24.25,111,282,a,,2025-26,2025,hannibal,Burnley,BUR,2
+208,Koleosho,3,3,50,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,0,u,has joined Paris FC on loan for the rest of the season.,2025-26,2025,koleosho,Burnley,BUR,2
+209,Laurent,3,3,48,0.0,1.0,1.7,1722,1,0,2,0.87,0.48,1.35,39.07,26,62,a,,2025-26,2025,laurent,Burnley,BUR,2
+210,Tchaouna,3,3,48,0.0,2.2,1.8,1014,2,1,2,1.17,0.75,1.92,20.73,89,30,a,,2025-26,2025,tchaouna,Burnley,BUR,2
+211,A.Ramsey,3,3,44,1.4,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,256,u,has joined Leicester City on loan for the rest of the season.,2025-26,2025,aramsey,Burnley,BUR,2
+212,Adewumi,3,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,2,u,Has joined Cercle Brugge on loan for the rest of the season.,2025-26,2025,adewumi,Burnley,BUR,2
+213,Banel,3,3,45,0.0,0.0,1.0,9,0,0,0,0.00,0.00,0.00,0.05,0,10,u,has joined Derby County on loan for the rest of the season.,2025-26,2025,banel,Burnley,BUR,2
+214,Trésor,3,3,43,0.1,0.5,1.0,37,0,0,0,0.00,0.00,0.00,1.65,870,206,a,,2025-26,2025,trsor,Burnley,BUR,2
+215,Flemming,3,4,53,0.3,3.2,3.2,1511,9,0,3,6.85,0.36,7.21,32.64,654,1763,a,,2025-26,2025,flemming,Burnley,BUR,2
+216,Amdouni,3,4,48,0.0,0.2,1.0,14,0,0,0,0.07,0.01,0.08,0.17,68,36,a,,2025-26,2025,amdouni,Burnley,BUR,2
+217,Foster,3,4,49,0.7,0.5,2.3,1340,3,2,4,3.22,0.37,3.59,27.65,299,725,a,,2025-26,2025,foster,Burnley,BUR,2
+218,Barnes,3,4,42,1.3,0.0,1.0,35,0,0,0,0.11,0.00,0.11,2.07,834,1902,a,,2025-26,2025,barnes,Burnley,BUR,2
+219,Obafemi,3,4,44,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,21,u,has joined Blackpool on loan for the rest of the season.,2025-26,2025,obafemi,Burnley,BUR,2
+470,Dúbravka,3,1,40,26.8,2.0,2.7,3150,0,0,4,0.00,0.04,0.04,71.26,5754,30753,a,,2025-26,2025,dbravka,Burnley,BUR,2
+614,Ward-Prowse,3,3,56,0.2,3.0,2.5,1062,0,1,2,0.24,1.71,1.95,22.70,122,503,a,,2025-26,2025,wardprowse,Burnley,BUR,2
+676,Ugochukwu,3,3,50,0.1,1.0,2.8,2108,3,2,3,2.30,0.29,2.59,48.61,43,263,a,,2025-26,2025,ugochukwu,Burnley,BUR,2
+680,Broja,3,4,52,0.1,1.0,1.8,843,1,1,1,2.14,0.22,2.36,23.35,63,129,a,,2025-26,2025,broja,Burnley,BUR,2
+722,Florentino,3,3,50,0.0,1.5,2.6,1847,0,2,2,0.58,0.46,1.04,41.56,17,81,a,,2025-26,2025,florentino,Burnley,BUR,2
+776,Pimlott,3,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,9,8,a,,2025-26,2025,pimlott,Burnley,BUR,2
+784,Brierley,3,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,5,8,a,,2025-26,2025,brierley,Burnley,BUR,2
+820,McMahon-Brown,3,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,16,11,a,,2025-26,2025,mcmahonbrown,Burnley,BUR,2
+66,Neto,4,1,45,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,11,u,Has joined Botafogo permanently.,2025-26,2025,neto,Bournemouth,BOU,3
+67,Petrović,4,1,46,5.2,2.5,3.2,3150,0,0,10,0.00,0.00,0.00,51.99,5454,9089,a,,2025-26,2025,petrovi,Bournemouth,BOU,3
+68,Dennis,4,1,40,0.7,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,363,u,has joined Leyton Orient on loan for the rest of the season.,2025-26,2025,dennis,Bournemouth,BOU,3
+69,McKenna,4,1,39,0.2,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,119,206,a,,2025-26,2025,mckenna,Bournemouth,BOU,3
+70,Paulsen,4,1,40,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,13,u,Has joined Lechia Gdansk on loan for the rest of the season.,2025-26,2025,paulsen,Bournemouth,BOU,3
+71,Zabarnyi,4,2,50,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,3,u,Has joined Paris Saint-Germain permanently.,2025-26,2025,zabarnyi,Bournemouth,BOU,3
+72,Senesi,4,2,52,21.2,6.0,4.7,3018,0,6,10,1.53,4.65,6.18,50.04,92830,30992,a,,2025-26,2025,senesi,Bournemouth,BOU,3
+73,Smith,4,2,44,0.2,0.2,2.1,805,0,1,4,0.00,0.20,0.20,13.96,164,230,a,,2025-26,2025,smith,Bournemouth,BOU,3
+74,Truffert,4,2,47,4.6,6.0,4.2,3108,1,4,10,0.98,2.70,3.68,49.69,24716,11250,a,,2025-26,2025,truffert,Bournemouth,BOU,3
+75,Akinmboni,4,2,38,0.2,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,161,107,a,,2025-26,2025,akinmboni,Bournemouth,BOU,3
+76,Bevan,4,2,38,0.2,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,101,130,a,,2025-26,2025,bevan,Bournemouth,BOU,3
+77,Hill,4,2,42,7.6,4.5,3.8,1832,0,3,7,0.79,1.14,1.92,28.69,10419,16987,a,,2025-26,2025,hill,Bournemouth,BOU,3
+78,J.Araujo,4,2,38,0.5,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,233,u,has joined Celtic on loan for the rest of the season.,2025-26,2025,jaraujo,Bournemouth,BOU,3
+79,Mepham,4,2,40,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,11,u,has joined West Bromwich Albion permanently.,2025-26,2025,mepham,Bournemouth,BOU,3
+80,Soler,4,2,39,0.2,0.0,1.0,34,0,0,0,0.00,0.00,0.00,1.62,107,62,a,,2025-26,2025,soler,Bournemouth,BOU,3
+81,Kluivert,4,3,69,0.6,0.0,2.2,914,2,0,4,2.24,1.54,3.78,16.78,39,178,d,Lack of match fitness - 75% chance of playing,2025-26,2025,kluivert,Bournemouth,BOU,3
+84,Tavernier,4,3,54,5.1,3.5,4.0,2475,6,4,10,8.60,3.85,12.45,36.67,8464,23345,a,,2025-26,2025,tavernier,Bournemouth,BOU,3
+85,Adams,4,3,49,0.3,2.2,3.1,1542,2,2,7,0.61,0.60,1.21,23.02,494,152,a,,2025-26,2025,adams,Bournemouth,BOU,3
+86,Brooks,4,3,50,0.2,2.2,2.0,1171,1,3,5,5.16,3.39,8.55,19.40,359,167,a,,2025-26,2025,brooks,Bournemouth,BOU,3
+87,Christie,4,3,49,0.2,1.8,2.0,937,2,1,3,1.81,0.76,2.57,18.57,189,1211,a,,2025-26,2025,christie,Bournemouth,BOU,3
+88,Cook,4,3,49,0.0,0.0,2.4,870,0,1,1,0.07,0.52,0.59,13.49,13,41,d,Lack of match fitness - 25% chance of playing,2025-26,2025,cook,Bournemouth,BOU,3
+89,Philip,4,3,49,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,2,u,has joined Midtjylland permanently.,2025-26,2025,philip,Bournemouth,BOU,3
+90,Scott,4,3,51,2.4,5.0,3.7,2668,3,2,10,3.80,2.92,6.72,44.36,6930,19891,a,,2025-26,2025,scott,Bournemouth,BOU,3
+91,Sinisterra,4,3,50,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,0,u,has joined Cruzeiro on loan for the rest of the season.,2025-26,2025,sinisterra,Bournemouth,BOU,3
+92,Faivre,4,3,45,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,16,u,has joined Auxerre permanently.,2025-26,2025,faivre,Bournemouth,BOU,3
+93,H.Traorè,4,3,45,0.3,0.0,4.0,16,0,1,0,0.00,0.00,0.00,0.40,0,44,u,has joined Marseille on loan for the rest of the season.,2025-26,2025,htraor,Bournemouth,BOU,3
+94,Sadi,4,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,5,u,has joined Novi Pazar on loan for the rest of the season.,2025-26,2025,sadi,Bournemouth,BOU,3
+95,Silcott-Duberry,4,3,44,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,9,u,has joined Olympiakos permanently.,2025-26,2025,silcottduberry,Bournemouth,BOU,3
+96,Winterburn,4,3,45,0.0,0.0,1.0,6,0,0,0,0.00,0.00,0.00,0.31,0,4,u,has joined Barnet on loan for the rest of the season.,2025-26,2025,winterburn,Bournemouth,BOU,3
+97,Evanilson,4,4,67,2.5,4.0,3.3,2539,6,7,10,9.80,1.42,11.22,36.07,10900,10929,a,,2025-26,2025,evanilson,Bournemouth,BOU,3
+98,Enes Ünal,4,4,54,0.0,0.8,1.2,185,1,0,0,1.89,0.06,1.95,4.80,178,136,a,,2025-26,2025,enesnal,Bournemouth,BOU,3
+99,Adu-Adjei,4,4,44,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,19,u,has joined HNK Rijeka permanently.,2025-26,2025,aduadjei,Bournemouth,BOU,3
+100,Kroupi.Jr,4,4,46,6.1,5.5,3.4,1438,12,0,8,7.86,1.27,9.13,22.70,57317,11362,a,,2025-26,2025,kroupijr,Bournemouth,BOU,3
+391,Gannon-Doak,4,3,48,0.0,0.5,1.4,72,0,1,0,0.09,0.10,0.19,4.05,22,15,a,,2025-26,2025,gannondoak,Bournemouth,BOU,3
+685,Diakité,4,2,41,0.3,0.0,2.6,1275,0,0,4,0.02,0.19,0.21,22.47,98,229,a,,2025-26,2025,diakit,Bournemouth,BOU,3
+687,Rees-Dottin,4,3,43,0.2,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,257,298,a,,2025-26,2025,reesdottin,Bournemouth,BOU,3
+697,Adli,4,3,54,0.2,0.5,2.2,1045,3,2,3,2.60,1.62,4.22,17.37,109,1671,a,,2025-26,2025,adli,Bournemouth,BOU,3
+713,A.Jimenez,4,2,45,0.2,2.5,2.4,2315,1,2,6,1.09,1.73,2.82,41.11,529,709,a,,2025-26,2025,ajimenez,Bournemouth,BOU,3
+721,Milosavljević,4,2,44,0.0,0.0,2.7,367,0,0,1,0.15,0.19,0.34,4.42,20,18,a,,2025-26,2025,milosavljevi,Bournemouth,BOU,3
+756,DaCosta,4,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,31,32,a,,2025-26,2025,dacosta,Bournemouth,BOU,3
+782,Forster,4,1,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,76,32,a,,2025-26,2025,forster,Bournemouth,BOU,3
+799,Stevens,4,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,38,28,a,,2025-26,2025,stevens,Bournemouth,BOU,3
+801,Tóth.A,4,3,49,0.0,0.8,0.9,78,0,0,0,0.06,0.25,0.31,3.52,13,14,a,,2025-26,2025,ttha,Bournemouth,BOU,3
+806,Mandas,4,1,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,15,15,a,,2025-26,2025,mandas,Bournemouth,BOU,3
+807,Rayan,4,3,54,1.4,5.2,4.4,877,4,2,4,2.20,1.78,3.98,15.77,8746,5482,a,,2025-26,2025,rayan,Bournemouth,BOU,3
+27,Nelson,5,3,48,0.1,1.2,1.3,117,0,1,0,0.71,0.11,0.82,2.03,68,56,a,,2025-26,2025,nelson,Brentford,BRE,3
+83,O.Dango,5,3,57,1.9,3.0,4.1,2069,5,8,6,6.50,3.89,10.39,28.70,1456,29824,a,,2025-26,2025,odango,Brentford,BRE,3
+101,Kelleher,5,1,48,12.3,4.5,3.9,3060,0,0,10,0.00,0.22,0.22,45.74,11637,42668,a,,2025-26,2025,kelleher,Brentford,BRE,3
+102,Balcombe,5,1,39,0.2,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,67,142,a,,2025-26,2025,balcombe,Brentford,BRE,3
+103,Cox,5,1,39,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,95,u,has joined Shrewsbury Town on loan for the rest of the season.,2025-26,2025,cox,Brentford,BRE,3
+104,Eyestone,5,1,39,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,42,98,a,,2025-26,2025,eyestone,Brentford,BRE,3
+105,Valdimarsson,5,1,38,0.8,0.0,1.0,90,0,0,0,0.00,0.00,0.00,0.97,5659,1339,a,,2025-26,2025,valdimarsson,Brentford,BRE,3
+106,Collins,5,2,49,2.6,4.2,3.8,2701,1,2,9,2.14,1.37,3.51,39.78,2060,15019,a,,2025-26,2025,collins,Brentford,BRE,3
+107,Lewis-Potter,5,2,48,1.5,4.8,3.3,1692,3,3,9,2.89,2.30,5.19,26.99,4646,6305,a,,2025-26,2025,lewispotter,Brentford,BRE,3
+108,Ajer,5,2,44,0.2,0.2,2.8,1634,0,2,5,0.69,0.72,1.41,26.84,86,732,a,,2025-26,2025,ajer,Brentford,BRE,3
+109,Henry,5,2,43,0.1,0.0,2.1,1322,0,2,4,0.18,0.54,0.72,23.91,7,241,i,Hamstring injury - Unknown return date,2025-26,2025,henry,Brentford,BRE,3
+110,Kayode,5,2,46,1.1,4.5,3.2,2988,1,2,10,1.28,2.80,4.08,44.91,2016,7373,a,,2025-26,2025,kayode,Brentford,BRE,3
+111,Pinnock,5,2,42,0.1,0.0,3.5,318,0,0,1,0.01,0.06,0.07,3.70,77,327,a,,2025-26,2025,pinnock,Brentford,BRE,3
+112,Roerslev,5,2,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,0,u,Has joined Southampton permanently.,2025-26,2025,roerslev,Brentford,BRE,3
+113,Van den Berg,5,2,45,1.2,3.8,3.5,2663,0,2,8,3.18,0.94,4.12,38.52,868,8864,a,,2025-26,2025,vandenberg,Brentford,BRE,3
+114,Arthur,5,2,38,0.2,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,81,u,has joined Celtic on loan for the rest of the season.,2025-26,2025,arthur,Brentford,BRE,3
+115,Fredrick,5,2,40,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,10,u,has joined Dender on loan for the rest of the season.,2025-26,2025,fredrick,Brentford,BRE,3
+116,Hickey,5,2,40,0.3,0.2,1.8,589,0,0,2,0.40,0.17,0.57,6.49,243,317,a,,2025-26,2025,hickey,Brentford,BRE,3
+117,Ji-soo,5,2,39,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,15,u,has joined Kaiserslautern on loan for the rest of the season.,2025-26,2025,jisoo,Brentford,BRE,3
+118,Meghoma,5,2,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,5,u,Has joined Rangers on loan for the rest of the season.,2025-26,2025,meghoma,Brentford,BRE,3
+120,Schade,5,3,68,1.5,3.2,3.6,2537,7,5,11,10.96,2.05,13.01,33.98,1442,21031,a,,2025-26,2025,schade,Brentford,BRE,3
+121,Damsgaard,5,3,56,0.7,4.8,3.5,1881,4,4,5,2.58,4.76,7.34,27.04,2511,4250,a,,2025-26,2025,damsgaard,Brentford,BRE,3
+122,Milambo,5,3,52,0.0,0.0,1.0,45,0,0,0,0.00,0.01,0.01,1.49,15,12,i,Knee injury - Expected back 01 Jun,2025-26,2025,milambo,Brentford,BRE,3
+123,Carvalho,5,3,46,0.1,0.0,2.2,100,1,0,0,0.70,0.03,0.73,2.08,9,22,i,Knee injury - Expected back 01 Jun,2025-26,2025,carvalho,Brentford,BRE,3
+124,Henderson,5,3,50,0.3,0.0,2.6,1814,1,3,6,0.33,2.25,2.58,25.95,17,457,d,Knock - 75% chance of playing,2025-26,2025,henderson,Brentford,BRE,3
+125,Janelt,5,3,49,0.1,0.0,3.2,1253,1,4,5,0.82,1.88,2.70,20.22,49,224,a,,2025-26,2025,janelt,Brentford,BRE,3
+126,Jensen,5,3,49,0.1,4.5,2.7,2005,3,2,9,2.16,5.79,7.95,29.12,1280,1193,a,,2025-26,2025,jensen,Brentford,BRE,3
+127,Nunes,5,3,49,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,4,u,has joined Swansea City on loan for the rest of the season.,2025-26,2025,nunes,Brentford,BRE,3
+128,Onyeka,5,3,48,0.0,0.0,2.0,88,0,2,0,0.00,0.36,0.36,2.02,0,7,u,has joined Coventry City on loan for the rest of the season.,2025-26,2025,onyeka,Brentford,BRE,3
+129,Yarmoliuk,5,3,50,0.1,3.5,2.7,2486,1,2,8,1.22,1.34,2.56,36.01,204,367,a,,2025-26,2025,yarmoliuk,Brentford,BRE,3
+130,Donovan,5,3,44,0.1,0.0,1.0,38,0,0,0,0.09,0.01,0.10,0.39,130,144,a,,2025-26,2025,donovan,Brentford,BRE,3
+131,Konak,5,3,43,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,89,u,has joined Oxford United on loan for the rest of the season.,2025-26,2025,konak,Brentford,BRE,3
+132,Maghoma,5,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,10,u,has joined Norwich City permanently.,2025-26,2025,maghoma,Brentford,BRE,3
+133,Peart-Harris,5,3,44,0.0,0.0,1.0,1,0,0,0,0.00,0.00,0.00,0.00,0,9,u,has joined Oxford United permanently.,2025-26,2025,peartharris,Brentford,BRE,3
+134,Trevitt,5,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,0,u,Has joined Wigan on loan for the rest of the season,2025-26,2025,trevitt,Brentford,BRE,3
+136,Thiago,5,4,73,33.4,5.5,5.0,3012,22,1,10,20.25,1.77,22.02,45.43,28770,238625,a,,2025-26,2025,thiago,Brentford,BRE,3
+137,Morgan,5,4,44,0.3,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,85,u,has joined Shrewsbury on loan for the rest of the season.,2025-26,2025,morgan,Brentford,BRE,3
+748,Dasilva,5,3,49,0.0,0.2,1.0,1,0,0,0,0.00,0.00,0.00,0.02,13,5,a,,2025-26,2025,dasilva,Brentford,BRE,3
+797,Furo,5,4,45,0.0,0.2,1.0,1,0,0,0,0.00,0.00,0.00,0.02,88,44,a,,2025-26,2025,furo,Brentford,BRE,3
+810,Bentt,5,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,21,12,a,,2025-26,2025,bentt,Brentford,BRE,3
+819,Shield,5,2,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,33,27,a,,2025-26,2025,shield,Brentford,BRE,3
+823,Stephenson,5,2,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,12,10,a,,2025-26,2025,stephenson,Brentford,BRE,3
+824,McManus,5,2,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,19,18,a,,2025-26,2025,mcmanus,Brentford,BRE,3
+826,Owen,5,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,34,19,a,,2025-26,2025,owen,Brentford,BRE,3
+138,Steele,6,1,42,0.2,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,270,156,a,,2025-26,2025,steele,Brighton,BHA,4
+139,Verbruggen,6,1,45,9.3,4.8,3.4,3150,0,0,9,0.00,0.06,0.06,46.52,48096,9313,a,,2025-26,2025,verbruggen,Brighton,BHA,4
+140,McGill,6,1,39,0.3,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,84,169,a,,2025-26,2025,mcgill,Brighton,BHA,4
+141,Rushworth,6,1,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,1,u,Has joined Coventry City on loan for the rest of the season.,2025-26,2025,rushworth,Brighton,BHA,4
+142,Scherpen,6,1,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,1,u,Has joined Union SG permanently,2025-26,2025,scherpen,Brighton,BHA,4
+143,Boscagli,6,2,42,0.2,4.5,3.2,799,0,1,3,0.05,0.47,0.52,10.87,1860,454,a,,2025-26,2025,boscagli,Brighton,BHA,4
+144,Coppola,6,2,42,0.0,0.0,2.0,193,0,0,1,0.00,0.01,0.01,4.52,0,12,u,has joined Paris FC on loan for the rest of the season.,2025-26,2025,coppola,Brighton,BHA,4
+145,De Cuyper,6,2,43,1.5,1.5,2.5,1182,2,1,4,1.55,2.26,3.81,22.12,668,1329,a,,2025-26,2025,decuyper,Brighton,BHA,4
+146,Dunk,6,2,45,0.9,0.2,2.8,2567,0,1,6,1.30,0.51,1.81,39.36,1705,604,a,,2025-26,2025,dunk,Brighton,BHA,4
+147,Estupiñan,6,2,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,0,u,Has joined AC Milan permanently,2025-26,2025,estupian,Brighton,BHA,4
+148,F.Kadıoğlu,6,2,44,1.2,5.8,3.2,2860,1,2,9,2.00,2.59,4.59,42.07,25219,2606,a,,2025-26,2025,fkadolu,Brighton,BHA,4
+149,Igor,6,2,45,0.1,0.0,1.5,103,0,0,0,0.00,0.00,0.00,4.66,108,121,a,,2025-26,2025,igor,Brighton,BHA,4
+150,Lamptey,6,2,44,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,8,u,has joined Fiorentina permanently.,2025-26,2025,lamptey,Brighton,BHA,4
+151,Van Hecke,6,2,46,10.5,4.8,4.2,2940,3,3,9,2.37,1.45,3.81,43.73,60835,14445,a,,2025-26,2025,vanhecke,Brighton,BHA,4
+152,Veltman,6,2,43,0.1,0.8,1.8,951,1,0,1,0.99,0.13,1.12,16.87,248,176,a,,2025-26,2025,veltman,Brighton,BHA,4
+153,Webster,6,2,44,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,12,14,i,Knee injury - Unknown return date,2025-26,2025,webster,Brighton,BHA,4
+154,Cashin,6,2,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,1,u,has joined Blackburn Rovers on loan for the rest of the season.,2025-26,2025,cashin,Brighton,BHA,4
+155,Slater,6,2,40,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,15,u,has joined Harrogate Town on loan until January.,2025-26,2025,slater,Brighton,BHA,4
+156,Tasker,6,2,38,0.2,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,139,114,a,,2025-26,2025,tasker,Brighton,BHA,4
+157,Mitoma,6,3,61,2.3,2.8,2.6,1657,3,1,5,3.76,2.71,6.47,23.44,10697,3597,a,,2025-26,2025,mitoma,Brighton,BHA,4
+158,Georginio,6,3,56,0.4,3.5,2.9,1721,3,5,7,2.48,2.58,5.06,21.25,1990,916,a,,2025-26,2025,georginio,Brighton,BHA,4
+159,March,6,3,58,0.0,0.0,1.0,4,0,0,0,0.00,0.00,0.00,0.25,10,150,a,,2025-26,2025,march,Brighton,BHA,4
+160,Minteh,6,3,55,2.4,2.2,3.4,2164,2,8,9,3.59,4.55,8.14,32.81,10303,6441,a,,2025-26,2025,minteh,Brighton,BHA,4
+161,Enciso,6,3,54,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,2,u,has joined Strasbourg permanently.,2025-26,2025,enciso,Brighton,BHA,4
+162,Gruda,6,3,54,0.0,0.0,1.9,708,1,1,2,1.86,0.88,2.74,13.82,0,12,u,has joined Leipzig on loan for the rest of the season.,2025-26,2025,gruda,Brighton,BHA,4
+163,Hinshelwood,6,3,51,0.7,5.0,3.2,1495,3,5,5,4.40,1.95,6.35,25.52,19010,854,a,,2025-26,2025,hinshelwood,Brighton,BHA,4
+164,O'Riley,6,3,55,0.3,0.5,2.7,202,1,0,1,1.21,0.18,1.39,2.53,126,114,a,,2025-26,2025,oriley,Brighton,BHA,4
+165,Sima,6,3,54,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,0,u,has joined Lens permanently.,2025-26,2025,sima,Brighton,BHA,4
+166,Ayari,6,3,48,0.4,2.8,3.6,1899,3,4,6,2.70,1.15,3.85,26.67,1268,1648,a,,2025-26,2025,ayari,Brighton,BHA,4
+167,Baleba,6,3,45,1.5,1.5,1.7,1459,0,0,5,0.60,0.64,1.24,19.54,3766,1527,a,,2025-26,2025,baleba,Brighton,BHA,4
+169,Gomez,6,3,49,0.5,1.5,3.2,2034,5,1,8,5.31,1.70,7.01,27.68,21,8761,d,Knee injury - 50% chance of playing,2025-26,2025,gomez,Brighton,BHA,4
+170,Milner,6,3,49,0.1,0.0,1.8,714,1,1,2,1.03,0.65,1.68,11.32,13,115,a,,2025-26,2025,milner,Brighton,BHA,4
+171,Sarmiento,6,3,49,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,0,u,has joined Middlesbrough on loan for the rest of the season.,2025-26,2025,sarmiento,Brighton,BHA,4
+172,Watson,6,3,48,0.0,0.0,0.8,57,0,0,0,0.04,0.03,0.07,1.72,0,11,u,has joined Millwall on loan for the rest of the season.,2025-26,2025,watson,Brighton,BHA,4
+173,Wieffer,6,3,49,0.5,5.2,3.7,1811,2,4,6,1.92,1.85,3.77,22.29,744,11840,d,Ankle injury - 50% chance of playing,2025-26,2025,wieffer,Brighton,BHA,4
+174,Yalcouye,6,3,50,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,0,u,Has joined Swansea City on loan for the rest of the season.,2025-26,2025,yalcouye,Brighton,BHA,4
+175,Knight,6,3,44,0.1,0.0,1.0,1,0,0,0,0.00,0.00,0.00,0.00,0,31,u,has joined Stevenage permanently.,2025-26,2025,knight,Brighton,BHA,4
+176,Mazilu,6,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,1,u,has joined Dinamo Bucharest permanently.,2025-26,2025,mazilu,Brighton,BHA,4
+177,Moran,6,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,2,u,Has joined Los Angeles FC on loan for the rest of the season.,2025-26,2025,moran,Brighton,BHA,4
+178,Welbeck,6,4,63,8.6,3.8,3.6,2052,13,1,8,11.89,1.37,13.26,29.57,117879,16222,a,,2025-26,2025,welbeck,Brighton,BHA,4
+179,Ferguson,6,4,55,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,0,u,Has joined AS Roma on loan for the rest of the season,2025-26,2025,ferguson,Brighton,BHA,4
+180,Tzimas,6,4,52,0.1,0.0,1.8,132,1,1,0,0.44,0.11,0.55,2.59,27,32,i,Knee injury - Expected back 01 Jun,2025-26,2025,tzimas,Brighton,BHA,4
+181,Kostoulas,6,4,48,0.3,0.5,1.8,310,2,1,1,1.90,0.28,2.18,5.71,349,340,a,,2025-26,2025,kostoulas,Brighton,BHA,4
+744,Oriola,6,3,45,0.0,0.0,1.0,1,0,0,0,0.00,0.00,0.00,0.00,38,39,a,,2025-26,2025,oriola,Brighton,BHA,4
+761,Simmonds,6,2,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,36,36,a,,2025-26,2025,simmonds,Brighton,BHA,4
+783,Groß,6,3,56,2.8,6.0,4.2,1366,1,5,5,1.02,3.15,4.17,17.82,32403,5423,a,,2025-26,2025,gro,Brighton,BHA,4
+795,Howell,6,3,45,0.0,0.0,1.3,92,0,0,0,0.00,0.03,0.03,1.04,34,24,a,,2025-26,2025,howell,Brighton,BHA,4
+220,Sánchez,7,1,48,11.1,1.8,3.3,2860,0,1,9,0.00,0.04,0.04,45.08,796,51671,i,Head injury - Expected back 19 May,2025-26,2025,snchez,Chelsea,CHE,3
+221,Jörgensen,7,1,43,0.2,0.2,1.8,288,0,0,0,0.00,0.00,0.00,3.56,544,103,a,,2025-26,2025,jrgensen,Chelsea,CHE,3
+222,Penders,7,1,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,1,u,Has joined RC Strasbourg on loan for the rest of the season.,2025-26,2025,penders,Chelsea,CHE,3
+223,Slonina,7,1,39,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,64,53,a,,2025-26,2025,slonina,Chelsea,CHE,3
+224,Cucurella,7,2,61,14.6,1.8,3.3,2436,1,4,9,2.31,3.19,5.50,37.33,4149,29336,a,,2025-26,2025,cucurella,Chelsea,CHE,3
+225,James,7,2,56,5.9,0.0,4.2,1892,2,6,8,1.02,3.15,4.17,28.24,1150,7620,a,,2025-26,2025,james,Chelsea,CHE,3
+226,Chalobah,7,2,54,9.2,0.8,4.2,2739,3,1,9,1.44,1.03,2.47,40.34,2335,25091,a,,2025-26,2025,chalobah,Chelsea,CHE,3
+227,Colwill,7,2,47,0.1,0.2,1.0,45,0,0,0,0.00,0.01,0.01,0.96,244,33,a,,2025-26,2025,colwill,Chelsea,CHE,3
+228,Gusto,7,2,48,1.9,1.0,3.0,2081,2,3,7,1.56,2.40,3.96,34.80,850,9659,a,,2025-26,2025,gusto,Chelsea,CHE,3
+229,B.Badiashile,7,2,44,0.0,0.0,0.9,470,0,0,0,0.00,0.06,0.06,7.41,23,35,a,,2025-26,2025,bbadiashile,Chelsea,CHE,3
+230,Fofana,7,2,44,0.4,1.2,2.7,1487,0,1,4,0.72,0.60,1.32,22.18,152,2242,a,,2025-26,2025,fofana,Chelsea,CHE,3
+231,M.Sarr,7,2,45,0.0,0.0,1.0,91,0,0,0,0.35,0.00,0.35,1.42,64,81,a,,2025-26,2025,msarr,Chelsea,CHE,3
+232,Tosin,7,2,40,0.3,0.0,2.1,788,0,0,2,0.11,0.40,0.50,13.25,229,220,a,,2025-26,2025,tosin,Chelsea,CHE,3
+233,Acheampong,7,2,37,1.7,0.8,2.4,579,1,0,2,0.60,0.13,0.73,14.08,5785,3813,a,,2025-26,2025,acheampong,Chelsea,CHE,3
+234,Anselmino,7,2,40,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,5,u,has joined Strasbourg on loan for the rest of the season.,2025-26,2025,anselmino,Chelsea,CHE,3
+235,Palmer,7,3,104,14.6,1.5,4.4,1686,9,2,3,10.14,2.33,12.47,27.06,3152,198346,a,,2025-26,2025,palmer,Chelsea,CHE,3
+236,Neto,7,3,70,4.1,1.5,3.6,2477,5,5,11,4.51,6.71,11.22,34.31,597,19613,d,Knock - 25% chance of playing,2025-26,2025,neto,Chelsea,CHE,3
+237,Enzo,7,3,65,10.9,1.5,4.1,2844,8,4,8,10.91,6.69,17.60,40.77,6090,55835,a,,2025-26,2025,enzo,Chelsea,CHE,3
+238,Estêvão,7,3,64,1.7,0.5,2.6,839,2,5,4,2.91,2.14,5.05,10.29,22,3170,i,Hamstring injury - Expected back 01 Jun,2025-26,2025,estvo,Chelsea,CHE,3
+239,Gittens,7,3,60,0.1,0.0,1.6,486,0,2,1,0.81,0.94,1.75,8.89,4,28,d,Hamstring injury - 25% chance of playing,2025-26,2025,gittens,Chelsea,CHE,3
+240,Nkunku,7,3,59,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,4,u,has joined AC Milan permanently.,2025-26,2025,nkunku,Chelsea,CHE,3
+241,Caicedo,7,3,57,7.2,2.2,3.5,2532,3,1,6,1.41,2.11,3.52,38.49,1381,8998,a,,2025-26,2025,caicedo,Chelsea,CHE,3
+244,Lavia,7,3,49,0.0,1.2,1.1,374,0,0,0,0.21,0.55,0.76,8.53,61,31,a,,2025-26,2025,lavia,Chelsea,CHE,3
+245,Mudryk,7,3,49,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,32,9,s,Suspended - unknown return date,2025-26,2025,mudryk,Chelsea,CHE,3
+246,Andrey Santos,7,3,45,0.3,0.8,1.4,1095,0,0,1,1.78,0.86,2.64,16.69,306,510,a,,2025-26,2025,andreysantos,Chelsea,CHE,3
+247,D.Essugo,7,3,43,0.1,0.2,0.5,25,0,0,0,0.00,0.01,0.01,0.50,207,107,a,,2025-26,2025,dessugo,Chelsea,CHE,3
+248,Paez,7,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,1,u,has joined River Plate on loan for the rest of the season.,2025-26,2025,paez,Chelsea,CHE,3
+249,João Pedro,7,4,75,39.5,2.5,5.3,2478,15,9,10,14.15,1.94,16.09,34.85,24223,210193,a,,2025-26,2025,joopedro,Chelsea,CHE,3
+250,Delap,7,4,62,0.9,1.2,1.7,999,1,2,2,4.48,0.22,4.69,14.93,343,465,a,,2025-26,2025,delap,Chelsea,CHE,3
+251,N.Jackson,7,4,65,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,4,u,has joined Bayern Munich on loan for the rest of the season.,2025-26,2025,njackson,Chelsea,CHE,3
+252,Marc Guiu,7,4,40,5.1,0.2,1.3,265,0,1,0,1.54,0.29,1.83,5.89,12043,5674,a,,2025-26,2025,marcguiu,Chelsea,CHE,3
+453,Garnacho,7,3,64,0.4,1.0,2.4,1260,1,4,4,3.44,3.68,7.12,20.47,132,1063,d,Knock - 25% chance of playing,2025-26,2025,garnacho,Chelsea,CHE,3
+672,Hato,7,2,46,0.2,0.8,0.8,908,0,0,0,0.30,0.52,0.82,14.84,109,301,a,,2025-26,2025,hato,Chelsea,CHE,3
+743,Emenalo,7,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,13,17,a,,2025-26,2025,emenalo,Chelsea,CHE,3
+789,Merrick,7,1,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,13,7,a,,2025-26,2025,merrick,Chelsea,CHE,3
+803,Sharman-Lowe,7,1,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,19,5,a,,2025-26,2025,sharmanlowe,Chelsea,CHE,3
+829,Derry,7,3,45,0.0,0.3,1.0,45,0,0,0,0.10,0.02,0.12,1.09,56,15,i,Head injury - Expected back 01 Jun,2025-26,2025,derry,Chelsea,CHE,3
+253,Henderson,8,1,51,9.1,2.8,3.8,2970,0,0,11,0.00,0.11,0.11,44.01,64341,8722,a,,2025-26,2025,henderson,Crystal Palace,CRY,3
+254,Benitez,8,1,39,0.3,0.0,7.0,90,0,0,1,0.00,0.00,0.00,1.12,187,355,a,,2025-26,2025,benitez,Crystal Palace,CRY,3
+255,Matthews,8,1,39,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,45,68,a,,2025-26,2025,matthews,Crystal Palace,CRY,3
+256,Muñoz,8,2,59,9.6,4.2,5.0,2094,4,3,10,2.34,3.40,5.74,28.85,98850,10963,a,,2025-26,2025,muoz,Crystal Palace,CRY,3
+257,Lacroix,8,2,52,7.1,5.0,4.6,2845,1,2,11,2.36,0.77,3.13,40.31,139055,7588,a,,2025-26,2025,lacroix,Crystal Palace,CRY,3
+258,Mitchell,8,2,50,2.4,3.2,3.7,2938,1,2,12,1.12,2.34,3.46,43.56,14708,3287,a,,2025-26,2025,mitchell,Crystal Palace,CRY,3
+259,Sosa,8,2,48,0.1,0.2,0.9,99,0,0,0,0.04,0.07,0.11,0.90,71,259,d,Knock - 50% chance of playing,2025-26,2025,sosa,Crystal Palace,CRY,3
+261,Richards,8,2,44,2.7,2.5,4.1,2616,1,0,11,1.76,1.46,3.22,36.90,15534,3986,a,,2025-26,2025,richards,Crystal Palace,CRY,3
+262,Chadi Riad,8,2,40,0.0,0.2,2.1,387,0,1,1,0.11,0.10,0.21,5.98,294,121,a,,2025-26,2025,chadiriad,Crystal Palace,CRY,3
+263,Clyne,8,2,38,0.5,0.0,1.9,494,0,1,0,0.43,0.60,1.03,7.31,353,622,a,,2025-26,2025,clyne,Crystal Palace,CRY,3
+264,Holding,8,2,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,1,u,Has joined Colorado Rapids permanently.,2025-26,2025,holding,Crystal Palace,CRY,3
+265,Kporha,8,2,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,42,29,a,,2025-26,2025,kporha,Crystal Palace,CRY,3
+267,Sarr,8,3,64,5.9,2.0,4.2,1918,7,2,9,9.10,1.04,10.13,26.59,170390,8151,a,,2025-26,2025,sarr,Crystal Palace,CRY,3
+268,Doucouré,8,3,49,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,5,6,i,Lack of match fitness - Expected back 01 Jun,2025-26,2025,doucour,Crystal Palace,CRY,3
+269,Esse,8,3,47,0.1,0.0,1.0,40,0,0,0,0.00,0.04,0.04,1.74,0,19,u,has joined Coventry City on loan for the rest of the season.,2025-26,2025,esse,Crystal Palace,CRY,3
+270,Hughes,8,3,47,0.1,0.8,1.4,1411,0,1,5,1.11,1.70,2.81,21.86,336,160,a,,2025-26,2025,hughes,Crystal Palace,CRY,3
+271,Kamada,8,3,50,0.1,1.8,2.5,1659,0,2,6,1.42,2.37,3.79,20.97,2056,129,a,,2025-26,2025,kamada,Crystal Palace,CRY,3
+272,Lerma,8,3,49,0.1,2.0,2.3,1516,0,5,7,1.81,1.25,3.06,19.55,2660,238,a,,2025-26,2025,lerma,Crystal Palace,CRY,3
+273,Wharton,8,3,50,0.7,1.0,3.2,2326,0,6,8,1.33,6.75,8.07,35.14,16511,1045,a,,2025-26,2025,wharton,Crystal Palace,CRY,3
+274,Agbinone,8,3,43,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,146,211,a,,2025-26,2025,agbinone,Crystal Palace,CRY,3
+275,Ahamada,8,3,43,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,17,u,has joined AJ Auxerre permanently.,2025-26,2025,ahamada,Crystal Palace,CRY,3
+276,Devenny,8,3,43,1.1,1.2,1.7,695,1,0,1,2.38,0.36,2.74,12.18,4578,1539,a,,2025-26,2025,devenny,Crystal Palace,CRY,3
+277,Ebiowei,8,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,1,u,Has joined Blackpool permanently.,2025-26,2025,ebiowei,Crystal Palace,CRY,3
+278,J.Rak-Sakyi,8,3,44,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,9,u,has joined Stoke City on loan for the rest of the season.,2025-26,2025,jraksakyi,Crystal Palace,CRY,3
+279,M.França,8,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,0,u,Has joined CR Vasco da Gama on loan for the rest of the season.,2025-26,2025,mfrana,Crystal Palace,CRY,3
+280,Ozoh,8,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,1,u,Has joined Derby County on loan for the rest of the season.,2025-26,2025,ozoh,Crystal Palace,CRY,3
+281,Rodney,8,3,44,0.0,0.0,1.0,3,0,0,0,0.00,0.00,0.00,0.65,72,36,a,,2025-26,2025,rodney,Crystal Palace,CRY,3
+282,Umeh,8,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,1,u,has joined Portsmouth permanently.,2025-26,2025,umeh,Crystal Palace,CRY,3
+283,Mateta,8,4,76,8.6,4.0,3.6,2084,10,0,8,13.45,1.28,14.73,28.30,138615,12798,a,,2025-26,2025,mateta,Crystal Palace,CRY,3
+284,Nketiah,8,4,54,0.3,0.0,1.9,414,2,0,0,1.77,0.46,2.23,9.49,32,146,i,Hamstring injury - Expected back 01 Jun,2025-26,2025,nketiah,Crystal Palace,CRY,3
+285,Édouard,8,4,50,0.2,0.0,1.0,2,0,0,0,0.00,0.00,0.00,0.27,0,16,u,has joined RC Lens permanently.,2025-26,2025,douard,Crystal Palace,CRY,3
+286,Marsh,8,4,44,0.3,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,281,273,a,,2025-26,2025,marsh,Crystal Palace,CRY,3
+580,Johnson,8,3,65,2.4,1.8,1.9,1512,2,1,6,2.45,1.12,3.57,24.80,8610,942,a,,2025-26,2025,johnson,Crystal Palace,CRY,3
+654,Strand Larsen,8,4,59,1.6,1.5,2.1,2071,4,1,5,4.82,0.83,5.65,32.09,17326,3646,a,,2025-26,2025,strandlarsen,Crystal Palace,CRY,3
+677,Guessand,8,3,62,0.0,0.0,2.2,880,1,3,2,1.56,0.75,2.31,12.74,13,85,d,Knee injury - 50% chance of playing,2025-26,2025,guessand,Crystal Palace,CRY,3
+690,Cardines,8,3,44,0.3,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,44,70,a,,2025-26,2025,cardines,Crystal Palace,CRY,3
+712,Yeremy,8,3,58,0.2,1.2,2.3,1925,2,1,7,4.15,5.75,9.90,27.24,2360,304,a,,2025-26,2025,yeremy,Crystal Palace,CRY,3
+723,Canvot,8,2,45,0.5,4.2,3.8,1061,0,0,5,1.17,0.29,1.46,18.98,11974,1094,a,,2025-26,2025,canvot,Crystal Palace,CRY,3
+732,Uche,8,4,55,0.1,0.0,1.2,159,0,1,0,0.49,0.01,0.50,4.63,175,100,a,,2025-26,2025,uche,Crystal Palace,CRY,3
+762,Drakes-Thomas,8,3,45,0.0,0.0,1.0,7,0,0,0,0.00,0.00,0.00,0.73,35,12,a,,2025-26,2025,drakesthomas,Crystal Palace,CRY,3
+773,Benamar,8,2,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,26,16,a,,2025-26,2025,benamar,Crystal Palace,CRY,3
+780,Casey,8,4,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,111,85,a,,2025-26,2025,casey,Crystal Palace,CRY,3
+793,King,8,2,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,69,40,a,,2025-26,2025,king,Crystal Palace,CRY,3
+798,Imray,8,2,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,3,u,has joined West Brom on loan for the rest of the season.,2025-26,2025,imray,Crystal Palace,CRY,3
+242,Dewsbury-Hall,9,3,52,6.2,6.2,5.1,2366,8,6,8,3.88,4.78,8.66,35.93,36406,17773,a,,2025-26,2025,dewsburyhall,Everton,EVE,3
+243,George,9,3,48,0.1,0.8,1.1,296,0,0,1,0.61,0.71,1.32,5.65,54,70,a,,2025-26,2025,george,Everton,EVE,3
+287,Pickford,9,1,56,13.0,0.8,3.7,3150,0,0,11,0.00,0.16,0.16,51.77,11682,25327,a,,2025-26,2025,pickford,Everton,EVE,3
+288,Travers,9,1,42,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,38,62,a,,2025-26,2025,travers,Everton,EVE,3
+289,Tyrer,9,1,39,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,50,u,has joined Cardiff City permanently.,2025-26,2025,tyrer,Everton,EVE,3
+290,Branthwaite,9,2,53,0.3,1.8,3.2,678,1,1,1,0.34,0.11,0.45,9.43,41,3356,i,Hamstring injury - Expected back 01 Jun,2025-26,2025,branthwaite,Everton,EVE,3
+291,Tarkowski,9,2,57,11.4,1.8,4.4,3060,1,2,11,2.21,1.53,3.74,49.07,13779,56758,a,,2025-26,2025,tarkowski,Everton,EVE,3
+292,Mykolenko,9,2,49,0.6,2.0,3.1,2689,0,1,9,0.28,2.35,2.63,43.94,1132,2105,a,,2025-26,2025,mykolenko,Everton,EVE,3
+293,O'Brien,9,2,49,0.7,3.0,3.4,2880,1,3,10,1.11,0.96,2.07,49.22,2484,1614,a,,2025-26,2025,obrien,Everton,EVE,3
+294,Coleman,9,2,42,0.1,0.0,1.0,11,0,0,0,0.00,0.00,0.00,0.24,65,51,a,,2025-26,2025,coleman,Everton,EVE,3
+295,Keane,9,2,45,2.6,1.0,4.1,2318,3,0,7,2.01,0.23,2.24,40.05,2965,9925,a,,2025-26,2025,keane,Everton,EVE,3
+296,Patterson,9,2,44,0.0,0.2,3.1,238,0,0,2,0.03,0.04,0.07,3.67,29,39,a,,2025-26,2025,patterson,Everton,EVE,3
+297,Dixon,9,2,38,0.2,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,65,u,has joined Stockport County on loan for the rest of the season.,2025-26,2025,dixon,Everton,EVE,3
+298,Welch,9,2,38,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,67,71,a,,2025-26,2025,welch,Everton,EVE,3
+299,Ndiaye,9,3,62,4.4,2.5,4.2,2511,6,3,8,6.21,4.29,10.50,38.21,9253,13318,a,,2025-26,2025,ndiaye,Everton,EVE,3
+300,McNeil,9,3,55,0.1,1.5,2.5,1159,0,3,6,1.37,1.91,3.28,18.61,106,300,a,,2025-26,2025,mcneil,Everton,EVE,3
+301,Alcaraz,9,3,52,0.1,0.2,1.5,672,0,1,3,1.04,0.45,1.49,13.53,19,29,a,,2025-26,2025,alcaraz,Everton,EVE,3
+302,Gana,9,3,54,0.1,2.2,3.3,2094,2,3,5,1.99,1.84,3.83,31.26,120,758,d,Knock - 75% chance of playing,2025-26,2025,gana,Everton,EVE,3
+303,Garner,9,3,52,3.8,3.5,4.4,3143,2,7,11,1.99,5.36,7.35,51.71,11324,21897,a,,2025-26,2025,garner,Everton,EVE,3
+304,Iroegbunam,9,3,48,0.0,1.0,2.3,1232,0,3,8,0.50,0.64,1.14,20.46,64,37,a,,2025-26,2025,iroegbunam,Everton,EVE,3
+305,Armstrong,9,3,45,0.1,0.2,1.7,496,0,0,1,0.79,0.21,1.00,10.91,184,189,a,,2025-26,2025,armstrong,Everton,EVE,3
+306,Bates,9,3,43,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,162,148,a,,2025-26,2025,bates,Everton,EVE,3
+307,Ebere,9,3,44,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,37,42,a,,2025-26,2025,ebere,Everton,EVE,3
+308,Heath,9,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,2,u,has joined Accrington on loan for the rest of the season.,2025-26,2025,heath,Everton,EVE,3
+309,Metcalfe,9,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,0,u,Has joined Bradford City permanently.,2025-26,2025,metcalfe,Everton,EVE,3
+310,Barry,9,4,57,0.7,3.8,2.6,1778,8,0,7,8.14,0.40,8.54,31.10,4770,2280,a,,2025-26,2025,barry,Everton,EVE,3
+311,Beto,9,4,50,2.9,4.2,2.7,1404,8,1,5,8.40,0.22,8.62,22.07,8931,9254,a,,2025-26,2025,beto,Everton,EVE,3
+312,Y.Chermiti,9,4,49,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,4,u,has joined Rangers permanently.,2025-26,2025,ychermiti,Everton,EVE,3
+313,Sherif,9,4,44,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,34,u,has joined Port Vale on loan for the rest of the season.,2025-26,2025,sherif,Everton,EVE,3
+419,Grealish,9,3,63,5.6,0.0,4.0,1627,2,6,7,2.05,3.37,5.41,25.81,25,1907,i,Foot injury - Expected back 01 Jun,2025-26,2025,grealish,Everton,EVE,3
+630,King,9,1,39,1.2,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,171,610,a,,2025-26,2025,king,Everton,EVE,3
+667,Aznou,9,2,42,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,25,32,a,,2025-26,2025,aznou,Everton,EVE,3
+704,Onyango,9,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,6,u,has joined Stockport County on loan for the rest of the season.,2025-26,2025,onyango,Everton,EVE,3
+705,Campbell,9,2,39,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,66,u,has joined Port Vale on loan for the rest of the season.,2025-26,2025,campbell,Everton,EVE,3
+707,Dibling,9,3,53,0.0,0.0,1.3,349,0,0,2,0.20,0.14,0.34,6.65,25,35,a,,2025-26,2025,dibling,Everton,EVE,3
+728,Röhl,9,3,50,0.0,1.2,1.8,448,0,1,2,0.57,0.21,0.78,9.56,96,25,a,,2025-26,2025,rhl,Everton,EVE,3
+779,Graham,9,4,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,155,130,a,,2025-26,2025,graham,Everton,EVE,3
+314,Leno,10,1,49,2.0,5.5,3.2,3150,0,0,8,0.00,0.00,0.00,50.20,12866,3618,a,,2025-26,2025,leno,Fulham,FUL,3
+315,Benda,10,1,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,6,u,has joined Feyenoord on loan for the rest of the season.,2025-26,2025,benda,Fulham,FUL,3
+316,Robinson,10,2,49,0.8,1.5,2.4,1217,0,0,3,0.24,1.35,1.59,21.59,1062,1879,a,,2025-26,2025,robinson,Fulham,FUL,3
+317,Andersen,10,2,45,4.2,5.2,3.9,2831,0,1,8,1.38,1.82,3.20,44.77,11005,9929,a,,2025-26,2025,andersen,Fulham,FUL,3
+318,Bassey,10,2,44,0.6,4.0,3.4,2262,1,1,6,1.71,0.31,2.01,35.48,1556,1817,a,,2025-26,2025,bassey,Fulham,FUL,3
+319,Castagne,10,2,43,0.1,3.5,1.7,1576,0,1,2,1.36,0.95,2.31,30.17,793,330,a,,2025-26,2025,castagne,Fulham,FUL,3
+320,Diop,10,2,43,0.1,0.0,1.3,592,0,0,0,0.02,0.04,0.06,10.15,64,131,a,,2025-26,2025,diop,Fulham,FUL,3
+321,J.Cuenca,10,2,43,0.1,0.0,2.8,931,0,0,2,0.05,0.53,0.58,14.59,33,78,a,,2025-26,2025,jcuenca,Fulham,FUL,3
+322,Tete,10,2,45,0.2,0.0,3.7,1791,1,0,6,0.92,1.46,2.38,25.79,12,650,d,Lack of match fitness - 75% chance of playing,2025-26,2025,tete,Fulham,FUL,3
+323,Amissah,10,2,38,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,73,144,a,,2025-26,2025,amissah,Fulham,FUL,3
+324,Iwobi,10,3,62,1.2,0.8,3.6,2264,4,3,4,1.41,4.42,5.83,34.68,23,14188,i,Hamstring injury - Unknown return date,2025-26,2025,iwobi,Fulham,FUL,3
+325,Smith Rowe,10,3,56,0.5,2.2,2.2,1715,3,1,5,4.52,1.10,5.62,29.82,771,854,a,,2025-26,2025,smithrowe,Fulham,FUL,3
+327,Andreas,10,3,53,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,10,u,has joined Palmeiras permanently.,2025-26,2025,andreas,Fulham,FUL,3
+328,Sessegnon,10,3,54,0.2,3.8,3.5,1816,3,3,6,1.60,1.80,3.40,26.33,17,704,i,Muscle injury - Expected back 17 May,2025-26,2025,sessegnon,Fulham,FUL,3
+329,Wilson,10,3,59,19.1,2.2,4.9,2584,10,8,9,5.71,4.60,10.31,39.30,25208,127003,a,,2025-26,2025,wilson,Fulham,FUL,3
+330,Berge,10,3,49,0.1,1.8,2.6,2769,0,3,7,1.38,1.46,2.84,42.44,118,239,a,,2025-26,2025,berge,Fulham,FUL,3
+331,Cairney,10,3,48,0.0,1.0,1.5,651,1,0,2,0.98,0.61,1.59,11.05,27,31,a,,2025-26,2025,cairney,Fulham,FUL,3
+332,Lukić,10,3,49,0.1,2.5,2.5,1550,1,4,6,2.19,1.70,3.89,25.42,168,76,a,,2025-26,2025,luki,Fulham,FUL,3
+333,Godo,10,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,4,u,has joined Strasbourg permanently.,2025-26,2025,godo,Fulham,FUL,3
+334,Harris,10,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,0,u,Has joined Oxford United on loan for the rest of the season.,2025-26,2025,harris,Fulham,FUL,3
+335,King,10,3,44,1.7,1.0,2.1,1235,1,3,5,2.32,0.60,2.92,17.77,2249,4018,a,,2025-26,2025,king,Fulham,FUL,3
+336,Reed,10,3,43,0.3,0.5,2.1,89,1,0,0,0.13,0.45,0.58,3.43,720,745,a,,2025-26,2025,reed,Fulham,FUL,3
+337,Raúl,10,4,60,1.9,1.5,3.2,2142,9,5,9,11.44,0.90,12.34,34.13,4591,12694,a,,2025-26,2025,ral,Fulham,FUL,3
+338,Muniz,10,4,53,0.7,1.5,1.7,760,1,1,2,2.28,0.13,2.41,12.13,573,663,a,,2025-26,2025,muniz,Fulham,FUL,3
+424,Bobb,10,3,51,0.2,1.0,1.8,853,0,2,3,1.21,1.58,2.79,11.02,88,392,a,,2025-26,2025,bobb,Fulham,FUL,3
+664,Lecomte,10,1,39,0.7,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,184,377,a,,2025-26,2025,lecomte,Fulham,FUL,3
+727,Chukwueze,10,3,53,0.1,1.8,2.8,995,3,4,2,2.10,3.34,5.44,18.06,226,303,a,,2025-26,2025,chukwueze,Fulham,FUL,3
+731,Kevin,10,3,57,0.0,0.0,1.9,898,1,2,4,1.12,1.40,2.52,13.01,9,49,i,Foot injury - Unknown return date,2025-26,2025,kevin,Fulham,FUL,3
+737,Kusi-Asare,10,4,45,0.1,0.2,0.8,42,0,0,0,0.00,0.07,0.07,1.06,232,183,a,,2025-26,2025,kusiasare,Fulham,FUL,3
+770,Ridgeon,10,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,25,43,a,,2025-26,2025,ridgeon,Fulham,FUL,3
+786,McNally,10,1,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,49,30,a,,2025-26,2025,mcnally,Fulham,FUL,3
+168,Buonanotte,11,3,46,0.1,0.0,0.7,69,0,0,0,0.04,0.10,0.14,1.86,248,174,a,,2025-26,2025,buonanotte,Leeds,LEE,3
+339,Meslier,11,1,41,0.3,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,183,203,a,,2025-26,2025,meslier,Leeds,LEE,3
+340,Cairns,11,1,39,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,57,82,a,,2025-26,2025,cairns,Leeds,LEE,3
+341,Darlow,11,1,40,6.7,3.5,2.9,1710,0,0,4,0.00,0.05,0.05,21.42,7519,10352,a,,2025-26,2025,darlow,Leeds,LEE,3
+342,Bogle,11,2,44,0.7,4.5,2.8,2718,1,5,6,2.05,2.89,4.94,37.96,1407,4270,a,,2025-26,2025,bogle,Leeds,LEE,3
+343,Struijk,11,2,44,3.1,3.2,3.3,2790,0,1,7,3.02,0.74,3.76,39.44,1646,30511,a,,2025-26,2025,struijk,Leeds,LEE,3
+344,Bijol,11,2,39,1.1,4.8,3.9,1639,1,3,4,0.90,0.64,1.54,25.18,5633,3801,a,,2025-26,2025,bijol,Leeds,LEE,3
+345,Bornauw,11,2,38,0.1,0.0,1.9,304,0,0,1,0.00,0.01,0.01,4.93,98,225,a,,2025-26,2025,bornauw,Leeds,LEE,3
+346,Byram,11,2,37,0.3,0.0,1.0,7,0,0,0,0.00,0.00,0.00,0.79,2724,774,a,,2025-26,2025,byram,Leeds,LEE,3
+347,Gudmundsson,11,2,38,2.8,2.2,2.1,2637,0,0,5,1.10,2.89,3.98,41.06,103,18059,i,Hamstring injury - Expected back 17 May,2025-26,2025,gudmundsson,Leeds,LEE,3
+348,Rodon,11,2,39,2.9,0.5,3.2,2682,2,0,5,1.34,0.49,1.83,41.60,5077,5952,a,,2025-26,2025,rodon,Leeds,LEE,3
+349,Schmidt,11,2,40,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,8,u,has joined Werder Bremen on loan for the rest of the season.,2025-26,2025,schmidt,Leeds,LEE,3
+350,Aaronson,11,3,54,1.2,3.2,3.6,2238,4,8,9,4.25,3.14,7.39,32.01,793,20015,a,,2025-26,2025,aaronson,Leeds,LEE,3
+351,Gnonto,11,3,51,0.1,1.8,1.4,443,0,3,1,0.36,0.75,1.11,9.99,56,123,a,,2025-26,2025,gnonto,Leeds,LEE,3
+352,Harrison,11,3,51,0.0,0.0,1.1,262,0,0,0,0.28,0.23,0.51,3.82,0,15,u,has joined ACF Fiorentina on loan for the rest of the season.,2025-26,2025,harrison,Leeds,LEE,3
+353,James,11,3,52,0.1,0.2,1.2,406,0,0,1,0.76,0.59,1.35,10.75,60,77,a,,2025-26,2025,james,Leeds,LEE,3
+354,Ampadu,11,3,49,0.6,4.0,3.7,2849,1,3,7,2.47,2.13,4.60,41.72,2136,7014,a,,2025-26,2025,ampadu,Leeds,LEE,3
+355,Greenwood,11,3,49,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,1,u,has joined Pogon Szczecin permanently.,2025-26,2025,greenwood,Leeds,LEE,3
+356,Gruev,11,3,47,0.1,0.5,2.4,1318,0,4,5,0.49,0.86,1.35,25.27,15,741,i,Knee injury - Expected back 01 Jun,2025-26,2025,gruev,Leeds,LEE,3
+357,Ramazani,11,3,49,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,3,u,has joined Valencia on loan for the rest of the season.,2025-26,2025,ramazani,Leeds,LEE,3
+358,Tanaka,11,3,48,0.2,3.2,2.3,1081,2,1,3,1.41,1.33,2.74,16.43,703,484,a,,2025-26,2025,tanaka,Leeds,LEE,3
+359,Crew,11,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,1,u,Has joined Doncaster Rovers on loan for the rest of the season.,2025-26,2025,crew,Leeds,LEE,3
+360,Gelhardt,11,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,1,u,Has joined Hull City on loan for the rest of the season.,2025-26,2025,gelhardt,Leeds,LEE,3
+361,Gyabi,11,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,2,u,has joined Hull City permanently.,2025-26,2025,gyabi,Leeds,LEE,3
+362,Piroe,11,4,49,0.3,0.2,1.1,216,0,0,1,0.81,0.13,0.94,5.30,123,174,a,,2025-26,2025,piroe,Leeds,LEE,3
+363,Bamford,11,4,49,0.3,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,42,u,has departed the club as a free agent.,2025-26,2025,bamford,Leeds,LEE,3
+364,Mateo Joseph,11,4,50,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,1,u,Has joined RCD Mallorca on loan for the rest of the season.,2025-26,2025,mateojoseph,Leeds,LEE,3
+365,Nmecha,11,4,50,0.5,0.8,2.5,918,6,1,3,6.79,1.00,7.79,17.88,396,1138,a,,2025-26,2025,nmecha,Leeds,LEE,3
+493,Longstaff,11,3,48,0.2,2.5,2.6,972,2,2,1,0.98,1.72,2.70,14.63,162,255,a,,2025-26,2025,longstaff,Leeds,LEE,3
+660,Stach,11,3,48,1.9,2.5,4.9,2206,5,6,6,2.78,4.36,7.14,30.58,20061,3649,a,,2025-26,2025,stach,Leeds,LEE,3
+665,Perri,11,1,44,0.3,0.0,2.7,1440,0,0,3,0.00,0.00,0.00,26.68,317,917,a,,2025-26,2025,perri,Leeds,LEE,3
+691,Calvert-Lewin,11,4,58,13.2,4.0,3.9,2473,12,2,7,14.20,1.02,15.21,29.44,45716,59115,a,,2025-26,2025,calvertlewin,Leeds,LEE,3
+698,Okafor,11,3,56,3.2,10.2,3.9,1553,8,3,6,5.25,1.32,6.57,24.54,86004,10683,a,,2025-26,2025,okafor,Leeds,LEE,3
+706,Justin,11,2,40,2.1,5.5,3.2,1623,2,1,5,1.63,1.09,2.72,26.07,8509,9484,a,,2025-26,2025,justin,Leeds,LEE,3
+741,Gray,11,4,45,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,29,u,has joined Rotherham United on loan for the rest of the season.,2025-26,2025,gray,Leeds,LEE,3
+787,Chambers,11,3,44,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,86,63,a,,2025-26,2025,chambers,Leeds,LEE,3
+366,A.Becker,12,1,54,5.2,0.0,3.6,2250,0,0,8,0.00,0.03,0.03,28.02,148,6657,d,Muscle injury - 50% chance of playing,2025-26,2025,abecker,Liverpool,LIV,4
+367,Mamardashvili,12,1,41,0.6,2.5,3.9,687,0,0,2,0.00,0.00,0.00,10.94,63,2914,i,Knee injury - Unknown return date,2025-26,2025,mamardashvili,Liverpool,LIV,4
+368,Pécsi,12,1,38,0.9,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,2152,1818,a,,2025-26,2025,pcsi,Liverpool,LIV,4
+369,Woodman,12,1,39,0.4,1.5,2.0,212,0,0,0,0.00,0.00,0.00,4.76,4468,1018,a,,2025-26,2025,woodman,Liverpool,LIV,4
+370,Frimpong,12,2,57,5.0,2.2,3.2,926,0,5,5,0.46,1.43,1.89,11.98,2281,7584,a,,2025-26,2025,frimpong,Liverpool,LIV,4
+371,Kerkez,12,2,56,3.0,0.8,2.6,2064,2,1,6,1.47,0.67,2.14,27.31,532,6145,a,,2025-26,2025,kerkez,Liverpool,LIV,4
+372,Robertson,12,2,57,1.1,4.0,2.3,1083,1,0,4,1.07,1.16,2.22,16.31,1602,1265,a,,2025-26,2025,robertson,Liverpool,LIV,4
+373,Virgil,12,2,61,31.4,5.5,4.5,3150,4,1,10,3.03,1.24,4.27,43.72,22311,131597,a,,2025-26,2025,virgil,Liverpool,LIV,4
+374,Konaté,12,2,55,3.9,3.8,3.8,2836,1,0,10,1.05,0.94,1.99,37.18,4078,17887,a,,2025-26,2025,konat,Liverpool,LIV,4
+375,Bradley,12,2,49,0.1,0.0,2.8,928,0,2,4,0.18,0.84,1.02,10.77,10,52,i,Knee injury - Expected back 01 Jun,2025-26,2025,bradley,Liverpool,LIV,4
+376,Gomez,12,2,49,0.1,0.5,1.8,515,0,2,2,0.23,0.62,0.85,8.02,75,82,a,,2025-26,2025,gomez,Liverpool,LIV,4
+377,Tsimikas,12,2,48,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,3,u,has joined AS Roma on loan for the rest of the season.,2025-26,2025,tsimikas,Liverpool,LIV,4
+378,Nallo,12,2,37,0.9,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,502,2004,a,,2025-26,2025,nallo,Liverpool,LIV,4
+379,R.Williams,12,2,37,0.5,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,565,1032,a,,2025-26,2025,rwilliams,Liverpool,LIV,4
+380,Ramsay,12,2,37,0.3,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,1526,404,a,,2025-26,2025,ramsay,Liverpool,LIV,4
+381,M.Salah,12,3,140,13.8,4.8,4.6,2055,7,6,7,7.98,4.93,12.91,29.78,130,23345,i,Muscle injury - Expected back 24 May,2025-26,2025,msalah,Liverpool,LIV,4
+382,Wirtz,12,3,83,9.0,4.5,4.0,2333,5,4,10,6.11,5.10,11.20,32.51,8163,26965,a,,2025-26,2025,wirtz,Liverpool,LIV,4
+383,Luis Díaz,12,3,80,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,5,u,Has joined Bayern Munch permanently.,2025-26,2025,luisdaz,Liverpool,LIV,4
+384,Gakpo,12,3,73,5.6,4.8,3.8,2497,7,5,10,7.61,4.62,12.23,31.13,9398,10545,a,,2025-26,2025,gakpo,Liverpool,LIV,4
+385,Chiesa,12,3,63,0.3,0.2,1.5,280,2,1,0,1.36,0.61,1.97,5.51,80,119,a,,2025-26,2025,chiesa,Liverpool,LIV,4
+386,Mac Allister,12,3,62,1.9,4.2,3.0,2384,2,5,7,3.41,1.55,4.96,33.06,2157,10337,a,,2025-26,2025,macallister,Liverpool,LIV,4
+387,Szoboszlai,12,3,70,12.5,6.0,4.5,2962,6,5,9,4.17,5.84,10.01,41.72,75928,40696,a,,2025-26,2025,szoboszlai,Liverpool,LIV,4
+388,C.Jones,12,3,54,0.1,3.2,2.2,1653,0,3,3,1.49,2.61,4.10,27.53,320,242,a,,2025-26,2025,cjones,Liverpool,LIV,4
+390,Gravenberch,12,3,54,3.8,1.5,3.9,2754,4,5,9,1.72,2.13,3.85,35.93,1774,17578,a,,2025-26,2025,gravenberch,Liverpool,LIV,4
+392,Endo,12,3,49,0.1,0.0,1.5,170,0,1,1,0.04,0.05,0.09,4.11,3,17,i,Foot injury - Expected back 24 May,2025-26,2025,endo,Liverpool,LIV,4
+393,Bajcetic,12,3,42,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,3661,924,i,Hamstring injury - Unknown return date,2025-26,2025,bajcetic,Liverpool,LIV,4
+394,McConnell,12,3,44,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,3,u,has joined Ajax on loan for the rest of the season.,2025-26,2025,mcconnell,Liverpool,LIV,4
+395,Morton,12,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,0,u,Has joined Lyon permanently.,2025-26,2025,morton,Liverpool,LIV,4
+396,Nyoni,12,3,43,0.3,0.2,1.0,14,0,0,0,0.37,0.01,0.38,0.41,130,238,a,,2025-26,2025,nyoni,Liverpool,LIV,4
+397,Darwin,12,4,65,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,2,u,Has joined Al-Hilal permanently.,2025-26,2025,darwin,Liverpool,LIV,4
+398,Danns,12,4,43,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,59,44,i,Hamstring injury - Unknown return date,2025-26,2025,danns,Liverpool,LIV,4
+499,Isak,12,4,103,4.0,2.8,3.1,671,3,1,1,2.59,0.07,2.66,8.29,3731,32867,d,Groin Injury - 75% chance of playing,2025-26,2025,isak,Liverpool,LIV,4
+661,Ekitiké,12,4,90,16.5,0.0,4.5,1797,11,4,7,10.10,2.45,12.55,26.11,129,74512,i,Achilles injury - Expected back 01 Jul,2025-26,2025,ekitik,Liverpool,LIV,4
+686,Ngumoha,12,3,43,1.1,3.2,2.1,319,2,0,2,1.09,1.77,2.86,5.60,8783,5098,a,,2025-26,2025,ngumoha,Liverpool,LIV,4
+692,Leoni,12,2,49,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,12,9,i,Knee injury - Expected back 01 Sep,2025-26,2025,leoni,Liverpool,LIV,4
+746,Morrison,12,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,18,8,a,,2025-26,2025,morrison,Liverpool,LIV,4
+760,Lucky,12,2,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,23,36,a,,2025-26,2025,lucky,Liverpool,LIV,4
+830,Wright,12,4,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,121,22,a,,2025-26,2025,wright,Liverpool,LIV,4
+832,Ndiaye,12,2,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,55,3,a,,2025-26,2025,ndiaye,Liverpool,LIV,4
+82,Semenyo,13,3,81,49.3,2.2,5.5,2908,15,6,10,10.66,2.74,13.39,45.55,81324,190895,a,,2025-26,2025,semenyo,Man City,MCI,4
+182,Trafford,13,1,45,0.9,0.0,3.7,270,0,0,1,0.00,0.00,0.00,3.97,123,275,a,,2025-26,2025,trafford,Man City,MCI,4
+260,Guéhi,13,2,51,32.7,6.8,5.1,2880,3,5,12,3.90,2.28,6.18,41.67,62176,48195,a,,2025-26,2025,guhi,Man City,MCI,4
+399,Ederson M.,13,1,53,0.8,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,74,u,has joined Fenerbache permanently.,2025-26,2025,edersonm,Man City,MCI,4
+401,Bettinelli,13,1,38,0.4,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,307,2251,a,,2025-26,2025,bettinelli,Man City,MCI,4
+402,Aït-Nouri,13,2,57,4.1,2.2,3.5,868,0,2,4,0.48,1.74,2.22,11.22,2752,6710,a,,2025-26,2025,atnouri,Man City,MCI,4
+403,Gvardiol,13,2,58,3.2,0.0,4.8,1301,2,2,6,2.19,0.64,2.83,15.29,67,1100,i,Leg injury - Unknown return date,2025-26,2025,gvardiol,Man City,MCI,4
+404,Akanji,13,2,54,0.3,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,21,u,has joined Inter Milan on loan for the rest of the season.,2025-26,2025,akanji,Man City,MCI,4
+405,Aké,13,2,52,0.6,0.2,1.9,488,0,0,2,0.28,0.44,0.72,7.92,146,284,a,,2025-26,2025,ak,Man City,MCI,4
+406,Khusanov,13,2,54,0.7,6.0,3.1,1247,0,0,5,0.59,0.39,0.98,18.22,10751,2021,a,,2025-26,2025,khusanov,Man City,MCI,4
+407,Matheus N.,13,2,53,3.0,4.5,4.7,2624,1,8,11,0.34,2.16,2.50,32.25,13044,8355,a,,2025-26,2025,matheusn,Man City,MCI,4
+408,Rúben,13,2,55,3.1,0.0,4.5,2049,2,0,12,0.57,0.63,1.20,24.30,42,2782,i,Thigh injury - Unknown return date,2025-26,2025,rben,Man City,MCI,4
+409,Stones,13,2,54,0.6,0.0,1.7,351,0,0,1,0.00,0.06,0.06,5.05,289,162,a,,2025-26,2025,stones,Man City,MCI,4
+410,Lewis,13,2,46,1.2,0.0,1.9,311,0,1,1,0.11,1.31,1.42,5.04,333,448,a,,2025-26,2025,lewis,Man City,MCI,4
+411,O'Reilly,13,2,52,19.0,7.0,4.8,2463,5,4,13,5.45,2.61,8.06,32.74,176256,15235,a,,2025-26,2025,oreilly,Man City,MCI,4
+412,Vitor Reis,13,2,50,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,0,u,Has joined Girona on loan for the rest of the season.,2025-26,2025,vitorreis,Man City,MCI,4
+413,Marmoush,13,3,83,2.5,0.2,2.3,569,1,3,3,2.25,0.68,2.93,6.58,1294,1843,a,,2025-26,2025,marmoush,Man City,MCI,4
+414,Foden,13,3,80,7.6,0.8,4.0,1843,7,3,10,5.35,4.03,9.38,23.71,1649,7636,a,,2025-26,2025,foden,Man City,MCI,4
+415,Savinho,13,3,69,0.4,0.8,1.5,602,0,2,2,1.91,1.27,3.18,7.42,291,199,a,,2025-26,2025,savinho,Man City,MCI,4
+416,Bernardo,13,3,62,0.7,3.0,2.7,2588,2,4,11,2.27,3.87,6.13,33.62,3687,1805,a,,2025-26,2025,bernardo,Man City,MCI,4
+417,Cherki,13,3,66,18.0,7.0,4.4,1636,4,12,8,4.00,8.30,12.30,22.39,349920,8748,a,,2025-26,2025,cherki,Man City,MCI,4
+418,Doku,13,3,64,3.9,7.8,4.0,1564,4,8,7,2.37,5.27,7.64,21.16,153231,1902,a,,2025-26,2025,doku,Man City,MCI,4
+420,Gündoğan,13,3,63,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,6,u,has joined Galatasaray permanently.,2025-26,2025,gndoan,Man City,MCI,4
+421,Rodrigo,13,3,63,0.5,1.2,3.1,1420,1,0,5,0.79,2.33,3.12,18.75,31,1321,d,Groin Injury - 75% chance of playing,2025-26,2025,rodrigo,Man City,MCI,4
+422,Kovačić,13,3,58,0.0,1.2,2.0,28,0,1,0,0.06,0.33,0.39,1.78,114,17,a,,2025-26,2025,kovai,Man City,MCI,4
+423,N.Gonzalez,13,3,59,0.1,1.0,2.5,1471,1,0,7,0.58,1.05,1.63,18.58,219,79,a,,2025-26,2025,ngonzalez,Man City,MCI,4
+425,Echeverri,13,3,54,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,0,u,has joined Girona on loan for the rest of the season.,2025-26,2025,echeverri,Man City,MCI,4
+427,Reijnders,13,3,50,9.0,0.0,3.3,1488,5,2,7,3.96,2.27,6.23,17.28,912,5087,a,,2025-26,2025,reijnders,Man City,MCI,4
+428,Nypan,13,3,50,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,3,7,a,,2025-26,2025,nypan,Man City,MCI,4
+429,Phillips,13,3,47,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,11,u,has joined Sheffield United on loan for the rest of the season.,2025-26,2025,phillips,Man City,MCI,4
+430,Haaland,13,4,147,63.3,5.5,6.6,2773,25,7,12,24.05,2.06,26.11,36.37,249741,5185,a,,2025-26,2025,haaland,Man City,MCI,4
+736,Donnarumma,13,1,56,9.3,4.0,3.9,2790,0,0,13,0.00,0.13,0.13,35.59,29996,17870,a,,2025-26,2025,donnarumma,Man City,MCI,4
+739,Mukasa,13,3,44,0.0,0.0,1.0,25,0,0,0,0.00,0.21,0.21,0.34,0,8,u,has joined Leicester City on loan for the rest of the season.,2025-26,2025,mukasa,Man City,MCI,4
+740,Mfuni,13,2,39,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,9,u,has joined Watford on loan for the rest of the season.,2025-26,2025,mfuni,Man City,MCI,4
+742,McAidoo,13,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,12,16,a,,2025-26,2025,mcaidoo,Man City,MCI,4
+763,Gray,13,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,15,15,a,,2025-26,2025,gray,Man City,MCI,4
+764,Heskey,13,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,7,9,a,,2025-26,2025,heskey,Man City,MCI,4
+794,Alleyne,13,2,39,0.0,0.0,2.5,135,0,0,0,0.26,0.06,0.32,1.54,22,32,a,,2025-26,2025,alleyne,Man City,MCI,4
+119,Mbeumo,14,3,84,15.6,2.2,4.4,2444,9,3,7,8.46,4.96,13.42,33.72,13672,78955,a,,2025-26,2025,mbeumo,Man Utd,MUN,4
+431,Bayindir,14,1,47,0.3,0.0,1.8,540,0,0,0,0.00,0.05,0.05,9.24,173,176,a,,2025-26,2025,bayindir,Man Utd,MUN,4
+432,Onana,14,1,49,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,14,u,has joined Trabzonspor on loan for the rest of the season.,2025-26,2025,onana,Man Utd,MUN,4
+433,Harrison,14,1,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,1,u,On loan to Shrewsbury Town,2025-26,2025,harrison,Man Utd,MUN,4
+434,Heaton,14,1,38,0.5,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,5101,1124,a,,2025-26,2025,heaton,Man Utd,MUN,4
+435,Mee,14,1,39,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,57,68,a,,2025-26,2025,mee,Man Utd,MUN,4
+436,De Ligt,14,2,49,1.8,0.0,3.3,1170,1,0,1,1.38,0.83,2.21,18.73,20,416,i,Back injury - Unknown return date,2025-26,2025,deligt,Man Utd,MUN,4
+437,Martinez,14,2,48,0.4,-0.8,2.4,959,0,0,3,0.06,0.56,0.62,11.30,578,617,a,,2025-26,2025,martinez,Man Utd,MUN,4
+438,Mazraoui,14,2,49,0.2,2.0,2.0,814,0,0,3,0.19,0.31,0.49,11.26,350,649,a,,2025-26,2025,mazraoui,Man Utd,MUN,4
+439,D.Leon,14,2,41,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,29,22,a,,2025-26,2025,dleon,Man Utd,MUN,4
+440,Dalot,14,2,45,4.1,3.0,3.3,2519,1,6,7,1.63,2.42,4.05,34.69,5966,14102,a,,2025-26,2025,dalot,Man Utd,MUN,4
+441,Dorgu,14,2,41,2.4,0.2,3.3,1344,3,3,3,1.89,1.42,3.31,18.87,4773,1936,a,,2025-26,2025,dorgu,Man Utd,MUN,4
+442,Maguire,14,2,44,1.3,2.0,3.5,1379,1,2,5,1.07,0.39,1.46,19.03,5124,2342,a,,2025-26,2025,maguire,Man Utd,MUN,4
+443,Shaw,14,2,45,0.8,4.5,2.7,2959,0,1,8,0.60,1.77,2.36,41.21,3044,3190,a,,2025-26,2025,shaw,Man Utd,MUN,4
+444,Yoro,14,2,41,1.2,1.2,1.8,1714,0,1,2,1.34,0.59,1.93,26.52,281,1231,a,,2025-26,2025,yoro,Man Utd,MUN,4
+445,Amass,14,2,40,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,8,u,has joined Norwich City on loan for the rest of the season.,2025-26,2025,amass,Man Utd,MUN,4
+446,Fredricson,14,2,37,0.2,0.0,1.0,2,0,0,0,0.00,0.00,0.00,0.30,252,169,a,,2025-26,2025,fredricson,Man Utd,MUN,4
+447,Heaven,14,2,37,2.5,3.5,2.5,920,0,1,2,0.34,0.18,0.52,11.95,18611,4793,a,,2025-26,2025,heaven,Man Utd,MUN,4
+448,Malacia,14,2,37,0.5,0.0,1.0,7,0,0,0,0.00,0.00,0.00,0.35,3675,1121,a,,2025-26,2025,malacia,Man Utd,MUN,4
+449,B.Fernandes,14,3,104,47.3,5.0,6.5,2795,8,21,5,10.49,11.12,21.61,40.50,59789,41380,a,,2025-26,2025,bfernandes,Man Utd,MUN,4
+450,Cunha,14,3,81,8.0,3.8,4.3,2324,9,4,7,6.25,2.75,9.00,32.88,40916,36156,a,,2025-26,2025,cunha,Man Utd,MUN,4
+451,Rashford,14,3,70,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,1,u,Has joined Barcelona on loan for the rest of the season,2025-26,2025,rashford,Man Utd,MUN,4
+452,Amad,14,3,62,1.3,1.2,2.7,2085,2,4,4,5.12,3.58,8.70,27.82,1178,3735,a,,2025-26,2025,amad,Man Utd,MUN,4
+454,Antony,14,3,59,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,6,u,has joined Real Betis permanently.,2025-26,2025,antony,Man Utd,MUN,4
+455,Mount,14,3,59,0.3,0.2,2.4,838,3,0,3,1.54,1.44,2.98,10.47,124,153,a,,2025-26,2025,mount,Man Utd,MUN,4
+457,Casemiro,14,3,58,5.0,7.5,5.0,2495,9,4,9,5.26,3.09,8.35,30.15,65408,15775,a,,2025-26,2025,casemiro,Man Utd,MUN,4
+458,Mainoo,14,3,47,1.1,4.2,2.5,1383,1,2,4,0.30,1.20,1.50,18.96,13860,2182,a,,2025-26,2025,mainoo,Man Utd,MUN,4
+459,Ugarte,14,3,47,0.1,1.0,1.7,876,0,0,1,0.72,0.16,0.88,18.22,55,132,a,,2025-26,2025,ugarte,Man Utd,MUN,4
+460,Collyer,14,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,4,u,has joined Hull City on loan for the rest of the season.,2025-26,2025,collyer,Man Utd,MUN,4
+461,Fitzgerald,14,3,43,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,56,28,a,,2025-26,2025,fitzgerald,Man Utd,MUN,4
+462,J.Fletcher,14,3,43,0.1,0.0,1.0,107,0,0,0,0.03,0.02,0.05,1.86,55,94,a,,2025-26,2025,jfletcher,Man Utd,MUN,4
+463,Kone,14,3,43,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,24,u,has joined Lausanne-Sport on loan for the rest of the season.,2025-26,2025,kone,Man Utd,MUN,4
+464,Moorhouse,14,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,2,u,has joined Leyton Orient on loan for the rest of the season.,2025-26,2025,moorhouse,Man Utd,MUN,4
+465,Højlund,14,4,63,0.3,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,16,u,has joined Napoli on loan for the rest of the season.,2025-26,2025,hjlund,Man Utd,MUN,4
+466,Zirkzee,14,4,58,0.4,0.5,1.9,517,2,1,1,2.18,0.32,2.50,7.69,360,301,a,,2025-26,2025,zirkzee,Man Utd,MUN,4
+467,Obi,14,4,42,1.4,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,335,1113,a,,2025-26,2025,obi,Man Utd,MUN,4
+468,Wheatley,14,4,45,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,13,u,has joined Bradford City on loan for the rest of the season.,2025-26,2025,wheatley,Man Utd,MUN,4
+681,Šeško,14,4,73,5.8,4.2,3.7,1630,11,2,2,9.21,0.28,9.48,27.05,21652,42909,d,Shin injury - 75% chance of playing,2025-26,2025,eko,Man Utd,MUN,4
+733,Lammens,14,1,51,3.2,4.2,3.2,2610,0,0,6,0.00,0.00,0.00,35.33,12615,6466,a,,2025-26,2025,lammens,Man Utd,MUN,4
+755,Lacey,14,3,45,0.0,0.0,1.0,12,0,0,0,0.07,0.00,0.07,0.11,51,37,a,,2025-26,2025,lacey,Man Utd,MUN,4
+769,Bendito Mantato,14,3,45,0.0,0.0,1.0,15,0,0,0,0.00,0.01,0.01,0.05,8,8,a,,2025-26,2025,benditomantato,Man Utd,MUN,4
+771,Fletcher,14,3,44,0.0,0.0,1.0,1,0,0,0,0.00,0.01,0.01,0.02,28,41,a,,2025-26,2025,fletcher,Man Utd,MUN,4
+788,Kukonki,14,2,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,17,17,a,,2025-26,2025,kukonki,Man Utd,MUN,4
+827,Thwaites,14,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,18,4,a,,2025-26,2025,thwaites,Man Utd,MUN,4
+52,J.Ramsey,15,3,53,0.2,1.5,1.8,1232,2,1,1,1.15,0.98,2.13,23.96,145,528,a,,2025-26,2025,jramsey,Newcastle,NEW,3
+135,Wissa,15,4,73,0.6,1.2,1.6,469,1,1,1,3.13,0.53,3.66,8.81,758,654,a,,2025-26,2025,wissa,Newcastle,NEW,3
+469,Pope,15,1,50,4.2,1.2,3.6,2146,0,1,7,0.16,0.00,0.16,29.03,2285,3193,a,,2025-26,2025,pope,Newcastle,NEW,3
+471,Gillespie,15,1,39,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,60,68,a,,2025-26,2025,gillespie,Newcastle,NEW,3
+472,Odysseas,15,1,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,2,u,Has joined Sevilla on loan for the rest of the season.,2025-26,2025,odysseas,Newcastle,NEW,3
+473,Hall,15,2,53,3.4,0.8,2.8,1906,1,2,4,0.85,2.57,3.42,33.86,3774,23460,a,,2025-26,2025,hall,Newcastle,NEW,3
+474,Schär,15,2,52,1.1,0.0,3.2,1089,0,0,4,0.97,0.60,1.57,13.85,15,346,i,Ankle injury - Expected back 24 May,2025-26,2025,schr,Newcastle,NEW,3
+475,Botman,15,2,49,0.4,3.2,3.5,1564,1,1,5,1.71,0.86,2.57,23.72,752,905,a,,2025-26,2025,botman,Newcastle,NEW,3
+476,Burn,15,2,50,3.4,2.8,3.4,2007,1,3,6,1.08,0.33,1.41,27.14,5048,2281,a,,2025-26,2025,burn,Newcastle,NEW,3
+477,Livramento,15,2,49,1.8,0.8,3.5,1326,0,1,6,0.13,0.89,1.02,18.62,17,1846,i,Thigh injury - Expected back 01 Jun,2025-26,2025,livramento,Newcastle,NEW,3
+478,Trippier,15,2,49,1.4,0.2,2.7,1501,0,1,5,0.08,2.00,2.08,20.38,423,1437,a,,2025-26,2025,trippier,Newcastle,NEW,3
+479,Krafth,15,2,43,0.0,0.0,0.0,45,0,0,0,0.00,0.00,0.00,0.25,10,16,i,Knee injury - Unknown return date,2025-26,2025,krafth,Newcastle,NEW,3
+480,Lascelles,15,2,43,0.0,0.0,0.5,19,0,0,0,0.04,0.00,0.04,0.55,0,10,u,has joined Leicester City permanently.,2025-26,2025,lascelles,Newcastle,NEW,3
+481,A.Murphy,15,2,38,0.7,0.0,1.0,1,0,0,0,0.00,0.00,0.00,0.27,295,528,a,,2025-26,2025,amurphy,Newcastle,NEW,3
+482,Ashby,15,2,39,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,32,u,has joined Bradford City on loan for the rest of the season.,2025-26,2025,ashby,Newcastle,NEW,3
+483,Pivas,15,2,38,0.4,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,225,288,a,,2025-26,2025,pivas,Newcastle,NEW,3
+484,Targett,15,2,40,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,25,u,has joined Middlesbrough on loan for the rest of the season.,2025-26,2025,targett,Newcastle,NEW,3
+485,Gordon,15,3,74,3.7,0.8,3.9,1798,6,4,8,8.77,3.38,12.15,24.78,3907,38631,a,,2025-26,2025,gordon,Newcastle,NEW,3
+486,Elanga,15,3,65,2.6,1.0,1.5,1273,0,1,2,1.44,1.71,3.15,20.47,561,2491,a,,2025-26,2025,elanga,Newcastle,NEW,3
+487,Barnes,15,3,61,1.0,2.5,2.7,1803,6,0,5,6.36,2.33,8.69,28.47,2282,3459,a,,2025-26,2025,barnes,Newcastle,NEW,3
+488,Bruno G.,15,3,68,4.9,2.2,5.5,2211,9,7,6,5.08,4.13,9.21,28.72,24733,8317,a,,2025-26,2025,brunog,Newcastle,NEW,3
+489,J.Murphy,15,3,59,0.6,3.0,2.6,1486,3,2,7,3.05,2.58,5.63,22.32,1654,578,a,,2025-26,2025,jmurphy,Newcastle,NEW,3
+490,Joelinton,15,3,59,0.3,1.2,2.7,1860,2,1,5,2.26,1.16,3.42,27.65,380,266,a,,2025-26,2025,joelinton,Newcastle,NEW,3
+491,Tonali,15,3,53,1.1,1.8,2.4,2392,0,2,7,1.69,2.75,4.44,34.77,1292,2512,a,,2025-26,2025,tonali,Newcastle,NEW,3
+492,Antoñito C.,15,3,49,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,3,u,has joined Cadiz on loan for the rest of the season.,2025-26,2025,antoitoc,Newcastle,NEW,3
+494,Willock,15,3,50,0.1,1.0,1.5,845,0,1,3,1.08,0.67,1.75,15.39,158,183,a,,2025-26,2025,willock,Newcastle,NEW,3
+495,Hayden,15,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,0,u,Has departed the club as a free agent.,2025-26,2025,hayden,Newcastle,NEW,3
+496,Kuol,15,3,44,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,5,u,has joined Sparta Prague permanently.,2025-26,2025,kuol,Newcastle,NEW,3
+497,L.Miley,15,3,44,1.9,3.5,3.1,1493,1,4,2,1.36,2.10,3.46,21.22,6872,6936,i,Leg injury - Expected back 01 Jul,2025-26,2025,lmiley,Newcastle,NEW,3
+498,White,15,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,0,u,has joined Bradford City on loan for the rest of the season.,2025-26,2025,white,Newcastle,NEW,3
+500,Osula,15,4,54,0.8,7.0,2.8,586,5,1,1,2.80,0.46,3.26,11.78,27602,3623,a,,2025-26,2025,osula,Newcastle,NEW,3
+501,Neave,15,4,43,0.3,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,163,203,a,,2025-26,2025,neave,Newcastle,NEW,3
+674,Ramsdale,15,1,48,0.8,0.5,2.1,1003,0,0,1,0.00,0.00,0.00,18.83,502,1978,a,,2025-26,2025,ramsdale,Newcastle,NEW,3
+684,Thiaw,15,2,50,5.0,1.8,3.8,2693,4,0,5,4.80,0.93,5.73,45.35,3479,35292,a,,2025-26,2025,thiaw,Newcastle,NEW,3
+689,Seung soo,15,3,43,0.5,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,659,998,a,,2025-26,2025,seungsoo,Newcastle,NEW,3
+714,Woltemade,15,4,67,6.4,0.8,3.2,1685,7,4,7,6.39,1.22,7.61,23.04,1446,9536,a,,2025-26,2025,woltemade,Newcastle,NEW,3
+753,Ruddy,15,1,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,27,32,a,,2025-26,2025,ruddy,Newcastle,NEW,3
+765,Shahar,15,2,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,61,74,a,,2025-26,2025,shahar,Newcastle,NEW,3
+772,Alabi,15,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,20,18,a,,2025-26,2025,alabi,Newcastle,NEW,3
+12,Zinchenko,16,2,49,0.2,0.0,1.4,352,0,0,0,0.07,0.36,0.43,5.02,0,39,u,has joined Ajax permanently.,2025-26,2025,zinchenko,Nott'm Forest,NFO,3
+400,Ortega Moreno,16,1,47,0.2,0.0,3.7,270,0,0,1,0.00,0.01,0.01,4.65,357,282,a,,2025-26,2025,ortegamoreno,Nott'm Forest,NFO,3
+426,McAtee,16,3,50,0.1,0.5,1.0,263,0,0,0,0.13,0.27,0.40,6.35,93,49,a,,2025-26,2025,mcatee,Nott'm Forest,NFO,3
+502,Sels,16,1,46,5.0,5.0,3.5,2397,0,0,7,0.00,0.06,0.06,38.12,7352,2410,a,,2025-26,2025,sels,Nott'm Forest,NFO,3
+503,C.Miguel,16,1,40,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,18,u,Has joined Palmeiras permanently.,2025-26,2025,cmiguel,Nott'm Forest,NFO,3
+504,Turner,16,1,40,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,23,u,Has joined Lyon permanently.,2025-26,2025,turner,Nott'm Forest,NFO,3
+505,Milenković,16,2,51,3.3,4.0,3.2,3105,0,1,9,0.81,0.46,1.27,47.98,2709,4757,a,,2025-26,2025,milenkovi,Nott'm Forest,NFO,3
+506,Murillo,16,2,52,1.9,0.0,3.3,2130,1,0,6,0.73,0.47,1.20,32.99,90,5307,d,Muscle injury - 50% chance of playing,2025-26,2025,murillo,Nott'm Forest,NFO,3
+507,Aina,16,2,47,2.3,3.2,3.7,1587,0,2,6,0.41,0.84,1.25,25.31,72,9121,d,Knock - 50% chance of playing,2025-26,2025,aina,Nott'm Forest,NFO,3
+508,N.Williams,16,2,48,4.4,4.8,3.6,2933,2,3,9,1.90,3.85,5.75,44.36,5493,14436,a,,2025-26,2025,nwilliams,Nott'm Forest,NFO,3
+509,David Carmo,16,2,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,3,u,has joined Real Oviedo on loan for the rest of the season.,2025-26,2025,davidcarmo,Nott'm Forest,NFO,3
+510,Jair Cunha,16,2,42,0.1,0.8,1.3,356,0,0,0,0.14,0.00,0.14,7.24,61,28,a,,2025-26,2025,jaircunha,Nott'm Forest,NFO,3
+511,Morato,16,2,43,0.1,0.8,2.1,1070,0,0,2,0.83,0.08,0.91,17.34,104,68,a,,2025-26,2025,morato,Nott'm Forest,NFO,3
+512,O.Richards,16,2,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,3,u,has joined Rio Ave on loan for the rest of the season.,2025-26,2025,orichards,Nott'm Forest,NFO,3
+513,Abbott,16,2,38,0.2,0.2,1.0,165,0,0,0,0.00,0.01,0.01,3.47,51,324,d,Head injury - 50% chance of playing,2025-26,2025,abbott,Nott'm Forest,NFO,3
+514,Boly,16,2,38,0.3,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,99,266,i,Knee injury - Unknown return date,2025-26,2025,boly,Nott'm Forest,NFO,3
+515,Gibbs-White,16,3,77,11.3,9.8,4.9,2921,13,4,10,9.44,2.83,12.27,44.18,58273,206633,d,Facial Injury - 50% chance of playing,2025-26,2025,gibbswhite,Nott'm Forest,NFO,3
+516,Hudson-Odoi,16,3,57,0.6,1.8,2.9,1838,3,4,6,2.77,3.02,5.79,30.88,13,1565,i,Muscle injury - Expected back 01 Jun,2025-26,2025,hudsonodoi,Nott'm Forest,NFO,3
+517,Anderson,16,3,56,7.1,4.0,4.4,3088,3,3,10,2.80,3.69,6.49,46.78,16473,36036,a,,2025-26,2025,anderson,Nott'm Forest,NFO,3
+518,Jota,16,3,54,0.0,0.0,1.0,11,0,0,0,0.00,0.00,0.00,0.00,0,2,u,has joined Besiktas on loan for the rest of the season.,2025-26,2025,jota,Nott'm Forest,NFO,3
+519,Dominguez,16,3,50,0.0,1.5,1.8,1029,1,1,3,1.15,0.72,1.87,19.70,49,48,a,,2025-26,2025,dominguez,Nott'm Forest,NFO,3
+520,O'Brien,16,3,50,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,0,u,Has joined Wrexham permanently.,2025-26,2025,obrien,Nott'm Forest,NFO,3
+521,Sangaré,16,3,49,0.1,2.2,3.2,1989,2,2,8,1.16,1.76,2.92,30.58,7,338,d,Knock - 50% chance of playing,2025-26,2025,sangar,Nott'm Forest,NFO,3
+522,Yates,16,3,47,0.1,2.2,1.4,532,0,2,0,0.22,0.23,0.45,7.51,162,57,a,,2025-26,2025,yates,Nott'm Forest,NFO,3
+523,Da Silva Moreira,16,3,45,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,59,41,a,,2025-26,2025,dasilvamoreira,Nott'm Forest,NFO,3
+524,Stamenic,16,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,5,u,Has joined Swansea City permanently.,2025-26,2025,stamenic,Nott'm Forest,NFO,3
+525,Wood,16,4,71,4.7,2.8,3.0,749,3,0,2,3.65,0.16,3.81,10.53,4903,2747,a,,2025-26,2025,wood,Nott'm Forest,NFO,3
+526,Igor Jesus,16,4,59,2.3,7.0,3.2,2038,6,6,9,5.99,1.22,7.21,32.62,36265,7907,a,,2025-26,2025,igorjesus,Nott'm Forest,NFO,3
+527,Awoniyi,16,4,52,0.3,5.0,2.9,360,4,2,0,3.18,0.40,3.58,7.26,5054,342,a,,2025-26,2025,awoniyi,Nott'm Forest,NFO,3
+669,Ndoye,16,3,55,0.7,0.2,2.1,1167,1,2,2,1.05,1.51,2.56,15.96,9,394,d,Knock - 50% chance of playing,2025-26,2025,ndoye,Nott'm Forest,NFO,3
+675,Gunn,16,1,40,1.1,0.0,1.0,45,0,0,0,0.00,0.00,0.00,0.21,71,332,a,,2025-26,2025,gunn,Nott'm Forest,NFO,3
+693,Hutchinson,16,3,54,0.1,2.5,2.6,1504,1,6,6,1.92,3.23,5.15,20.28,220,228,a,,2025-26,2025,hutchinson,Nott'm Forest,NFO,3
+696,Kalimuendo,16,4,60,0.1,0.0,1.0,89,0,0,0,0.44,0.02,0.46,1.57,0,15,u,has joined Eintracht Frankfurt on loan for the rest of the season.,2025-26,2025,kalimuendo,Nott'm Forest,NFO,3
+715,John,16,1,40,0.3,0.0,2.2,437,0,0,1,0.00,0.00,0.00,6.13,34,359,i,Knee injury - Expected back 01 Jun,2025-26,2025,john,Nott'm Forest,NFO,3
+716,Savona,16,2,45,0.0,0.0,2.8,1025,2,0,3,1.34,0.45,1.79,15.04,7,47,i,Knee injury - Unknown return date,2025-26,2025,savona,Nott'm Forest,NFO,3
+729,Cuiabano,16,2,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,1,u,has joined Vasco de Gama on loan for the rest of the season.,2025-26,2025,cuiabano,Nott'm Forest,NFO,3
+734,Bakwa,16,3,59,0.0,2.0,1.8,466,0,2,1,0.50,0.97,1.47,8.21,255,44,a,,2025-26,2025,bakwa,Nott'm Forest,NFO,3
+805,Lucca,16,4,54,0.0,0.0,2.7,119,1,0,1,0.72,0.01,0.73,1.87,56,81,a,,2025-26,2025,lucca,Nott'm Forest,NFO,3
+814,Netz,16,2,45,0.0,1.2,1.8,161,0,0,0,0.00,0.38,0.38,2.51,79,23,a,,2025-26,2025,netz,Nott'm Forest,NFO,3
+528,Patterson,17,1,42,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,68,u,has joined Millwall on loan for the rest of the season.,2025-26,2025,patterson,Sunderland,SUN,3
+529,Moore,17,1,39,0.3,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,46,336,a,,2025-26,2025,moore,Sunderland,SUN,3
+530,Nna Noukeu,17,1,39,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,52,u,has joined US Boulogne CO permanently.,2025-26,2025,nnanoukeu,Sunderland,SUN,3
+531,Ballard,17,2,47,2.9,-0.5,4.0,2144,2,2,6,2.46,0.63,3.09,33.20,173,38378,s,Suspended until 25 May,2025-26,2025,ballard,Sunderland,SUN,3
+532,Hume,17,2,45,0.3,1.8,2.7,2794,1,1,8,2.07,1.75,3.82,45.66,220,1271,a,,2025-26,2025,hume,Sunderland,SUN,3
+533,Alese,17,2,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,1,u,has joined Portsmouth on loan for the rest of the season.,2025-26,2025,alese,Sunderland,SUN,3
+534,Anderson,17,2,38,0.3,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,143,u,has joined Barrow FC permanently.,2025-26,2025,anderson,Sunderland,SUN,3
+535,Cirkin,17,2,40,0.0,0.0,1.8,319,0,0,1,0.08,0.02,0.09,6.49,64,68,a,,2025-26,2025,cirkin,Sunderland,SUN,3
+536,Hjelde,17,2,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,8,u,has joined Sheffield United on loan for the rest of the season.,2025-26,2025,hjelde,Sunderland,SUN,3
+537,Huggins,17,2,40,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,9,u,has joined Wycombe Wanderers on loan for the rest of the season.,2025-26,2025,huggins,Sunderland,SUN,3
+538,Johnson,17,2,38,0.2,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,106,u,has joined York City on loan for the rest of the season.,2025-26,2025,johnson,Sunderland,SUN,3
+539,O'Nien,17,2,40,0.1,1.5,1.6,408,0,0,2,0.02,0.12,0.14,7.34,137,365,a,,2025-26,2025,onien,Sunderland,SUN,3
+540,Pembele,17,2,39,0.3,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,125,u,has joined Le Havre AC on loan for the rest of the season.,2025-26,2025,pembele,Sunderland,SUN,3
+541,Reinildo,17,2,38,2.9,2.8,2.8,1696,0,2,5,0.13,0.58,0.71,24.17,3426,4022,a,,2025-26,2025,reinildo,Sunderland,SUN,3
+542,Seelt,17,2,40,0.1,0.0,1.0,133,0,0,0,0.00,0.01,0.01,1.33,0,17,u,has joined Wolfsburg on loan for the rest of the season.,2025-26,2025,seelt,Sunderland,SUN,3
+543,Adingra,17,3,49,0.3,0.0,2.4,649,1,1,4,0.35,0.62,0.97,11.30,0,85,u,has joined AS Monaco on loan for the rest of the season.,2025-26,2025,adingra,Sunderland,SUN,3
+544,Diarra,17,3,53,0.1,2.5,3.4,1361,2,5,5,3.14,0.67,3.81,20.92,105,2482,a,,2025-26,2025,diarra,Sunderland,SUN,3
+545,Roberts,17,3,54,0.0,0.0,1.0,27,0,0,0,0.03,0.02,0.05,0.66,0,2,u,has joined Birmingham City permanently.,2025-26,2025,roberts,Sunderland,SUN,3
+546,Aleksić,17,3,49,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,8,6,a,,2025-26,2025,aleksi,Sunderland,SUN,3
+547,E.Le Fée,17,3,48,1.6,4.5,3.8,2660,4,5,9,4.76,4.65,9.41,43.95,3897,15920,a,,2025-26,2025,elefe,Sunderland,SUN,3
+548,Mundle,17,3,49,0.0,0.0,1.0,399,0,0,0,0.87,0.48,1.35,8.54,11,10,i,Hamstring injury - Expected back 01 Jun,2025-26,2025,mundle,Sunderland,SUN,3
+549,Neil,17,3,48,0.0,0.0,1.0,13,0,0,0,0.00,0.00,0.00,0.64,0,8,u,has joined Ipswich Town on loan for the rest of the season.,2025-26,2025,neil,Sunderland,SUN,3
+550,Poveda,17,3,47,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,29,13,a,,2025-26,2025,poveda,Sunderland,SUN,3
+551,Rigg,17,3,47,0.1,2.5,1.9,744,1,0,3,0.86,0.92,1.78,11.94,148,578,a,,2025-26,2025,rigg,Sunderland,SUN,3
+552,Sadiki,17,3,49,0.1,2.8,2.4,2635,0,2,8,1.00,1.41,2.41,39.35,126,309,a,,2025-26,2025,sadiki,Sunderland,SUN,3
+553,Talbi,17,3,49,0.2,1.0,3.0,1445,4,2,6,2.08,1.14,3.21,21.24,139,338,a,,2025-26,2025,talbi,Sunderland,SUN,3
+554,Ba,17,3,43,0.3,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,177,299,a,,2025-26,2025,ba,Sunderland,SUN,3
+555,Browne,17,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,7,u,has joined Middlesbrough on loan for the rest of the season.,2025-26,2025,browne,Sunderland,SUN,3
+556,Ekwah,17,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,0,u,Has joined AS Saint-Etienne permanently.,2025-26,2025,ekwah,Sunderland,SUN,3
+557,H.Jones,17,3,43,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,105,98,a,,2025-26,2025,hjones,Sunderland,SUN,3
+558,Matete,17,3,43,0.2,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,62,u,has joined MK Dons permanently.,2025-26,2025,matete,Sunderland,SUN,3
+559,Triantis,17,3,44,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,3,u,has joined Minnesota United permanently.,2025-26,2025,triantis,Sunderland,SUN,3
+560,Isidor,17,4,50,1.4,2.0,2.3,1106,5,1,4,4.42,0.20,4.62,19.22,707,4430,a,,2025-26,2025,isidor,Sunderland,SUN,3
+561,Mayenda,17,4,51,0.5,0.0,2.1,750,2,0,3,2.13,0.22,2.35,12.67,130,410,a,,2025-26,2025,mayenda,Sunderland,SUN,3
+562,Abdullahi,17,4,42,0.4,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,314,522,a,,2025-26,2025,abdullahi,Sunderland,SUN,3
+563,Luís Hemir,17,4,44,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,9,u,has joined Moreirense on loan for the rest of the season.,2025-26,2025,lushemir,Sunderland,SUN,3
+564,Rusyn,17,4,44,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,10,u,has joined Arka on loan for the rest of the season.,2025-26,2025,rusyn,Sunderland,SUN,3
+668,Xhaka,17,3,51,3.2,4.2,3.7,2631,1,6,8,0.98,3.17,4.15,43.13,3015,4827,a,,2025-26,2025,xhaka,Sunderland,SUN,3
+670,Roefs,17,1,48,8.3,3.8,3.9,2880,0,0,9,0.00,0.10,0.10,47.50,3676,29406,a,,2025-26,2025,roefs,Sunderland,SUN,3
+678,Masuaku,17,2,39,0.5,0.0,0.3,125,0,0,0,0.07,0.08,0.15,2.09,0,187,u,has joined RC Lens on loan for the rest of the season.,2025-26,2025,masuaku,Sunderland,SUN,3
+683,Alderete,17,2,41,5.7,3.2,3.7,2685,1,1,9,1.60,0.89,2.48,43.87,5322,21496,a,,2025-26,2025,alderete,Sunderland,SUN,3
+694,Mukiele,17,2,46,8.6,6.0,4.8,2514,3,5,8,1.47,2.24,3.71,42.16,17678,27742,a,,2025-26,2025,mukiele,Sunderland,SUN,3
+724,Geertruida,17,2,45,0.1,0.0,1.8,1411,0,0,2,0.50,0.75,1.25,28.37,46,182,a,,2025-26,2025,geertruida,Sunderland,SUN,3
+730,Brobbey,17,4,53,1.1,1.5,2.8,1694,6,1,5,4.60,0.54,5.14,29.44,2228,17265,a,,2025-26,2025,brobbey,Sunderland,SUN,3
+735,Traoré,17,3,55,0.0,0.0,2.5,634,1,1,3,0.48,0.25,0.73,9.74,14,12,a,,2025-26,2025,traor,Sunderland,SUN,3
+774,Jenson Jones,17,2,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,76,52,a,,2025-26,2025,jensonjones,Sunderland,SUN,3
+775,Tutierov,17,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,3,u,has joined Exeter City on loan for the rest of the season.,2025-26,2025,tutierov,Sunderland,SUN,3
+800,Jocelin.T,17,3,49,0.0,0.0,1.0,38,0,0,0,0.00,0.04,0.04,0.24,7,4,a,,2025-26,2025,jocelint,Sunderland,SUN,3
+812,Ellborg,17,1,40,0.1,0.0,5.3,270,0,0,1,0.00,0.02,0.02,4.10,209,834,a,,2025-26,2025,ellborg,Sunderland,SUN,3
+813,Angulo,17,3,50,0.0,0.0,1.8,254,0,0,1,0.49,0.08,0.57,5.65,3,9,a,,2025-26,2025,angulo,Sunderland,SUN,3
+821,Whittaker,17,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,25,15,a,,2025-26,2025,whittaker,Sunderland,SUN,3
+822,Jones,17,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,35,14,a,,2025-26,2025,jones,Sunderland,SUN,3
+565,Vicario,18,1,47,4.8,0.0,2.9,2790,0,0,7,0.00,0.04,0.04,46.21,42,6926,i,Hernia - Unknown return date,2025-26,2025,vicario,Spurs,TOT,3
+566,Austin,18,1,39,0.3,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,125,143,a,,2025-26,2025,austin,Spurs,TOT,3
+567,Kinsky,18,1,39,1.7,2.8,2.8,360,0,0,1,0.00,0.00,0.00,3.17,5939,1091,a,,2025-26,2025,kinsky,Spurs,TOT,3
+568,Pedro Porro,18,2,52,10.7,5.8,3.4,2523,1,3,8,0.91,3.51,4.42,35.37,19048,8440,a,,2025-26,2025,pedroporro,Spurs,TOT,3
+569,Romero,18,2,50,2.9,0.2,4.0,1869,4,1,5,1.39,1.25,2.64,28.32,29,2549,i,Knee injury - Expected back 01 Jun,2025-26,2025,romero,Spurs,TOT,3
+570,Danso,18,2,42,0.2,2.8,2.3,1219,0,0,3,0.38,0.24,0.62,17.77,715,253,a,,2025-26,2025,danso,Spurs,TOT,3
+571,Davies,18,2,43,0.1,0.0,3.3,136,1,0,0,0.49,0.07,0.56,1.11,9,20,i,Ankle injury - Unknown return date,2025-26,2025,davies,Spurs,TOT,3
+572,Dragusin,18,2,45,0.0,0.2,1.8,514,0,0,0,0.31,0.01,0.32,12.01,47,76,a,,2025-26,2025,dragusin,Spurs,TOT,3
+573,Spence,18,2,41,0.9,2.5,2.6,1933,0,0,8,0.88,1.75,2.63,30.61,739,722,a,,2025-26,2025,spence,Spurs,TOT,3
+574,Udogie,18,2,43,0.3,1.5,1.2,1094,0,1,0,0.16,0.69,0.85,17.41,465,115,a,,2025-26,2025,udogie,Spurs,TOT,3
+575,Van de Ven,18,2,44,17.7,2.5,3.4,2771,4,1,8,2.79,0.37,3.16,40.61,7677,16988,a,,2025-26,2025,vandeven,Spurs,TOT,3
+576,Phillips,18,2,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,2,u,Has joined Stoke City on loan for the rest of the season.,2025-26,2025,phillips,Spurs,TOT,3
+577,Takai,18,2,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,21,u,has joined Borussia Mönchengladbach on loan for the rest of the season.,2025-26,2025,takai,Spurs,TOT,3
+578,Vuskovic,18,2,39,0.3,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,63,u,has joined Hamburger SV on loan for the rest of the season.,2025-26,2025,vuskovic,Spurs,TOT,3
+579,Son,18,3,85,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,8,u,has joined Los Angeles FC permanently.,2025-26,2025,son,Spurs,TOT,3
+581,Maddison,18,3,68,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,722,490,a,,2025-26,2025,maddison,Spurs,TOT,3
+582,Kudus,18,3,64,9.2,0.0,3.9,1535,2,6,7,1.92,2.41,4.33,22.74,23,2218,i,Thigh injury - Expected back 01 Jun,2025-26,2025,kudus,Spurs,TOT,3
+583,Kulusevski,18,3,64,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,22,12,i,Knee injury - Unknown return date,2025-26,2025,kulusevski,Spurs,TOT,3
+584,Tel,18,3,62,0.2,2.0,2.3,1088,3,2,2,2.22,1.94,4.15,15.40,2884,260,a,,2025-26,2025,tel,Spurs,TOT,3
+585,Bentancur,18,3,52,0.2,2.5,3.2,1629,1,1,7,0.51,0.79,1.30,21.79,372,155,a,,2025-26,2025,bentancur,Spurs,TOT,3
+586,Bergvall,18,3,52,0.2,2.0,2.2,946,1,3,3,1.18,0.43,1.61,13.39,113,200,a,,2025-26,2025,bergvall,Spurs,TOT,3
+587,Bissouma,18,3,52,0.0,1.0,1.5,600,0,0,1,0.36,0.10,0.46,12.21,62,39,a,,2025-26,2025,bissouma,Spurs,TOT,3
+588,Odobert,18,3,53,0.0,0.0,1.9,972,0,2,2,1.92,1.21,3.13,14.24,8,50,i,Knee injury - Unknown return date,2025-26,2025,odobert,Spurs,TOT,3
+589,Solomon,18,3,54,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,1,u,has joined Fiorentina on loan for the rest of the season.,2025-26,2025,solomon,Spurs,TOT,3
+590,Bryan,18,3,49,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,1,u,has joined Girona permanently.,2025-26,2025,bryan,Spurs,TOT,3
+591,Gray,18,3,48,0.1,0.8,2.6,1463,2,2,5,1.50,1.29,2.79,24.55,127,516,a,,2025-26,2025,gray,Spurs,TOT,3
+592,Moore,18,3,50,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,1,u,Has joined Rangers on loan for the rest of the season.,2025-26,2025,moore,Spurs,TOT,3
+593,P.M.Sarr,18,3,45,1.0,0.5,2.8,1350,2,3,3,1.50,1.08,2.58,26.27,1578,2564,a,,2025-26,2025,pmsarr,Spurs,TOT,3
+594,Min-hyeok,18,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,0,u,has joined Coventry City on loan for the rest of the season.,2025-26,2025,minhyeok,Spurs,TOT,3
+595,Olusesi,18,3,43,0.2,0.0,1.0,14,0,0,0,0.00,0.01,0.01,0.75,122,149,a,,2025-26,2025,olusesi,Spurs,TOT,3
+596,Solanke,18,4,71,1.3,1.2,2.7,997,3,0,0,2.97,0.34,3.30,17.80,49,18263,d,Muscle injury - 25% chance of playing,2025-26,2025,solanke,Spurs,TOT,3
+597,Richarlison,18,4,63,5.9,3.8,3.7,1702,10,4,6,7.09,1.27,8.36,23.51,38386,3453,a,,2025-26,2025,richarlison,Spurs,TOT,3
+598,Lankshear,18,4,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,5,u,has joined Oxford United on loan for the rest of the season.,2025-26,2025,lankshear,Spurs,TOT,3
+599,Scarlett,18,4,43,0.5,0.0,1.0,7,0,0,0,0.00,0.01,0.01,0.03,0,192,u,has joined Hibernian on loan for the rest of the season.,2025-26,2025,scarlett,Spurs,TOT,3
+673,J.Palhinha,18,3,55,0.8,3.2,3.6,1944,4,3,4,2.04,0.62,2.66,30.37,2763,749,a,,2025-26,2025,jpalhinha,Spurs,TOT,3
+717,Xavi,18,3,64,1.4,3.8,2.9,1747,2,5,4,3.06,3.85,6.91,30.71,36,32232,i,Knee injury - Expected back 01 Jan,2025-26,2025,xavi,Spurs,TOT,3
+726,Kolo Muani,18,4,69,0.4,1.2,1.7,1480,1,1,4,2.05,1.41,3.46,23.17,1802,1326,a,,2025-26,2025,kolomuani,Spurs,TOT,3
+745,Byfield,18,2,40,0.0,0.0,1.0,1,0,0,0,0.00,0.00,0.00,0.00,21,38,a,,2025-26,2025,byfield,Spurs,TOT,3
+750,Rowswell,18,2,40,0.0,0.0,1.0,1,0,0,0,0.00,0.00,0.00,0.36,16,23,a,,2025-26,2025,rowswell,Spurs,TOT,3
+751,Akhamrich,18,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,3,u,has joined Bristol Rovers on loan for the rest of the season.,2025-26,2025,akhamrich,Spurs,TOT,3
+790,Williams-Barnett,18,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,38,17,a,,2025-26,2025,williamsbarnett,Spurs,TOT,3
+796,Gallagher,18,3,50,0.1,4.2,2.8,922,1,1,1,0.64,0.61,1.25,16.90,7053,364,a,,2025-26,2025,gallagher,Spurs,TOT,3
+804,Souza,18,2,40,0.0,0.0,0.8,142,0,0,0,0.02,0.03,0.05,2.61,51,81,a,,2025-26,2025,souza,Spurs,TOT,3
+811,Kyerematen,18,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,29,15,a,,2025-26,2025,kyerematen,Spurs,TOT,3
+818,Wilson,18,4,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,360,218,a,,2025-26,2025,wilson,Spurs,TOT,3
+326,Adama,19,3,51,0.2,0.5,1.0,376,0,0,0,0.69,0.57,1.26,8.38,90,163,a,,2025-26,2025,adama,West Ham,WHU,3
+600,Areola,19,1,42,1.9,0.0,2.5,1800,0,1,0,0.00,0.00,0.00,35.30,581,2213,a,,2025-26,2025,areola,West Ham,WHU,3
+601,Foderingham,19,1,40,0.2,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,79,u,has joined Aris Limassol permanently.,2025-26,2025,foderingham,West Ham,WHU,3
+602,Hegyi,19,1,39,0.2,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,107,u,has joined MTK Budapest on loan for the rest of the season.,2025-26,2025,hegyi,West Ham,WHU,3
+603,Diouf,19,2,41,2.4,3.5,3.3,2436,0,6,8,0.53,2.29,2.82,39.15,1388,10765,a,,2025-26,2025,diouf,West Ham,WHU,3
+604,Emerson,19,2,44,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,7,u,has joined Marseille permanently.,2025-26,2025,emerson,West Ham,WHU,3
+605,Kilman,19,2,41,0.1,0.0,1.7,1559,0,0,1,0.56,0.25,0.81,33.28,27,145,a,,2025-26,2025,kilman,West Ham,WHU,3
+606,Mavropanos,19,2,45,2.0,7.5,3.8,2262,3,0,5,2.42,0.60,3.02,36.53,9184,28901,a,,2025-26,2025,mavropanos,West Ham,WHU,3
+607,N.Aguerd,19,2,44,0.0,0.0,1.5,180,0,0,0,0.10,0.03,0.13,3.42,0,2,u,has joined Marseille permanently.,2025-26,2025,naguerd,West Ham,WHU,3
+608,Scarles,19,2,43,0.0,0.0,1.6,656,0,1,0,0.18,0.32,0.50,13.38,16,37,a,,2025-26,2025,scarles,West Ham,WHU,3
+609,Todibo,19,2,43,0.1,0.2,2.1,1702,0,1,1,0.25,0.31,0.56,31.71,32,108,a,,2025-26,2025,todibo,West Ham,WHU,3
+610,Wan-Bissaka,19,2,41,4.3,0.2,2.8,1928,0,3,3,0.00,0.93,0.93,33.25,626,6415,a,,2025-26,2025,wanbissaka,West Ham,WHU,3
+611,Casey,19,2,40,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,21,u,has joined Leyton Orient on loan for the rest of the season.,2025-26,2025,casey,West Ham,WHU,3
+612,L.Paquetá,19,3,59,1.1,0.0,3.8,1513,4,2,3,2.85,2.00,4.85,24.22,0,311,u,has joined Flamengo permanently.,2025-26,2025,lpaquet,West Ham,WHU,3
+613,Souček,19,3,57,0.4,4.5,3.0,1948,5,2,6,4.90,0.49,5.39,34.69,1060,2693,a,,2025-26,2025,souek,West Ham,WHU,3
+615,Summerville,19,3,55,1.3,2.2,3.6,2200,5,3,7,5.27,2.77,8.04,33.07,1453,14950,a,,2025-26,2025,summerville,West Ham,WHU,3
+616,Álvarez,19,3,49,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,4,u,Has joined Fenerbahçe on loan for the rest of the season.,2025-26,2025,lvarez,West Ham,WHU,3
+617,Cornet,19,3,49,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,1,u,has joined Genoa on loan for the rest of the season.,2025-26,2025,cornet,West Ham,WHU,3
+618,G.Rodriguez,19,3,48,0.0,0.0,1.3,175,0,0,1,0.03,0.04,0.07,2.59,0,16,u,has joined Valencia on loan for the rest of the season.,2025-26,2025,grodriguez,West Ham,WHU,3
+619,L.Guilherme,19,3,49,0.0,0.0,1.0,121,0,0,0,0.07,0.03,0.10,1.82,0,5,u,has joined Sporting CP permanently.,2025-26,2025,lguilherme,West Ham,WHU,3
+620,Earthy,19,3,45,0.0,0.0,1.0,8,0,0,0,0.00,0.01,0.01,0.73,0,16,u,has joined Bristol City on loan for the rest of the season.,2025-26,2025,earthy,West Ham,WHU,3
+621,Irving,19,3,43,0.2,0.0,1.3,156,0,0,0,0.00,0.17,0.17,4.03,0,107,u,has joined Sparta Prague permanently.,2025-26,2025,irving,West Ham,WHU,3
+622,Orford,19,3,44,0.1,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,5,u,has joined Stevenage on loan for the rest of the season.,2025-26,2025,orford,West Ham,WHU,3
+623,Potts,19,3,43,0.5,0.5,1.7,1162,0,1,1,0.21,1.06,1.27,21.35,847,726,a,,2025-26,2025,potts,West Ham,WHU,3
+624,Bowen,19,4,78,13.7,7.0,4.9,3136,8,12,7,6.73,4.94,11.67,53.66,23804,193684,a,,2025-26,2025,bowen,West Ham,WHU,3
+625,Füllkrug,19,4,56,0.6,0.0,1.5,407,0,0,1,0.93,0.21,1.14,8.59,0,68,u,has joined AC Milan on loan for the rest of the season.,2025-26,2025,fllkrug,West Ham,WHU,3
+626,Marshall,19,4,43,0.5,0.0,1.0,58,0,0,0,0.13,0.00,0.13,1.55,0,152,u,has joined VfL Bochum 1848 on loan for the rest of the season.,2025-26,2025,marshall,West Ham,WHU,3
+659,Walker-Peters,19,2,42,0.3,3.8,2.1,1288,1,0,3,1.13,0.37,1.50,26.03,277,733,a,,2025-26,2025,walkerpeters,West Ham,WHU,3
+671,Wilson,19,4,58,0.5,1.8,2.5,1094,6,2,1,6.86,0.38,7.24,19.23,314,874,a,,2025-26,2025,wilson,West Ham,WHU,3
+679,Hermansen,19,1,42,0.8,4.2,4.1,1350,0,0,6,0.00,0.01,0.01,19.48,1898,4286,a,,2025-26,2025,hermansen,West Ham,WHU,3
+708,M.Fernandes,19,3,55,0.4,3.2,3.6,2747,3,3,7,1.29,2.56,3.85,43.80,838,4185,a,,2025-26,2025,mfernandes,West Ham,WHU,3
+718,S.Magassa,19,3,50,0.0,0.5,1.9,971,1,0,2,0.44,0.32,0.76,19.03,15,37,a,,2025-26,2025,smagassa,West Ham,WHU,3
+738,Fabianski,19,1,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,122,92,a,,2025-26,2025,fabianski,West Ham,WHU,3
+747,Mayers,19,2,40,0.0,0.0,1.0,113,0,0,0,0.12,0.49,0.61,3.21,37,62,a,,2025-26,2025,mayers,West Ham,WHU,3
+752,Golambeckis,19,2,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,75,55,a,,2025-26,2025,golambeckis,West Ham,WHU,3
+758,Mohamadou Kanté,19,3,45,0.0,0.2,0.9,38,0,0,0,0.07,0.04,0.11,1.08,41,53,a,,2025-26,2025,mohamadoukant,West Ham,WHU,3
+785,Pablo,19,4,54,0.0,2.8,2.1,724,0,1,3,0.82,0.39,1.21,10.67,90,189,a,,2025-26,2025,pablo,West Ham,WHU,3
+791,Taty,19,4,55,0.2,3.8,3.1,1167,4,1,7,4.26,0.79,5.05,16.66,387,3977,a,,2025-26,2025,taty,West Ham,WHU,3
+802,Lamadrid,19,3,50,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,27,30,a,,2025-26,2025,lamadrid,West Ham,WHU,3
+815,Disasi,19,2,45,0.2,4.8,3.6,990,0,0,5,1.10,0.01,1.11,14.04,265,2418,a,,2025-26,2025,disasi,West Ham,WHU,3
+825,Herrick,19,1,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,31,20,a,,2025-26,2025,herrick,West Ham,WHU,3
+627,Johnstone,20,1,44,0.1,0.0,1.8,1080,0,0,0,0.00,0.02,0.02,18.59,35,166,i,Shoulder injury - Expected back 24 May,2025-26,2025,johnstone,Wolves,WOL,2
+628,José Sá,20,1,42,1.1,0.8,2.8,1890,0,0,4,0.00,0.03,0.03,32.67,67,5849,d,Ankle injury - 25% chance of playing,2025-26,2025,joss,Wolves,WOL,2
+629,Bentley,20,1,39,0.5,1.0,2.0,180,0,0,0,0.00,0.00,0.00,3.48,770,424,a,,2025-26,2025,bentley,Wolves,WOL,2
+631,Agbadou,20,2,42,0.1,0.0,1.6,1100,0,0,0,0.57,0.40,0.97,18.26,0,24,u,has joined Besiktas permanently.,2025-26,2025,agbadou,Wolves,WOL,2
+632,Doherty,20,2,44,0.1,0.5,1.3,786,0,0,1,0.09,0.19,0.28,14.13,51,72,a,,2025-26,2025,doherty,Wolves,WOL,2
+633,H.Bueno,20,2,43,0.2,2.0,2.5,2293,1,3,4,0.78,3.46,4.24,38.85,529,1210,a,,2025-26,2025,hbueno,Wolves,WOL,2
+634,Mosquera,20,2,43,0.1,0.5,2.2,1867,0,0,4,1.74,0.56,2.30,32.23,95,168,a,,2025-26,2025,mosquera,Wolves,WOL,2
+635,R.Gomes,20,2,44,0.1,2.0,2.3,766,3,0,1,1.83,0.35,2.18,11.34,55,331,a,,2025-26,2025,rgomes,Wolves,WOL,2
+636,S.Bueno,20,2,44,0.1,3.8,3.3,2282,3,2,4,1.97,1.44,3.41,39.53,1140,988,a,,2025-26,2025,sbueno,Wolves,WOL,2
+637,Toti,20,2,42,0.1,2.2,2.2,1309,0,0,1,0.53,0.29,0.82,23.39,99,168,a,,2025-26,2025,toti,Wolves,WOL,2
+638,Hoever,20,2,38,0.9,0.0,1.2,423,0,0,0,0.02,0.36,0.38,9.36,0,690,u,has joined Sheffield United on loan for the rest of the season.,2025-26,2025,hoever,Wolves,WOL,2
+639,Meupiyou,20,2,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,0,u,On loan to FC Alverca,2025-26,2025,meupiyou,Wolves,WOL,2
+640,Pedro Lima,20,2,40,0.4,1.0,1.2,178,0,0,0,0.03,0.37,0.40,3.10,151,154,a,,2025-26,2025,pedrolima,Wolves,WOL,2
+641,Pond,20,2,39,0.9,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,467,u,has joined Crewe Alexandra on loan for the rest of the season.,2025-26,2025,pond,Wolves,WOL,2
+642,Hee Chan,20,3,56,0.1,0.8,2.0,1183,2,1,2,2.14,0.93,3.07,19.30,73,321,a,,2025-26,2025,heechan,Wolves,WOL,2
+643,André,20,3,52,0.1,2.8,2.8,2490,1,0,2,0.50,0.90,1.40,43.10,128,1049,a,,2025-26,2025,andr,Wolves,WOL,2
+644,Bellegarde,20,3,51,0.0,0.8,1.8,1205,1,1,3,1.04,0.99,2.03,22.92,32,192,a,,2025-26,2025,bellegarde,Wolves,WOL,2
+645,Fer López,20,3,51,0.0,0.0,1.3,228,0,1,0,0.16,0.61,0.77,3.98,0,9,u,has joined Celta Vigo on loan for the rest of the season.,2025-26,2025,ferlpez,Wolves,WOL,2
+646,J.Gomes,20,3,53,0.3,2.2,3.1,2651,1,2,4,1.29,2.07,3.36,45.39,410,4838,a,,2025-26,2025,jgomes,Wolves,WOL,2
+647,Guedes,20,3,55,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,0,u,Has joined Real Sociedad permanently.,2025-26,2025,guedes,Wolves,WOL,2
+648,Munetsi,20,3,53,0.0,0.0,2.9,872,1,2,0,1.64,0.38,2.02,13.36,0,7,u,has joined Paris FC on loan for the rest of the season.,2025-26,2025,munetsi,Wolves,WOL,2
+649,B.Traore,20,3,50,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,0,u,Has joined FC Metz on loan for the rest of the season.,2025-26,2025,btraore,Wolves,WOL,2
+650,Chirewa,20,3,43,0.2,0.0,1.0,25,0,0,0,0.00,0.00,0.00,0.50,0,84,u,has joined Barnsley on loan for the rest of the season.,2025-26,2025,chirewa,Wolves,WOL,2
+651,Edozie,20,3,43,0.4,0.5,2.7,12,1,0,0,0.23,0.00,0.23,0.20,175,523,a,,2025-26,2025,edozie,Wolves,WOL,2
+652,Gonzalez,20,3,43,1.2,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,623,1034,a,,2025-26,2025,gonzalez,Wolves,WOL,2
+653,Hodge,20,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,6,u,Signed by CD Tondela,2025-26,2025,hodge,Wolves,WOL,2
+655,Fábio Silva,20,4,49,0.2,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,17,u,has joined Borussia Dortmund permanently.,2025-26,2025,fbiosilva,Wolves,WOL,2
+656,Kalajdžić,20,4,49,0.0,0.0,1.0,14,0,0,0,0.00,0.01,0.01,0.10,0,3,u,has joined LASK on loan for the rest of the season.,2025-26,2025,kalajdi,Wolves,WOL,2
+657,Chiwome,20,4,44,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,182,79,a,,2025-26,2025,chiwome,Wolves,WOL,2
+658,Fraser,20,4,42,1.8,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,739,1840,a,,2025-26,2025,fraser,Wolves,WOL,2
+663,J.Arias,20,3,49,0.1,0.0,2.0,1117,1,0,2,3.38,0.62,4.00,16.00,0,35,u,has joined Palmeiras permanently.,2025-26,2025,jarias,Wolves,WOL,2
+682,Møller Wolfe,20,2,42,0.1,0.2,1.6,840,0,2,1,0.13,1.04,1.17,17.48,27,48,a,,2025-26,2025,mllerwolfe,Wolves,WOL,2
+695,Tchatchoua,20,2,44,0.0,0.2,1.7,1834,0,1,3,0.33,1.60,1.93,30.68,18,95,a,,2025-26,2025,tchatchoua,Wolves,WOL,2
+709,Krejčí,20,2,45,0.1,0.2,2.3,2201,2,1,3,2.17,1.44,3.61,38.14,20,272,d,Neck - 50% chance of playing,2025-26,2025,krej,Wolves,WOL,2
+720,Tolu,20,4,52,0.1,1.0,2.1,1359,3,2,3,5.21,0.38,5.59,22.35,407,734,a,,2025-26,2025,tolu,Wolves,WOL,2
+749,Mané,20,4,42,1.2,1.5,2.5,1541,2,2,5,1.64,2.24,3.88,28.03,7653,7271,a,,2025-26,2025,man,Wolves,WOL,2
+766,Olagunju,20,2,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,248,96,a,,2025-26,2025,olagunju,Wolves,WOL,2
+767,Rawlings,20,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,36,27,a,,2025-26,2025,rawlings,Wolves,WOL,2
+777,Ojinnaka,20,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,0,1,u,has joined Shrewsbury Town on loan for the rest of the season.,2025-26,2025,ojinnaka,Wolves,WOL,2
+778,Sutherland,20,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,49,49,a,,2025-26,2025,sutherland,Wolves,WOL,2
+809,Abbey,20,3,45,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,156,90,a,,2025-26,2025,abbey,Wolves,WOL,2
+816,Angel,20,3,46,0.0,1.0,1.3,391,0,0,1,0.21,0.26,0.47,11.59,212,93,a,,2025-26,2025,angel,Wolves,WOL,2
+817,Armstrong,20,4,52,0.1,2.0,2.5,907,1,2,3,1.56,0.85,2.41,19.28,358,950,a,,2025-26,2025,armstrong,Wolves,WOL,2
+828,Brooks,20,1,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,92,24,a,,2025-26,2025,brooks,Wolves,WOL,2
+831,Gracey,20,1,40,0.0,0.0,0.0,0,0,0,0,0.00,0.00,0.00,0.00,131,6,a,,2025-26,2025,gracey,Wolves,WOL,2
