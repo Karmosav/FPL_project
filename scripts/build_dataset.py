@@ -9,6 +9,7 @@ import requests
 
 
 HISTORICAL_BASE = "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data"
+MASTER_TEAM_LIST_URL = f"{HISTORICAL_BASE}/master_team_list.csv"
 FPL_API_BASE = "https://fantasy.premierleague.com/api"
 UNDERSTAT_LEAGUE_URL = "https://understat.com/league/EPL/{season_start}"
 
@@ -77,8 +78,69 @@ def make_name_key(value):
     return cleaned
 
 
-def load_historical_fpl(seasons):
+def make_player_id(value):
+    # Canonical cross-season player ID. Strips vaastav's numeric suffixes
+    # (e.g. "Mohamed_Salah_233" -> "mohamedsalah") so historical and live rows match.
+    cleaned = re.sub(r"[^a-z]+", "", str(value).lower())
+    return cleaned
+
+
+def load_master_team_list(extra_seasons=None):
+    # vaastav publishes a season-by-season team_id -> team_name table, but it
+    # lags behind by ~1 season. Fall back to each season's own teams.csv for
+    # anything master_team_list doesn't cover yet.
+    # Columns: season, team (id within that season), team_name.
+    base = pd.read_csv(MASTER_TEAM_LIST_URL)
+    base = base[["season", "team", "team_name"]]
+    covered = set(base["season"].unique())
+
+    if extra_seasons is None:
+        extra_seasons = []
+
+    extra_frames = []
+    for season in extra_seasons:
+        if season in covered:
+            continue
+        try:
+            per_season = pd.read_csv(f"{HISTORICAL_BASE}/{season}/teams.csv")[["id", "name"]]
+        except Exception:
+            continue
+        per_season = per_season.rename(columns={"id": "team", "name": "team_name"})
+        per_season["season"] = season
+        extra_frames.append(per_season[["season", "team", "team_name"]])
+
+    if extra_frames:
+        base = pd.concat([base, *extra_frames], ignore_index=True)
+    return base
+
+
+def _resolve_team_name_for_season(frame, season, team_map):
+    # Normalize each season's table to a `team_name` string column.
+    # 2020-21+ merged_gw.csv has team as a club name string already.
+    # 2016-17 to 2019-20 has no team column at all, so backfill via
+    # players_raw.csv (element -> numeric team id) + master_team_list (id -> name).
+    if "team" in frame.columns and frame["team"].dtype == object:
+        return frame.rename(columns={"team": "team_name"})
+
+    try:
+        roster = pd.read_csv(f"{HISTORICAL_BASE}/{season}/players_raw.csv")[["id", "team"]]
+    except Exception:
+        frame["team_name"] = pd.NA
+        return frame
+
+    season_map = team_map.loc[team_map["season"] == season, ["team", "team_name"]]
+    roster = roster.merge(season_map, on="team", how="left").drop(columns=["team"])
+    roster = roster.rename(columns={"id": "element"})
+    if "team" in frame.columns:
+        frame = frame.drop(columns=["team"])
+    return frame.merge(roster, on="element", how="left")
+
+
+def load_historical_fpl(seasons, team_map=None):
     # Download all requested seasons and combine into one table.
+    if team_map is None:
+        team_map = load_master_team_list()
+
     all_frames = []
     for season in seasons:
         url = f"{HISTORICAL_BASE}/{season}/gws/merged_gw.csv"
@@ -87,6 +149,7 @@ def load_historical_fpl(seasons):
         except UnicodeDecodeError:
             frame = pd.read_csv(url, encoding="latin-1")
         frame["season"] = season
+        frame = _resolve_team_name_for_season(frame, season, team_map)
         all_frames.append(frame)
 
     data = pd.concat(all_frames, ignore_index=True)
@@ -96,14 +159,78 @@ def load_historical_fpl(seasons):
     for col in NUMERIC_COLUMNS:
         if col in data.columns:
             data[col] = pd.to_numeric(data[col], errors="coerce")
-    for col in ["team", "opponent_team", "gw", "element"]:
+    for col in ["opponent_team", "gw", "element"]:
         if col in data.columns:
             data[col] = pd.to_numeric(data[col], errors="coerce")
 
     data["season_start"] = data["season"].map(season_start_year)
     data["name_key"] = data["name"].map(make_name_key)
+    data["player_id"] = data["name"].map(make_player_id)
     data = data.sort_values(["season", "element", "gw"]).reset_index(drop=True)
     return data
+
+
+def attach_opponent_team_name(data, team_map):
+    # opponent_team is always an integer ID; resolve to a canonical club name
+    # so opponent-strength features survive across seasons.
+    opp_lookup = team_map.rename(
+        columns={"team": "_team_id", "team_name": "opponent_team_name"}
+    )
+    data = data.merge(
+        opp_lookup,
+        left_on=["season", "opponent_team"],
+        right_on=["season", "_team_id"],
+        how="left",
+    ).drop(columns=["_team_id"])
+    return data
+
+
+def build_season_anchor_table(data):
+    # One row per (season_start, player_id) summarizing the prior season.
+    # ppg uses appearances (minutes > 0) not 38, so bench players aren't penalised.
+    # minutes_share normalises against a full season (38 GWs * 90 min).
+    # The season_start column in the output is the season the anchor APPLIES to
+    # (i.e. already shifted forward by 1), so a left-merge "just works".
+    appeared = (data["minutes"].fillna(0) > 0).astype(int)
+    season_agg = (
+        data.assign(_appeared=appeared)
+        .groupby(["season_start", "player_id"], as_index=False)
+        .agg(
+            _season_points=("total_points", "sum"),
+            _season_minutes=("minutes", "sum"),
+            _season_apps=("_appeared", "sum"),
+        )
+    )
+    season_agg["last_season_ppg"] = (
+        season_agg["_season_points"] / season_agg["_season_apps"].replace(0, pd.NA)
+    )
+    season_agg["last_season_minutes_share"] = season_agg["_season_minutes"] / (38 * 90)
+    season_agg["season_start"] = season_agg["season_start"] + 1
+    return season_agg[
+        ["season_start", "player_id", "last_season_ppg", "last_season_minutes_share"]
+    ]
+
+
+def add_cross_season_anchors(data, anchor_table):
+    # Join prior-season anchors. NaN for first-PL-season players is expected
+    # and meaningful — combined with is_promoted_team, it tells the model
+    # "no history, use the cold-start prior."
+    return data.merge(anchor_table, on=["season_start", "player_id"], how="left")
+
+
+def add_promoted_flag(data):
+    # Mark (season, team) as promoted if the team wasn't in the previous season.
+    # Earliest season is set to NA because we have no prior to compare against.
+    season_teams = data[["season_start", "team_name"]].drop_duplicates().dropna()
+    prev = season_teams.copy()
+    prev["season_start"] = prev["season_start"] + 1
+    prev["_was_in_pl_last"] = True
+
+    earliest = int(season_teams["season_start"].min())
+    data = data.merge(prev, on=["season_start", "team_name"], how="left")
+    data["is_promoted_team"] = data["_was_in_pl_last"].isna().astype(object)
+    data.loc[data["season_start"] == earliest, "is_promoted_team"] = pd.NA
+    return data.drop(columns=["_was_in_pl_last"])
 
 
 def add_leakage_safe_features(data):
@@ -126,17 +253,17 @@ def add_leakage_safe_features(data):
             )
 
     team_week = (
-        frame.groupby(["season", "team", "gw"], as_index=False)
+        frame.groupby(["season", "team_name", "gw"], as_index=False)
         .agg(
             team_goals_scored_gw=("goals_scored", "sum"),
             team_goals_conceded_gw=("goals_conceded", "sum"),
             team_points_gw=("total_points", "sum"),
         )
-        .sort_values(["season", "team", "gw"])
+        .sort_values(["season", "team_name", "gw"])
     )
 
     for metric in ["team_goals_scored_gw", "team_goals_conceded_gw", "team_points_gw"]:
-        team_week[f"{metric}_roll5"] = team_week.groupby(["season", "team"], sort=False)[metric].transform(
+        team_week[f"{metric}_roll5"] = team_week.groupby(["season", "team_name"], sort=False)[metric].transform(
             lambda s: s.shift(1).rolling(5, min_periods=1).mean()
         )
 
@@ -144,28 +271,32 @@ def add_leakage_safe_features(data):
         team_week[
             [
                 "season",
-                "team",
+                "team_name",
                 "gw",
                 "team_goals_scored_gw_roll5",
                 "team_goals_conceded_gw_roll5",
                 "team_points_gw_roll5",
             ]
         ],
-        on=["season", "team", "gw"],
+        on=["season", "team_name", "gw"],
         how="left",
     )
 
     opponent_strength = team_week[
-        ["season", "team", "gw", "team_points_gw_roll5", "team_goals_conceded_gw_roll5"]
+        ["season", "team_name", "gw", "team_points_gw_roll5", "team_goals_conceded_gw_roll5"]
     ].rename(
         columns={
-            "team": "opponent_team",
+            "team_name": "opponent_team_name",
             "team_points_gw_roll5": "opponent_team_points_roll5",
             "team_goals_conceded_gw_roll5": "opponent_team_gc_roll5",
         }
     )
 
-    frame = frame.merge(opponent_strength, on=["season", "opponent_team", "gw"], how="left")
+    frame = frame.merge(
+        opponent_strength,
+        on=["season", "opponent_team_name", "gw"],
+        how="left",
+    )
     return frame
 
 
@@ -232,15 +363,17 @@ def merge_understat(data, seasons):
     return merged
 
 
-def load_live_player_pool():
+def load_live_player_pool(team_map=None, anchor_table=None):
     # Get current-season players from the official FPL API.
     bootstrap = get_json_from_url(f"{FPL_API_BASE}/bootstrap-static/")
     teams = pd.DataFrame(bootstrap["teams"])[["id", "name", "short_name", "strength"]]
-    teams = teams.rename(columns={"id": "team"})
+    teams = teams.rename(columns={"id": "team", "name": "team_name"})
 
     elements = pd.DataFrame(bootstrap["elements"])
     keep_cols = [
         "id",
+        "first_name",
+        "second_name",
         "web_name",
         "team",
         "element_type",
@@ -264,8 +397,33 @@ def load_live_player_pool():
     elements = elements[keep_cols].rename(columns={"id": "element"})
     elements["season"] = "2025-26"
     elements["season_start"] = 2025
+
+    # Match vaastav's "First_Second" name format so player_id joins historical rows.
+    elements["full_name"] = (
+        elements["first_name"].astype(str) + "_" + elements["second_name"].astype(str)
+    )
+    elements["player_id"] = elements["full_name"].map(make_player_id)
     elements["name_key"] = elements["web_name"].map(make_name_key)
     elements = elements.merge(teams, on="team", how="left")
+
+    if anchor_table is not None:
+        elements = elements.merge(
+            anchor_table, on=["season_start", "player_id"], how="left"
+        )
+    else:
+        elements["last_season_ppg"] = pd.NA
+        elements["last_season_minutes_share"] = pd.NA
+
+    # Promoted = club not present in 2024-25 master team list.
+    if team_map is not None:
+        prev_teams = set(team_map.loc[team_map["season"] == "2024-25", "team_name"])
+        if prev_teams:
+            elements["is_promoted_team"] = ~elements["team_name"].isin(prev_teams)
+        else:
+            elements["is_promoted_team"] = pd.NA
+    else:
+        elements["is_promoted_team"] = pd.NA
+
     return elements
 
 
@@ -275,11 +433,17 @@ def build_dataset(root=".", seasons=DEFAULT_SEASONS):
     processed_dir = root_path / "data" / "processed"
     processed_dir.mkdir(parents=True, exist_ok=True)
 
-    historical = load_historical_fpl(seasons)
+    team_map = load_master_team_list(extra_seasons=seasons)
+
+    historical = load_historical_fpl(seasons, team_map=team_map)
+    historical = attach_opponent_team_name(historical, team_map)
+    historical = add_promoted_flag(historical)
+    anchor_table = build_season_anchor_table(historical)
+    historical = add_cross_season_anchors(historical, anchor_table)
     historical = add_leakage_safe_features(historical)
     historical = merge_understat(historical, seasons)
 
-    live_pool = load_live_player_pool()
+    live_pool = load_live_player_pool(team_map=team_map, anchor_table=anchor_table)
 
     historical_output = processed_dir / "fpl_model_dataset.csv"
     live_output = processed_dir / "live_player_pool.csv"
