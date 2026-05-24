@@ -6,10 +6,10 @@ University NN course project. Two contributors: **Karmo** (this repo's owner, Ph
 
 - **Phase 1 (data collection)** — done. vaastav 2016-17 → 2024-25, live FPL API, Understat season-aggregate.
 - **Phase 2 (feature engineering)** — v1 complete. Known v2 backlog listed in README "Known gaps".
-- **Phase 3 (NN model)** — **Karmo's task.** Not started.
-- **Phase 4 (PuLP squad optimizer)** — Eric's next step. Model-orthogonal: can be built with placeholder predictions (e.g. `last_season_ppg`) and swapped to real predictions when Phase 3 lands.
-- **Phase 5 (weekly simulation loop)** — blocked on 4.
-- **Phase 6 (evaluation/baselines)** — not started.
+- **Phase 3 (NN model)** — **Karmo's task.** v1 done: baseline MLP + decomposed multi-head, weights in `results/`. v2 backlog: hyperparam sweep, per-position models, LSTM/GRU variant.
+- **Phase 4 (PuLP squad optimizer)** — done. Three modes in `scripts/squad_optimizer.py`: fresh-squad, transfer-constrained greedy, and 4-GW horizon. Backtest harness + visualizer in place.
+- **Phase 5 (full season simulation)** — partially done. Backtest already walks GW1→GW38 with state. Still missing: chip strategy (2× wildcard / free hit / bench boost / triple captain per the 2025/26 rules) and live 2025/26 inference path.
+- **Phase 6 (evaluation/baselines)** — partial. Model-level metrics done (MAE/RMSE/ρ vs ridge + heuristics). System-level done (fresh vs greedy vs horizon, FPL avg comparison). Missing: ablation studies, formal baseline writeup.
 
 ## Things to know before editing `scripts/build_dataset.py`
 
@@ -28,6 +28,14 @@ University NN course project. Two contributors: **Karmo** (this repo's owner, Ph
 - **Position column is inconsistent in older seasons.** Empty in 2016-17 sample rows. If training per-position models, either drop early seasons or backfill from `players_raw.csv`.
 - **Understat enrichment is season-aggregate only.** Per-match xG/xA scraping is on the v2 backlog — biggest single signal upgrade still pending.
 - **DGW/BGW (double/blank gameweeks)** are not flagged. A few rows per season are affected; can corrupt rolling-window features if not handled.
+
+## Things to know before editing `scripts/squad_optimizer.py`
+
+- **2025/26 rules, not historical.** Constants at the top: `MAX_BANKED_TRANSFERS=4` (=5 max usable in any GW), `HIT_COST=4`, `TRANSFERS_CAP_PER_GW=20`, `XI_MIN["MID"]=2`. Don't drift these back to historical values.
+- **DGW duplicates must be aggregated before optimizing.** The historical CSV has multiple rows per (element, gw) when a team has two fixtures in one GW. `_aggregate_dgw_rows()` collapses them. Without it the ILP can pick the same player twice.
+- **The horizon optimizer's banked-transfer LP variable has slack.** Internal `b[t]` values in `horizon_plan` may not be tight; use the post-hoc `banked_next` computed from the squad delta as the source of truth for state propagation.
+- **Pool trimming to top-150 per GW + current squad** is a heuristic to keep the horizon ILP tractable (~3s/decision). Widening to 200 might unlock a few more pts; profile before changing.
+- **Price changes are not modeled.** Player prices use the current GW's `value` uniformly; 50% sell-on fee is ignored. Cumulative drift is ~£1-3m over a season — fine for v1.
 
 ## Conventions
 

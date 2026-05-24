@@ -49,9 +49,28 @@ See `fpl_project_context.md` (in parent dir) for the full 6-phase plan: data →
 ```
 FPL_project/
 ├── scripts/
-│   └── build_dataset.py    # pipeline entry point
+│   ├── build_dataset.py          # Phase 1-2 pipeline
+│   ├── squad_optimizer.py        # Phase 4 ILP (single-GW, transfer-constrained, 4-GW horizon)
+│   └── visualize_backtest.py     # Phase 4 plots + season report
 ├── notebooks/
-│   └── 01_build_fpl_dataset.ipynb
-├── data/processed/         # generated CSVs (checked in for collaboration)
+│   ├── 01_build_fpl_dataset.ipynb
+│   ├── 02_phase3_baseline_model.ipynb
+│   └── 03_phase3_decomposed_heads.ipynb
+├── data/processed/               # generated CSVs (checked in for collaboration)
+├── results/                      # model weights, predictions, backtests, charts
 └── README.md
 ```
+
+## Phase 4 squad optimizer (PuLP ILP)
+
+Run `python scripts/squad_optimizer.py` to backtest. Three optimizers, all using 2025/26 rules (max 5 banked transfers, -4 per hit, 1-3-DEF / 1-MID-2 / 1-FWD minimums):
+
+| Mode | Season net (2024-25 val) | Per GW |
+|---|---|---|
+| Fresh squad (no transfer limit, upper bound) | 2,830 pts | 74.5 |
+| **4-GW horizon (realistic)** | **2,735 pts** | **72.0** |
+| Greedy single-GW (no lookahead) | 2,363 pts | 62.2 |
+
+FPL global average ≈ 55-58/GW. Horizon optimizer recovers ~80% of the transfer friction over greedy.
+
+Run `python scripts/visualize_backtest.py` for a per-GW season report ([results/phase4_season_report.md](results/phase4_season_report.md)), squad-tenure heatmap, and score timeline.
