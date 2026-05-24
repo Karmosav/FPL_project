@@ -1,0 +1,75 @@
+gw,out_name,out_position,out_team,out_pred,out_actual,in_name,in_position,in_team,in_pred,in_actual
+2,Anthony Gordon,MID,Newcastle,3.713045,3.0,James Maddison,MID,Spurs,4.310266,6.0
+3,Eberechi Eze,MID,Crystal Palace,3.8170679,2.0,Antoine Semenyo,MID,Bournemouth,4.561794,6.0
+4,Alexander Isak,FWD,Newcastle,1.5789688,9.0,João Pedro Junqueira de Jesus,FWD,Brighton,4.8039494,0.0
+5,João Pedro Junqueira de Jesus,FWD,Brighton,4.8039494,0.0,Ollie Watkins,FWD,Aston Villa,4.4912715,6.0
+6,Pedro Porro,DEF,Spurs,4.005432,2.0,Diogo Dalot Teixeira,DEF,Man Utd,3.6258037,0.0
+7,Antoine Semenyo,MID,Bournemouth,3.6057305,7.0,Dwight McNeil,MID,Everton,4.3499894,2.0
+8,Dan Burn,DEF,Newcastle,2.5886025,8.0,Micky van de Ven,DEF,Spurs,3.4670475,1.0
+9,Bukayo Saka,MID,Arsenal,5.3200192,0.0,Cole Palmer,MID,Chelsea,5.8485622,10.0
+9,William Saliba,DEF,Arsenal,3.648942,-3.0,Rico Lewis,DEF,Man City,3.568942,6.0
+10,Micky van de Ven,DEF,Spurs,3.102119,1.0,Michael Keane,DEF,Everton,3.3061204,1.0
+11,Rico Lewis,DEF,Man City,3.263909,1.0,Pedro Porro,DEF,Spurs,4.07337,4.0
+12,Trent Alexander-Arnold,DEF,Liverpool,3.7116253,1.0,Virgil van Dijk,DEF,Liverpool,4.06239,1.0
+13,Erling Haaland,FWD,Man City,4.5793886,2.0,Mohamed Salah,MID,Liverpool,6.293424,13.0
+13,Andrey Nascimento dos Santos,MID,Chelsea,0.03399995,0.0,Matheus Santos Carneiro Da Cunha,FWD,Wolves,4.720176,2.0
+14,Dwight McNeil,MID,Everton,1.6285458,2.0,Alex Iwobi,MID,Fulham,3.5409567,15.0
+15,Mohamed Salah,MID,Liverpool,6.281387,18.0,Bukayo Saka,MID,Arsenal,5.6414056,2.0
+15,Virgil van Dijk,DEF,Liverpool,3.9715447,1.0,William Saliba,DEF,Arsenal,3.8779244,9.0
+15,Michael Keane,DEF,Everton,0.11146763,0.0,Noussair Mazraoui,DEF,Man Utd,3.3988328,1.0
+16,Ollie Watkins,FWD,Aston Villa,4.369949,1.0,Alexander Isak,FWD,Newcastle,4.728392,11.0
+17,Pedro Porro,DEF,Spurs,3.7264547,6.0,Antonee Robinson,DEF,Fulham,4.3584223,6.0
+18,Bukayo Saka,MID,Arsenal,4.478493,1.0,Mohamed Salah,MID,Liverpool,7.3346734,9.0
+19,Diogo Dalot Teixeira,DEF,Man Utd,2.4838398,1.0,Lewis Hall,DEF,Newcastle,4.0203137,12.0
+20,Matheus Santos Carneiro Da Cunha,FWD,Wolves,4.2409043,1.0,Chris Wood,FWD,Nott'm Forest,3.8405495,8.0
+21,James Maddison,MID,Spurs,1.9978056,1.0,Bryan Mbeumo,MID,Brentford,4.3351064,2.0
+22,Joško Gvardiol,DEF,Man City,2.9819098,1.0,Ola Aina,DEF,Nott'm Forest,4.8064976,4.0
+23,William Saliba,DEF,Arsenal,3.7667506,0.0,Ibrahima Konaté,DEF,Liverpool,3.3737237,5.0
+24,Antonee Robinson,DEF,Fulham,3.7381477,2.0,Trent Alexander-Arnold,DEF,Liverpool,18.572877,14.0
+24,Chris Wood,FWD,Nott'm Forest,3.7256005,2.0,Cody Gakpo,FWD,Liverpool,16.853971199999997,14.0
+24,David Raya Martin,GK,Arsenal,3.5778008,9.0,Jordan Pickford,GK,Everton,16.1787862,20.0
+24,Ibrahima Konaté,DEF,Liverpool,3.3737237,5.0,Vitalii Mykolenko,DEF,Everton,13.9318612,14.0
+24,Alex Iwobi,MID,Fulham,3.3381376,2.0,Idrissa Gueye,MID,Everton,12.5908756,8.0
+25,Trent Alexander-Arnold,DEF,Liverpool,18.572877,14.0,Ollie Watkins,FWD,Aston Villa,16.3152112,30.0
+25,Idrissa Gueye,MID,Everton,12.5908756,8.0,Morgan Rogers,MID,Aston Villa,16.2324666,8.0
+25,Alexander Isak,FWD,Newcastle,5.07425,2.0,Virgil van Dijk,DEF,Liverpool,15.989276799999999,4.0
+25,Viljami Sinisalo,GK,Aston Villa,-0.005895734,0.0,Emiliano Martínez Romero,GK,Aston Villa,14.648496999999999,8.0
+26,Cody Gakpo,FWD,Liverpool,12.8044356,0.0,Jean-Philippe Mateta,FWD,Crystal Palace,4.18982,5.0
+27,Morgan Rogers,MID,Aston Villa,2.342772,2.0,Dominik Szoboszlai,MID,Liverpool,3.7855103,11.0
+28,Lewis Hall,DEF,Newcastle,2.5410614,1.0,Marc Guéhi,DEF,Crystal Palace,3.5476198,5.0
+29,Mohamed Salah,MID,Liverpool,7.0575786,15.0,Erling Haaland,FWD,Man City,5.867176,7.0
+29,Virgil van Dijk,DEF,Liverpool,4.4680223,2.0,Bruno Borges Fernandes,MID,Man Utd,5.2632785,17.0
+29,Dominik Szoboszlai,MID,Liverpool,4.2065463,1.0,Chris Wood,FWD,Nott'm Forest,5.14093,2.0
+29,Marc Guéhi,DEF,Crystal Palace,3.5476198,5.0,Joško Gvardiol,DEF,Man City,4.362904,1.0
+29,Ollie Watkins,FWD,Aston Villa,3.310896,9.0,Justin Kluivert,MID,Bournemouth,4.1065855,2.0
+29,Jean-Philippe Mateta,FWD,Crystal Palace,3.1614652,0.0,Matz Sels,GK,Nott'm Forest,4.0857887,1.0
+29,Emiliano Martínez Romero,GK,Aston Villa,2.1737428,0.0,Rayan Aït-Nouri,DEF,Wolves,3.6576972,2.0
+30,Erling Haaland,FWD,Man City,5.867176,7.0,Mohamed Salah,MID,Liverpool,6.751493,3.0
+30,Cole Palmer,MID,Chelsea,3.6501381,0.0,Alexander Isak,FWD,Newcastle,5.1825757,8.0
+31,Ola Aina,DEF,Nott'm Forest,3.1827261,1.0,William Saliba,DEF,Arsenal,4.69746,2.0
+32,Bryan Mbeumo,MID,Brentford,3.6270704,3.0,Jacob Murphy,MID,Newcastle,15.2665854,38.0
+32,Rayan Aït-Nouri,DEF,Wolves,3.037781,2.0,Tino Livramento,DEF,Newcastle,14.6515212,16.0
+32,Vitalii Mykolenko,DEF,Everton,2.109314,0.0,Jean-Philippe Mateta,FWD,Crystal Palace,14.0264816,4.0
+32,Chris Wood,FWD,Nott'm Forest,0.44095945,0.0,Daniel Muñoz,DEF,Crystal Palace,12.9252196,-2.0
+32,Justin Kluivert,MID,Bournemouth,0.017347686,0.0,Eberechi Eze,MID,Crystal Palace,12.2026274,12.0
+33,Alexander Isak,FWD,Newcastle,20.586720999999997,22.0,Bukayo Saka,MID,Arsenal,20.35824,4.0
+33,Mohamed Salah,MID,Liverpool,5.8598237,6.0,David Raya Martin,GK,Arsenal,18.923709799999997,14.0
+33,Matz Sels,GK,Nott'm Forest,3.7570114,3.0,Kevin De Bruyne,MID,Man City,15.858200400000001,10.0
+33,Bruno Borges Fernandes,MID,Man Utd,3.659741,2.0,Omar Marmoush,FWD,Man City,15.5875134,8.0
+33,Ross Stewart,FWD,Southampton,0.07323305,1.0,Morgan Rogers,MID,Aston Villa,13.888883199999999,14.0
+33,Ângelo Gabriel Borges Damaceno,MID,Chelsea,0.03581568,0.0,Ollie Watkins,FWD,Aston Villa,13.558024,24.0
+34,Bukayo Saka,MID,Arsenal,20.35824,4.0,Mohamed Salah,MID,Liverpool,6.564745,8.0
+34,William Saliba,DEF,Arsenal,19.954279,14.0,Alexander Isak,FWD,Newcastle,5.6122136,6.0
+34,David Raya Martin,GK,Arsenal,18.923709799999997,14.0,Bryan Mbeumo,MID,Brentford,5.0133963,2.0
+34,Joško Gvardiol,DEF,Man City,18.376004000000002,14.0,Cole Palmer,MID,Chelsea,4.824825,3.0
+34,Kevin De Bruyne,MID,Man City,15.858200400000001,10.0,Virgil van Dijk,DEF,Liverpool,4.671798,2.0
+34,Omar Marmoush,FWD,Man City,15.5875134,8.0,Rayan Aït-Nouri,DEF,Wolves,4.633145,11.0
+34,Morgan Rogers,MID,Aston Villa,13.888883199999999,14.0,Matheus Santos Carneiro Da Cunha,FWD,Wolves,4.1731224,15.0
+34,Jean-Philippe Mateta,FWD,Crystal Palace,13.7044636,20.0,Chris Wood,FWD,Nott'm Forest,4.082509,2.0
+34,Ollie Watkins,FWD,Aston Villa,13.558024,24.0,Milos Kerkez,DEF,Bournemouth,3.909103,2.0
+34,Daniel Muñoz,DEF,Crystal Palace,12.982983399999998,12.0,Matz Sels,GK,Nott'm Forest,3.7957864,1.0
+34,Eberechi Eze,MID,Crystal Palace,11.178555,20.0,David Moyes,MID,Everton,0.39985442,0.0
+35,Milos Kerkez,DEF,Bournemouth,3.909103,2.0,Joško Gvardiol,DEF,Man City,4.277253,8.0
+36,Tino Livramento,DEF,Newcastle,2.7266533,2.0,Nikola Milenković,DEF,Nott'm Forest,3.903432,1.0
+37,Alexander Isak,FWD,Newcastle,3.7185535,2.0,Ollie Watkins,FWD,Aston Villa,5.069769,5.0
+38,Matz Sels,GK,Nott'm Forest,3.0030384,3.0,David Raya Martin,GK,Arsenal,4.3602457,2.0

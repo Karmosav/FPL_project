@@ -1,0 +1,39 @@
+gw,model_score_simple,model_score,model_xi_points,model_captain_picked,model_vice_picked,model_captain_used,model_captain_points,model_subs_applied,autosub_uplift,model_formation,model_cost_m,oracle_score,oracle_captain,regret
+1,79.0,79.0,72.0,Erling Haaland,Alexander Isak,Erling Haaland,7.0,0,0.0,1-5-3-2,100.0,131.0,Mohamed Salah,52.0
+2,82.0,82.0,65.0,Erling Haaland,Mohamed Salah,Erling Haaland,17.0,0,0.0,1-4-4-2,99.8,170.0,Noni Madueke,88.0
+3,78.0,78.0,61.0,Erling Haaland,Cole Palmer,Erling Haaland,17.0,0,0.0,1-4-5-1,99.9,142.0,Erling Haaland,64.0
+4,47.0,47.0,34.0,Erling Haaland,Mohamed Salah,Erling Haaland,13.0,0,0.0,1-3-5-2,99.2,148.0,Matthijs de Ligt,101.0
+5,71.0,71.0,62.0,Erling Haaland,Mohamed Salah,Erling Haaland,9.0,0,0.0,1-3-5-2,99.9,139.0,Luis Díaz,68.0
+6,48.0,48.0,46.0,Erling Haaland,Bukayo Saka,Erling Haaland,2.0,0,0.0,1-3-5-2,99.5,163.0,Cole Palmer,115.0
+7,47.0,47.0,45.0,Erling Haaland,Cole Palmer,Erling Haaland,2.0,0,0.0,1-3-5-2,99.9,154.0,Michail Antonio,107.0
+8,39.0,39.0,37.0,Erling Haaland,Bukayo Saka,Erling Haaland,2.0,0,0.0,1-4-4-2,99.8,132.0,Michael Keane,93.0
+9,72.0,72.0,66.0,Erling Haaland,Cole Palmer,Erling Haaland,6.0,0,0.0,1-3-5-2,99.4,127.0,Bryan Mbeumo,55.0
+10,51.0,51.0,42.0,Mohamed Salah,Cole Palmer,Mohamed Salah,9.0,0,0.0,1-4-5-1,100.0,138.0,Dominic Solanke-Mitchell,87.0
+11,81.0,81.0,67.0,Mohamed Salah,Cole Palmer,Mohamed Salah,14.0,0,0.0,1-3-4-3,99.9,140.0,Bruno Borges Fernandes,59.0
+12,69.0,69.0,56.0,Mohamed Salah,Cole Palmer,Mohamed Salah,13.0,0,0.0,1-3-4-3,99.9,158.0,James Maddison,89.0
+13,91.0,91.0,78.0,Mohamed Salah,Cole Palmer,Mohamed Salah,13.0,0,0.0,1-4-4-2,99.8,175.0,Kevin Schade,84.0
+14,66.0,66.0,48.0,Mohamed Salah,Cole Palmer,Mohamed Salah,18.0,1,0.0,1-4-4-2,100.0,170.0,Mohamed Salah,104.0
+15,49.0,49.0,47.0,Bukayo Saka,Cole Palmer,Bukayo Saka,2.0,0,0.0,1-3-4-3,99.8,137.0,Cole Palmer,88.0
+16,58.0,58.0,53.0,Mohamed Salah,Cole Palmer,Mohamed Salah,5.0,0,0.0,1-5-4-1,99.6,152.0,Ismaïla Sarr,94.0
+17,86.0,86.0,65.0,Mohamed Salah,Cole Palmer,Mohamed Salah,21.0,0,0.0,1-3-5-2,99.6,182.0,Mohamed Salah,96.0
+18,72.0,72.0,63.0,Mohamed Salah,Cole Palmer,Mohamed Salah,9.0,0,0.0,1-5-4-1,99.8,126.0,Joelinton Cássio Apolinário de Lira,54.0
+19,63.0,63.0,61.0,Cole Palmer,Mohamed Salah,Cole Palmer,2.0,0,0.0,1-3-5-2,99.9,149.0,Mohamed Salah,86.0
+20,66.0,66.0,59.0,Mohamed Salah,Cole Palmer,Mohamed Salah,7.0,0,0.0,1-5-4-1,99.9,148.0,Bryan Mbeumo,82.0
+21,81.0,81.0,71.0,Cole Palmer,Mohamed Salah,Cole Palmer,10.0,0,0.0,1-4-5-1,99.7,160.0,Amad Diallo,79.0
+22,34.0,35.0,33.0,Cole Palmer,Mohamed Salah,Cole Palmer,2.0,1,1.0,1-3-5-2,99.5,162.0,Justin Kluivert,127.0
+23,63.0,63.0,55.0,Mohamed Salah,Alexander Isak,Mohamed Salah,8.0,0,0.0,1-4-3-3,99.2,172.0,Dango Ouattara,109.0
+24,230.0,230.0,172.0,Mohamed Salah,Trent Alexander-Arnold,Mohamed Salah,58.0,0,0.0,1-4-4-2,99.1,364.0,Mohamed Salah,134.0
+25,178.0,178.0,138.0,Mohamed Salah,Ollie Watkins,Mohamed Salah,40.0,0,0.0,1-3-5-2,98.9,280.0,Mohamed Salah,102.0
+26,73.0,73.0,59.0,Mohamed Salah,Gabriel dos Santos Magalhães,Mohamed Salah,14.0,0,0.0,1-3-4-3,99.9,136.0,Oliver Glasner,63.0
+27,63.0,63.0,57.0,Mohamed Salah,Cole Palmer,Mohamed Salah,6.0,0,0.0,1-3-4-3,99.7,156.0,Oliver Glasner,93.0
+28,74.0,74.0,59.0,Mohamed Salah,Trent Alexander-Arnold,Mohamed Salah,15.0,0,0.0,1-5-3-2,99.1,133.0,Marc Cucurella Saseta,59.0
+29,60.0,60.0,53.0,Erling Haaland,Bruno Borges Fernandes,Erling Haaland,7.0,0,0.0,1-5-3-2,88.7,152.0,Bruno Borges Fernandes,92.0
+30,45.0,47.0,44.0,Mohamed Salah,Alexander Isak,Mohamed Salah,3.0,1,2.0,1-4-3-3,93.4,109.0,Kieran McKenna,62.0
+31,38.0,38.0,36.0,Mohamed Salah,Alexander Isak,Mohamed Salah,2.0,0,0.0,1-4-4-2,98.7,159.0,Marco Alexandre Saraiva da Silva,121.0
+32,127.0,127.0,105.0,Alexander Isak,Jacob Murphy,Alexander Isak,22.0,0,0.0,1-4-4-2,95.1,301.0,Harvey Barnes,174.0
+33,144.0,144.0,140.0,Bukayo Saka,William Saliba,Bukayo Saka,4.0,0,0.0,1-3-4-3,92.0,352.0,Leandro Trossard,208.0
+34,71.0,71.0,63.0,Mohamed Salah,Alexander Isak,Mohamed Salah,8.0,0,0.0,1-3-5-2,99.8,157.0,Thomas Frank,86.0
+35,63.0,63.0,58.0,Bryan Mbeumo,Mohamed Salah,Bryan Mbeumo,5.0,0,0.0,1-3-4-3,98.4,133.0,Andoni Iraola,70.0
+36,34.0,34.0,32.0,Mohamed Salah,Joško Gvardiol,Mohamed Salah,2.0,0,0.0,1-4-3-3,97.7,135.0,Eberechi Eze,101.0
+37,56.0,56.0,54.0,Mohamed Salah,Cole Palmer,Mohamed Salah,2.0,0,0.0,1-3-5-2,100.0,137.0,Fabian Hürzeler,81.0
+38,78.0,78.0,68.0,Mohamed Salah,Erling Haaland,Mohamed Salah,10.0,0,0.0,1-5-3-2,98.8,149.0,Ruben Filipe Marques Diogo Amorim,71.0
