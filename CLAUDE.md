@@ -42,3 +42,10 @@ University NN course project. Two contributors: **Karmo** (this repo's owner, Ph
 - Comments in `build_dataset.py` lean on explaining *why*, not *what*. Match that style.
 - New features get added to the pipeline in `build_dataset` (the orchestrator), not in the notebook. The notebook is a thin demo.
 - Output CSVs are checked into git for collaboration. Historical CSV is ~84MB — past GitHub's 50MB warning. If it grows past 100MB, switch to git-lfs.
+
+## Work log
+
+**2026-05-23 (Karmo)** — Phase 3 follow-up:
+- Fixed `03_phase3_decomposed_heads.ipynb`: consistent metrics (`mae_all` / `spearman_all` + played slice), fair comparison table, FPL point recombination, search by `spearman_all`; last cell now writes `mlp_decomposed_tuned` to `results/phase3_model_comparison_with_decomposed.csv`.
+- Added `04_phase3_lstm.ipynb` (5-GW LSTM + static context); outputs in `results/phase3_model_comparison_with_lstm.csv`, `phase3_lstm.pt`. LSTM ≈ basic MLP, slightly below tuned decomposed — no major gain.
+- Decomposed hyperparam search saved to `results/phase3_decomposed_search.csv`. Current best: **mlp_decomposed_tuned** (ρ_all ~0.694). Per-position models and live 2025/26 inference still TODO.
