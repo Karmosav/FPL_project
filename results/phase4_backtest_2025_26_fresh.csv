@@ -1,0 +1,39 @@
+gw,model_score_simple,model_score,model_xi_points,model_captain_picked,model_vice_picked,model_captain_used,model_captain_points,model_subs_applied,autosub_uplift,model_formation,model_cost_m
+1,51.0,51.0,43.0,Mohamed_Salah,Cole_Palmer,Mohamed_Salah,8.0,0,0.0,1-4-5-1,100.0
+2,52.0,52.0,50.0,Erling_Haaland,Mohamed_Salah,Erling_Haaland,2.0,0,0.0,1-3-5-2,99.7
+3,41.0,41.0,38.0,Mohamed_Salah,Erling_Haaland,Mohamed_Salah,3.0,0,0.0,1-4-5-1,99.1
+4,61.0,61.0,48.0,Erling_Haaland,Mohamed_Salah,Erling_Haaland,13.0,0,0.0,1-3-5-2,99.9
+5,48.0,48.0,43.0,Mohamed_Salah,Erling_Haaland,Mohamed_Salah,5.0,0,0.0,1-3-5-2,100.0
+6,57.0,57.0,41.0,Erling_Haaland,Mohamed_Salah,Erling_Haaland,16.0,0,0.0,1-4-5-1,99.9
+7,89.0,89.0,81.0,Erling_Haaland,Bruno_Borges Fernandes,Erling_Haaland,8.0,0,0.0,1-3-5-2,99.7
+8,97.0,97.0,84.0,Erling_Haaland,Bukayo_Saka,Erling_Haaland,13.0,0,0.0,1-3-5-2,99.2
+9,51.0,51.0,49.0,Erling_Haaland,Antoine_Semenyo,Erling_Haaland,2.0,0,0.0,1-3-5-2,99.8
+10,79.0,79.0,66.0,Erling_Haaland,Jean-Philippe_Mateta,Erling_Haaland,13.0,0,0.0,1-3-5-2,98.9
+11,45.0,45.0,41.0,Erling_Haaland,Jean-Philippe_Mateta,Erling_Haaland,4.0,0,0.0,1-3-5-2,99.8
+12,37.0,37.0,35.0,Erling_Haaland,Bukayo_Saka,Erling_Haaland,2.0,0,0.0,1-3-5-2,100.0
+13,54.0,54.0,52.0,Erling_Haaland,Mohamed_Salah,Erling_Haaland,2.0,0,0.0,1-3-4-3,99.9
+14,56.0,56.0,42.0,Erling_Haaland,Bryan_Mbeumo,Erling_Haaland,14.0,0,0.0,1-3-5-2,99.8
+15,56.0,56.0,54.0,Erling_Haaland,Bruno_Borges Fernandes,Erling_Haaland,2.0,1,0.0,1-3-5-2,99.4
+16,71.0,71.0,58.0,Erling_Haaland,Igor Thiago_Nascimento Rodrigues,Erling_Haaland,13.0,0,0.0,1-3-4-3,99.8
+17,71.0,71.0,55.0,Erling_Haaland,Bukayo_Saka,Erling_Haaland,16.0,0,0.0,1-3-4-3,99.4
+18,33.0,33.0,31.0,Erling_Haaland,Bukayo_Saka,Erling_Haaland,2.0,0,0.0,1-3-5-2,99.2
+19,49.0,49.0,47.0,Erling_Haaland,Bukayo_Saka,Erling_Haaland,2.0,0,0.0,1-3-4-3,100.0
+20,62.0,62.0,60.0,Erling_Haaland,Gabriel_dos Santos Magalhães,Erling_Haaland,2.0,0,0.0,1-3-4-3,100.0
+21,56.0,56.0,50.0,Erling_Haaland,Phil_Foden,Erling_Haaland,6.0,0,0.0,1-3-5-2,100.0
+22,63.0,63.0,61.0,Erling_Haaland,Florian_Wirtz,Erling_Haaland,2.0,0,0.0,1-3-4-3,100.0
+23,22.0,22.0,21.0,Erling_Haaland,Igor Thiago_Nascimento Rodrigues,Erling_Haaland,1.0,0,0.0,1-3-5-2,99.7
+24,68.0,68.0,63.0,Erling_Haaland,Bryan_Mbeumo,Erling_Haaland,5.0,0,0.0,1-3-5-2,99.8
+25,70.0,70.0,59.0,Erling_Haaland,Antoine_Semenyo,Erling_Haaland,11.0,0,0.0,1-3-5-2,99.4
+26,118.0,118.0,104.0,Gabriel_dos Santos Magalhães,Viktor_Gyökeres,Gabriel_dos Santos Magalhães,14.0,0,0.0,1-3-4-3,99.0
+27,31.0,31.0,28.0,Cole_Palmer,Erling_Haaland,Cole_Palmer,3.0,0,0.0,1-3-5-2,100.0
+28,61.0,74.0,61.0,Erling_Haaland,Bruno_Borges Fernandes,Bruno_Borges Fernandes,13.0,0,13.0,1-3-4-3,99.8
+29,91.0,91.0,84.0,Antoine_Semenyo,Bruno_Borges Fernandes,Antoine_Semenyo,7.0,0,0.0,1-3-5-2,98.6
+30,56.0,56.0,46.0,Bruno_Borges Fernandes,Antoine_Semenyo,Bruno_Borges Fernandes,10.0,0,0.0,1-3-5-2,99.9
+31,61.0,61.0,59.0,João Pedro_Junqueira de Jesus,Cole_Palmer,João Pedro_Junqueira de Jesus,2.0,0,0.0,1-3-5-2,97.5
+32,42.0,42.0,38.0,Bruno_Borges Fernandes,Erling_Haaland,Bruno_Borges Fernandes,4.0,0,0.0,1-3-5-2,100.0
+33,190.0,195.0,169.0,Erling_Haaland,Antoine_Semenyo,Erling_Haaland,26.0,1,5.0,1-3-4-3,97.7
+34,60.0,60.0,55.0,Bruno_Borges Fernandes,Mohamed_Salah,Bruno_Borges Fernandes,5.0,0,0.0,1-3-5-2,100.0
+35,56.0,56.0,49.0,Erling_Haaland,Bruno_Borges Fernandes,Erling_Haaland,7.0,0,0.0,1-3-4-3,99.8
+36,136.0,136.0,114.0,Erling_Haaland,Antoine_Semenyo,Erling_Haaland,22.0,0,0.0,1-3-5-2,98.2
+37,72.0,72.0,66.0,Gabriel_dos Santos Magalhães,Erling_Haaland,Gabriel_dos Santos Magalhães,6.0,0,0.0,1-3-4-3,99.6
+38,35.0,35.0,29.0,Mohamed_Salah,Erling_Haaland,Mohamed_Salah,6.0,0,0.0,1-3-5-2,100.0

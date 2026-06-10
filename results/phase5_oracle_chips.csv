@@ -1,0 +1,39 @@
+gw,gw_score_gross,chip,tc_uplift,bb_uplift,hit_cost,gw_score_net,transfers_in,free_available,paid_transfers,banked_before,banked_after,captain_picked,captain_used,subs_applied,formation,cost_m
+1,51.0,,0.0,0.0,0,51.0,0,1,0,0,0,Mohamed_Salah,Mohamed_Salah,0,1-4-5-1,100.0
+2,48.0,,0.0,0.0,8,40.0,3,1,2,0,0,Mohamed_Salah,Mohamed_Salah,1,1-4-5-1,98.1
+3,62.0,,0.0,0.0,4,58.0,2,1,1,0,0,Mohamed_Salah,Mohamed_Salah,0,1-4-5-1,99.7
+4,93.0,,0.0,0.0,0,93.0,1,1,0,0,0,Erling_Haaland,Erling_Haaland,0,1-4-5-1,99.5
+5,58.0,,0.0,0.0,0,58.0,1,1,0,0,0,Mohamed_Salah,Mohamed_Salah,0,1-4-5-1,99.6
+6,74.0,TC,16.0,0.0,0,90.0,0,1,0,0,1,Erling_Haaland,Erling_Haaland,0,1-4-5-1,99.8
+7,74.0,,0.0,0.0,0,74.0,2,2,0,1,0,Erling_Haaland,Erling_Haaland,0,1-3-5-2,98.6
+8,82.0,,0.0,0.0,0,82.0,1,1,0,0,0,Erling_Haaland,Erling_Haaland,1,1-3-5-2,99.2
+9,44.0,BB,0.0,25.0,0,69.0,1,1,0,0,0,Erling_Haaland,Erling_Haaland,0,1-3-5-2,99.2
+10,76.0,,0.0,0.0,0,76.0,0,1,0,0,1,Erling_Haaland,Erling_Haaland,0,1-3-5-2,99.7
+11,42.0,,0.0,0.0,0,42.0,1,2,0,1,1,Erling_Haaland,Erling_Haaland,1,1-3-5-2,99.3
+12,35.0,,0.0,0.0,0,35.0,1,2,0,1,1,Erling_Haaland,Erling_Haaland,1,1-3-5-2,99.4
+13,53.0,,0.0,0.0,0,53.0,2,2,0,1,0,Erling_Haaland,Erling_Haaland,0,1-4-4-2,99.7
+14,56.0,WC,0.0,0.0,0,56.0,5,5,0,0,0,Erling_Haaland,Erling_Haaland,0,1-3-5-2,99.9
+15,62.0,,0.0,0.0,0,62.0,0,1,0,0,1,Erling_Haaland,Erling_Haaland,0,1-3-5-2,100.0
+16,93.0,,0.0,0.0,0,93.0,2,2,0,1,0,Erling_Haaland,Erling_Haaland,0,1-3-5-2,98.3
+17,75.0,,0.0,0.0,0,75.0,0,1,0,0,1,Erling_Haaland,Erling_Haaland,0,1-3-5-2,98.8
+18,32.0,,0.0,0.0,0,32.0,2,2,0,1,0,Erling_Haaland,Erling_Haaland,0,1-3-5-2,99.1
+19,53.0,,0.0,0.0,0,53.0,1,1,0,0,0,Erling_Haaland,Erling_Haaland,0,1-3-5-2,99.2
+20,48.0,,0.0,0.0,0,48.0,1,1,0,0,0,Erling_Haaland,Erling_Haaland,0,1-3-5-2,99.5
+21,65.0,,0.0,0.0,0,65.0,1,1,0,0,0,Erling_Haaland,Erling_Haaland,0,1-3-5-2,97.3
+22,59.0,,0.0,0.0,0,59.0,1,1,0,0,0,Erling_Haaland,Erling_Haaland,0,1-3-5-2,97.8
+23,49.0,,0.0,0.0,0,49.0,1,1,0,0,0,Erling_Haaland,Erling_Haaland,0,1-3-5-2,99.2
+24,66.0,,0.0,0.0,0,66.0,0,1,0,0,1,Erling_Haaland,Erling_Haaland,0,1-3-5-2,99.8
+25,67.0,,0.0,0.0,0,67.0,0,2,0,1,2,Erling_Haaland,Erling_Haaland,0,1-3-5-2,99.9
+26,99.0,,0.0,0.0,4,95.0,4,3,1,2,0,Gabriel_dos Santos Magalhães,Gabriel_dos Santos Magalhães,0,1-3-5-2,92.7
+27,33.0,,0.0,0.0,0,33.0,1,1,0,0,0,Cole_Palmer,Cole_Palmer,0,1-3-5-2,97.5
+28,70.0,,0.0,0.0,8,62.0,3,1,2,0,0,Bruno_Borges Fernandes,Bruno_Borges Fernandes,0,1-3-4-3,99.0
+29,87.0,,0.0,0.0,0,87.0,0,1,0,0,1,Antoine_Semenyo,Antoine_Semenyo,0,1-3-5-2,99.2
+30,64.0,,0.0,0.0,0,64.0,0,2,0,1,2,Bruno_Borges Fernandes,Bruno_Borges Fernandes,0,1-3-5-2,99.6
+31,46.0,,0.0,0.0,8,38.0,5,3,2,2,0,João Pedro_Junqueira de Jesus,João Pedro_Junqueira de Jesus,0,1-3-4-3,96.7
+32,71.0,,0.0,0.0,4,67.0,2,1,1,0,0,Bruno_Borges Fernandes,Bruno_Borges Fernandes,0,1-3-4-3,97.7
+33,196.0,TC,26.0,0.0,4,218.0,2,1,1,0,0,Erling_Haaland,Erling_Haaland,1,1-3-4-3,99.9
+34,60.0,,0.0,0.0,40,20.0,11,1,10,0,0,Bruno_Borges Fernandes,Bruno_Borges Fernandes,0,1-4-4-2,93.7
+35,53.0,,0.0,0.0,4,49.0,2,1,1,0,0,Erling_Haaland,Erling_Haaland,0,1-3-5-2,99.1
+36,138.0,WC,0.0,0.0,0,138.0,5,5,0,0,0,Erling_Haaland,Erling_Haaland,0,1-3-5-2,99.4
+37,57.0,BB,0.0,8.0,0,65.0,1,1,0,0,0,Gabriel_dos Santos Magalhães,Gabriel_dos Santos Magalhães,0,1-3-4-3,97.8
+38,40.0,,0.0,0.0,0,40.0,1,1,0,0,0,Erling_Haaland,Gabriel_dos Santos Magalhães,2,1-3-4-3,98.9

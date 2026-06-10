@@ -1,0 +1,571 @@
+gw,element,name,position,team_name,pred_points,actual_points,minutes,in_xi,is_captain,is_vice
+1,502,Matz_Sels,GK,Nott'm Forest,3.5479014,2.0,90.0,1,0,0
+1,370,Jeremie_Frimpong,DEF,Liverpool,4.584782,1.0,59.0,1,0,0
+1,38,Ezri_Konsa Ngoyo,DEF,Aston Villa,3.6802456,3.0,65.0,1,0,0
+1,507,Ola_Aina,DEF,Nott'm Forest,3.634004,4.0,90.0,1,0,0
+1,575,Micky_van de Ven,DEF,Spurs,3.610015,6.0,90.0,1,0,0
+1,381,Mohamed_Salah,MID,Liverpool,7.9683795,8.0,90.0,1,1,0
+1,235,Cole_Palmer,MID,Chelsea,6.8881917,3.0,90.0,1,0,1
+1,382,Florian_Wirtz,MID,Liverpool,5.7274456,2.0,81.0,1,0,0
+1,449,Bruno_Borges Fernandes,MID,Man Utd,5.431857,2.0,90.0,1,0,0
+1,582,Mohammed_Kudus,MID,Spurs,4.3184447,10.0,84.0,1,0,0
+1,64,Ollie_Watkins,FWD,Aston Villa,5.202587,2.0,90.0,1,0,0
+1,602,Krisztián_Hegyi,GK,West Ham,0.2502951,0.0,0.0,0,0,0
+1,78,Julián_Araujo Zúñiga,DEF,Bournemouth,0.52579004,0.0,0.0,0,0,0
+1,252,Marc_Guiu Paz,FWD,Chelsea,2.5402417,0.0,0.0,0,0,0
+1,286,Zach_Marsh,FWD,Crystal Palace,0.2349851,0.0,0.0,0,0,0
+2,502,Matz_Sels,GK,Nott'm Forest,3.2291665,2.0,90.0,1,0,0
+2,7,Riccardo_Calafiori,DEF,Arsenal,4.5866604,13.0,63.0,1,0,0
+2,260,Marc_Guéhi,DEF,Man City,4.425725,2.0,90.0,1,0,0
+2,507,Ola_Aina,DEF,Nott'm Forest,3.1085367,1.0,90.0,1,0,0
+2,575,Micky_van de Ven,DEF,Spurs,2.5020723,6.0,90.0,1,0,0
+2,381,Mohamed_Salah,MID,Liverpool,6.018993,5.0,90.0,1,1,0
+2,235,Cole_Palmer,MID,Chelsea,5.692588,0.0,0.0,1,0,1
+2,82,Antoine_Semenyo,MID,Man City,5.370235,6.0,90.0,1,0,0
+2,449,Bruno_Borges Fernandes,MID,Man Utd,4.325466,2.0,90.0,1,0,0
+2,582,Mohammed_Kudus,MID,Spurs,3.0812542,3.0,85.0,1,0,0
+2,64,Ollie_Watkins,FWD,Aston Villa,4.294378,2.0,90.0,1,0,0
+2,602,Krisztián_Hegyi,GK,West Ham,0.06914444,0.0,0.0,0,0,0
+2,78,Julián_Araujo Zúñiga,DEF,Bournemouth,0.21509165,0.0,0.0,0,0,0
+2,252,Marc_Guiu Paz,FWD,Chelsea,0.17085294,1.0,10.0,0,0,0
+2,286,Zach_Marsh,FWD,Crystal Palace,0.034935728,0.0,0.0,0,0,0
+3,502,Matz_Sels,GK,Nott'm Forest,3.7104008,2.0,90.0,1,0,0
+3,507,Ola_Aina,DEF,Nott'm Forest,3.8290887,1.0,90.0,1,0,0
+3,7,Riccardo_Calafiori,DEF,Arsenal,3.827215,2.0,90.0,1,0,0
+3,260,Marc_Guéhi,DEF,Man City,3.535998,15.0,90.0,1,0,0
+3,575,Micky_van de Ven,DEF,Spurs,3.3275807,1.0,90.0,1,0,0
+3,381,Mohamed_Salah,MID,Liverpool,6.0532384,3.0,90.0,1,1,0
+3,449,Bruno_Borges Fernandes,MID,Man Utd,4.9386063,10.0,90.0,1,0,0
+3,237,Enzo_Fernández,MID,Chelsea,4.8751526,12.0,90.0,1,0,0
+3,82,Antoine_Semenyo,MID,Man City,3.772482,2.0,90.0,1,0,0
+3,582,Mohammed_Kudus,MID,Spurs,3.5496018,2.0,90.0,1,0,0
+3,430,Erling_Haaland,FWD,Man City,5.919327,9.0,90.0,1,0,1
+3,602,Krisztián_Hegyi,GK,West Ham,0.08866111,0.0,0.0,0,0,0
+3,78,Julián_Araujo Zúñiga,DEF,Bournemouth,0.07847758,0.0,0.0,0,0,0
+3,252,Marc_Guiu Paz,FWD,Chelsea,0.20655122,1.0,3.0,0,0,0
+3,286,Zach_Marsh,FWD,Crystal Palace,0.029585997,0.0,0.0,0,0,0
+4,502,Matz_Sels,GK,Nott'm Forest,1.1959918,1.0,90.0,1,0,0
+4,7,Riccardo_Calafiori,DEF,Arsenal,4.1303387,5.0,67.0,1,0,0
+4,317,Joachim_Andersen,DEF,Fulham,3.5024986,10.0,90.0,1,0,0
+4,260,Marc_Guéhi,DEF,Man City,3.1485524,6.0,90.0,1,0,0
+4,575,Micky_van de Ven,DEF,Spurs,2.771969,14.0,79.0,1,0,0
+4,381,Mohamed_Salah,MID,Liverpool,6.045573,9.0,90.0,1,0,1
+4,449,Bruno_Borges Fernandes,MID,Man Utd,4.5252867,2.0,90.0,1,0,0
+4,82,Antoine_Semenyo,MID,Man City,4.4601016,13.0,90.0,1,0,0
+4,237,Enzo_Fernández,MID,Chelsea,4.0179462,4.0,90.0,1,0,0
+4,582,Mohammed_Kudus,MID,Spurs,2.9424698,3.0,90.0,1,0,0
+4,430,Erling_Haaland,FWD,Man City,6.1572337,13.0,86.0,1,1,0
+4,602,Krisztián_Hegyi,GK,West Ham,0.051035155,0.0,0.0,0,0,0
+4,78,Julián_Araujo Zúñiga,DEF,Bournemouth,0.09272758,0.0,0.0,0,0,0
+4,252,Marc_Guiu Paz,FWD,Chelsea,0.16844702,0.0,0.0,0,0,0
+4,286,Zach_Marsh,FWD,Crystal Palace,0.036634844,0.0,0.0,0,0,0
+5,670,Robin_Roefs,GK,Sunderland,3.5459895,2.0,90.0,1,0,0
+5,260,Marc_Guéhi,DEF,Man City,3.559562,7.0,90.0,1,0,0
+5,575,Micky_van de Ven,DEF,Spurs,3.558836,1.0,90.0,1,0,0
+5,317,Joachim_Andersen,DEF,Fulham,3.4655888,4.0,90.0,1,0,0
+5,7,Riccardo_Calafiori,DEF,Arsenal,2.984225,2.0,90.0,1,0,0
+5,381,Mohamed_Salah,MID,Liverpool,6.737666,5.0,90.0,1,1,0
+5,82,Antoine_Semenyo,MID,Man City,4.8136578,5.0,90.0,1,0,0
+5,449,Bruno_Borges Fernandes,MID,Man Utd,4.5695353,10.0,86.0,1,0,0
+5,237,Enzo_Fernández,MID,Chelsea,4.3650656,1.0,90.0,1,0,0
+5,582,Mohammed_Kudus,MID,Spurs,3.2721868,7.0,90.0,1,0,0
+5,430,Erling_Haaland,FWD,Man City,6.184169,9.0,75.0,1,0,1
+5,602,Krisztián_Hegyi,GK,West Ham,0.052547127,0.0,0.0,0,0,0
+5,78,Julián_Araujo Zúñiga,DEF,Bournemouth,0.07415086,0.0,0.0,0,0,0
+5,252,Marc_Guiu Paz,FWD,Chelsea,0.37264797,0.0,0.0,0,0,0
+5,286,Zach_Marsh,FWD,Crystal Palace,0.05069694,0.0,0.0,0,0,0
+6,670,Robin_Roefs,GK,Sunderland,3.488198,10.0,90.0,1,0,0
+6,7,Riccardo_Calafiori,DEF,Arsenal,3.443389,1.0,69.0,1,0,0
+6,575,Micky_van de Ven,DEF,Spurs,3.3703957,2.0,90.0,1,0,0
+6,260,Marc_Guéhi,DEF,Man City,2.7369547,7.0,90.0,1,0,0
+6,317,Joachim_Andersen,DEF,Fulham,2.6888294,3.0,90.0,1,0,0
+6,381,Mohamed_Salah,MID,Liverpool,5.5824666,2.0,90.0,1,0,1
+6,82,Antoine_Semenyo,MID,Man City,4.535515,7.0,90.0,1,0,0
+6,237,Enzo_Fernández,MID,Chelsea,4.494032,9.0,90.0,1,0,0
+6,449,Bruno_Borges Fernandes,MID,Man Utd,4.4655304,-1.0,90.0,1,0,0
+6,582,Mohammed_Kudus,MID,Spurs,3.2689548,2.0,90.0,1,0,0
+6,430,Erling_Haaland,FWD,Man City,6.219586,16.0,90.0,1,1,0
+6,602,Krisztián_Hegyi,GK,West Ham,0.054476824,0.0,0.0,0,0,0
+6,78,Julián_Araujo Zúñiga,DEF,Bournemouth,0.068452284,0.0,0.0,0,0,0
+6,252,Marc_Guiu Paz,FWD,Chelsea,0.45874277,0.0,0.0,0,0,0
+6,286,Zach_Marsh,FWD,Crystal Palace,0.04017664,0.0,0.0,0,0,0
+7,670,Robin_Roefs,GK,Sunderland,3.4045038,2.0,90.0,1,0,0
+7,7,Riccardo_Calafiori,DEF,Arsenal,4.1512094,6.0,74.0,1,0,0
+7,260,Marc_Guéhi,DEF,Man City,3.1722598,3.0,90.0,1,0,0
+7,575,Micky_van de Ven,DEF,Spurs,2.8677597,2.0,90.0,1,0,0
+7,449,Bruno_Borges Fernandes,MID,Man Utd,5.472763,3.0,90.0,1,0,1
+7,82,Antoine_Semenyo,MID,Man City,5.254099,18.0,90.0,1,0,0
+7,237,Enzo_Fernández,MID,Chelsea,5.1674533,2.0,90.0,1,0,0
+7,16,Bukayo_Saka,MID,Arsenal,5.1209574,8.0,90.0,1,0,0
+7,582,Mohammed_Kudus,MID,Spurs,3.4147873,12.0,89.0,1,0,0
+7,430,Erling_Haaland,FWD,Man City,6.112057,8.0,90.0,1,1,0
+7,283,Jean-Philippe_Mateta,FWD,Crystal Palace,4.2343493,2.0,69.0,1,0,0
+7,602,Krisztián_Hegyi,GK,West Ham,0.05409228,0.0,0.0,0,0,0
+7,317,Joachim_Andersen,DEF,Fulham,2.1520667,3.0,90.0,0,0,0
+7,78,Julián_Araujo Zúñiga,DEF,Bournemouth,0.07298657,0.0,0.0,0,0,0
+7,252,Marc_Guiu Paz,FWD,Chelsea,0.22185348,1.0,16.0,0,0,0
+8,670,Robin_Roefs,GK,Sunderland,3.6122358,7.0,90.0,1,0,0
+8,260,Marc_Guéhi,DEF,Man City,3.7884138,4.0,90.0,1,0,0
+8,7,Riccardo_Calafiori,DEF,Arsenal,3.5105534,6.0,90.0,1,0,0
+8,575,Micky_van de Ven,DEF,Spurs,2.7810571,0.0,90.0,1,0,0
+8,16,Bukayo_Saka,MID,Arsenal,4.770815,7.0,90.0,1,0,1
+8,82,Antoine_Semenyo,MID,Man City,4.7686076,4.0,90.0,1,0,0
+8,237,Enzo_Fernández,MID,Chelsea,3.8867092,0.0,0.0,1,0,0
+8,582,Mohammed_Kudus,MID,Spurs,3.7952604,2.0,90.0,1,0,0
+8,449,Bruno_Borges Fernandes,MID,Man Utd,3.7156072,8.0,84.0,1,0,0
+8,430,Erling_Haaland,FWD,Man City,6.6804914,13.0,90.0,1,1,0
+8,283,Jean-Philippe_Mateta,FWD,Crystal Palace,4.6574845,17.0,90.0,1,0,0
+8,602,Krisztián_Hegyi,GK,West Ham,0.044115428,0.0,0.0,0,0,0
+8,74,Adrien_Truffert,DEF,Bournemouth,2.0121665,1.0,90.0,0,0,0
+8,78,Julián_Araujo Zúñiga,DEF,Bournemouth,0.059181787,0.0,0.0,0,0,0
+8,252,Marc_Guiu Paz,FWD,Chelsea,0.42795905,1.0,45.0,0,0,0
+9,670,Robin_Roefs,GK,Sunderland,3.4031727,4.0,90.0,1,0,0
+9,7,Riccardo_Calafiori,DEF,Arsenal,3.8786948,6.0,81.0,1,0,0
+9,260,Marc_Guéhi,DEF,Man City,3.5922158,4.0,90.0,1,0,0
+9,74,Adrien_Truffert,DEF,Bournemouth,3.5407233,10.0,90.0,1,0,0
+9,82,Antoine_Semenyo,MID,Man City,6.2163596,3.0,90.0,1,0,1
+9,449,Bruno_Borges Fernandes,MID,Man Utd,5.615661,4.0,90.0,1,0,0
+9,16,Bukayo_Saka,MID,Arsenal,5.090649,3.0,65.0,1,0,0
+9,299,Iliman_Ndiaye,MID,Everton,4.794902,2.0,90.0,1,0,0
+9,237,Enzo_Fernández,MID,Chelsea,3.5843136,2.0,90.0,1,0,0
+9,430,Erling_Haaland,FWD,Man City,6.651922,2.0,90.0,1,1,0
+9,283,Jean-Philippe_Mateta,FWD,Crystal Palace,5.299972,2.0,90.0,1,0,0
+9,602,Krisztián_Hegyi,GK,West Ham,0.06125852,0.0,0.0,0,0,0
+9,575,Micky_van de Ven,DEF,Spurs,2.44176,23.0,90.0,0,0,0
+9,78,Julián_Araujo Zúñiga,DEF,Bournemouth,0.0931388,0.0,0.0,0,0,0
+9,252,Marc_Guiu Paz,FWD,Chelsea,0.9987498,2.0,75.0,0,0,0
+10,670,Robin_Roefs,GK,Sunderland,3.7297862,2.0,90.0,1,0,0
+10,260,Marc_Guéhi,DEF,Man City,4.368046,10.0,90.0,1,0,0
+10,575,Micky_van de Ven,DEF,Spurs,3.5053406,2.0,90.0,1,0,0
+10,7,Riccardo_Calafiori,DEF,Arsenal,3.3166335,6.0,71.0,1,0,0
+10,449,Bruno_Borges Fernandes,MID,Man Utd,5.0553017,5.0,90.0,1,0,0
+10,16,Bukayo_Saka,MID,Arsenal,4.7947693,3.0,90.0,1,0,0
+10,82,Antoine_Semenyo,MID,Man City,4.2469544,2.0,90.0,1,0,0
+10,299,Iliman_Ndiaye,MID,Everton,4.100081,9.0,61.0,1,0,0
+10,237,Enzo_Fernández,MID,Chelsea,4.0591083,2.0,90.0,1,0,0
+10,430,Erling_Haaland,FWD,Man City,6.9411187,13.0,81.0,1,1,0
+10,283,Jean-Philippe_Mateta,FWD,Crystal Palace,5.467116,9.0,89.0,1,0,1
+10,602,Krisztián_Hegyi,GK,West Ham,0.044680376,0.0,0.0,0,0,0
+10,74,Adrien_Truffert,DEF,Bournemouth,1.6972146,2.0,90.0,0,0,0
+10,78,Julián_Araujo Zúñiga,DEF,Bournemouth,0.052657958,0.0,0.0,0,0,0
+10,252,Marc_Guiu Paz,FWD,Chelsea,1.5811874,0.0,0.0,0,0,0
+11,670,Robin_Roefs,GK,Sunderland,3.1875727,2.0,90.0,1,0,0
+11,226,Trevoh_Chalobah,DEF,Chelsea,4.041225,6.0,90.0,1,0,0
+11,260,Marc_Guéhi,DEF,Man City,3.886564,0.0,0.0,1,0,0
+11,575,Micky_van de Ven,DEF,Spurs,3.53778,1.0,90.0,1,0,0
+11,82,Antoine_Semenyo,MID,Man City,5.3375745,0.0,90.0,1,0,0
+11,237,Enzo_Fernández,MID,Chelsea,5.0476594,3.0,82.0,1,0,0
+11,449,Bruno_Borges Fernandes,MID,Man Utd,4.824026,5.0,90.0,1,0,0
+11,16,Bukayo_Saka,MID,Arsenal,4.822738,12.0,90.0,1,0,0
+11,299,Iliman_Ndiaye,MID,Everton,4.5089855,3.0,90.0,1,0,0
+11,430,Erling_Haaland,FWD,Man City,6.96069,4.0,90.0,1,1,0
+11,283,Jean-Philippe_Mateta,FWD,Crystal Palace,5.429235,2.0,90.0,1,0,1
+11,602,Krisztián_Hegyi,GK,West Ham,0.040657822,0.0,0.0,0,0,0
+11,74,Adrien_Truffert,DEF,Bournemouth,2.4287088,0.0,62.0,0,0,0
+11,78,Julián_Araujo Zúñiga,DEF,Bournemouth,0.06540834,0.0,0.0,0,0,0
+11,252,Marc_Guiu Paz,FWD,Chelsea,2.0180852,1.0,13.0,0,0,0
+12,670,Robin_Roefs,GK,Sunderland,3.6583533,3.0,90.0,1,0,0
+12,226,Trevoh_Chalobah,DEF,Chelsea,3.8475544,6.0,90.0,1,0,0
+12,74,Adrien_Truffert,DEF,Bournemouth,3.6116295,0.0,90.0,1,0,0
+12,411,Nico_O'Reilly,DEF,Man City,3.2290828,1.0,90.0,1,0,0
+12,16,Bukayo_Saka,MID,Arsenal,5.743078,4.0,90.0,1,0,1
+12,449,Bruno_Borges Fernandes,MID,Man Utd,5.3701277,2.0,90.0,1,0,0
+12,82,Antoine_Semenyo,MID,Man City,4.93285,0.0,0.0,1,0,0
+12,299,Iliman_Ndiaye,MID,Everton,3.7673428,3.0,80.0,1,0,0
+12,237,Enzo_Fernández,MID,Chelsea,3.3796408,11.0,90.0,1,0,0
+12,430,Erling_Haaland,FWD,Man City,6.815816,2.0,90.0,1,1,0
+12,283,Jean-Philippe_Mateta,FWD,Crystal Palace,5.2736025,1.0,59.0,1,0,0
+12,602,Krisztián_Hegyi,GK,West Ham,0.04416878,0.0,0.0,0,0,0
+12,575,Micky_van de Ven,DEF,Spurs,2.3445063,0.0,90.0,0,0,0
+12,78,Julián_Araujo Zúñiga,DEF,Bournemouth,0.075823784,0.0,0.0,0,0,0
+12,252,Marc_Guiu Paz,FWD,Chelsea,1.8260641,4.0,14.0,0,0,0
+13,670,Robin_Roefs,GK,Sunderland,3.975913,1.0,90.0,1,0,0
+13,411,Nico_O'Reilly,DEF,Man City,3.993328,4.0,90.0,1,0,0
+13,8,Jurriën_Timber,DEF,Arsenal,3.5789616,2.0,90.0,1,0,0
+13,575,Micky_van de Ven,DEF,Spurs,3.4913917,0.0,90.0,1,0,0
+13,226,Trevoh_Chalobah,DEF,Chelsea,3.1968088,9.0,90.0,1,0,0
+13,237,Enzo_Fernández,MID,Chelsea,4.7090282,2.0,90.0,1,0,0
+13,449,Bruno_Borges Fernandes,MID,Man Utd,4.5615606,11.0,90.0,1,0,0
+13,299,Iliman_Ndiaye,MID,Everton,4.387334,2.0,79.0,1,0,0
+13,16,Bukayo_Saka,MID,Arsenal,4.326203,5.0,90.0,1,0,0
+13,430,Erling_Haaland,FWD,Man City,7.113858,2.0,90.0,1,1,0
+13,136,Igor Thiago_Nascimento Rodrigues,FWD,Brentford,4.970842,13.0,90.0,1,0,1
+13,602,Krisztián_Hegyi,GK,West Ham,0.040923454,0.0,0.0,0,0,0
+13,78,Julián_Araujo Zúñiga,DEF,Bournemouth,0.077850245,0.0,0.0,0,0,0
+13,82,Antoine_Semenyo,MID,Man City,2.2764504,1.0,90.0,0,0,0
+13,252,Marc_Guiu Paz,FWD,Chelsea,0.9144466,0.0,0.0,0,0,0
+14,670,Robin_Roefs,GK,Sunderland,3.2798421,3.0,90.0,1,0,0
+14,8,Jurriën_Timber,DEF,Arsenal,4.991268,1.0,46.0,1,0,0
+14,226,Trevoh_Chalobah,DEF,Chelsea,3.6764588,1.0,90.0,1,0,0
+14,411,Nico_O'Reilly,DEF,Man City,3.142845,0.0,90.0,1,0,0
+14,16,Bukayo_Saka,MID,Arsenal,5.671129,6.0,29.0,1,0,1
+14,449,Bruno_Borges Fernandes,MID,Man Utd,5.4145255,4.0,90.0,1,0,0
+14,82,Antoine_Semenyo,MID,Man City,5.2376866,4.0,90.0,1,0,0
+14,237,Enzo_Fernández,MID,Chelsea,4.8682523,2.0,90.0,1,0,0
+14,487,Harvey_Barnes,MID,Newcastle,4.3580027,3.0,65.0,1,0,0
+14,430,Erling_Haaland,FWD,Man City,6.816228,14.0,90.0,1,1,0
+14,136,Igor Thiago_Nascimento Rodrigues,FWD,Brentford,4.7919693,1.0,30.0,1,0,0
+14,602,Krisztián_Hegyi,GK,West Ham,0.044149257,0.0,0.0,0,0,0
+14,575,Micky_van de Ven,DEF,Spurs,2.676769,0.0,0.0,0,0,0
+14,78,Julián_Araujo Zúñiga,DEF,Bournemouth,0.0790411,0.0,0.0,0,0,0
+14,252,Marc_Guiu Paz,FWD,Chelsea,1.403684,1.0,13.0,0,0,0
+15,101,Caoimhín_Kelleher,GK,Brentford,3.507762,2.0,90.0,1,0,0
+15,411,Nico_O'Reilly,DEF,Man City,4.528037,6.0,90.0,1,0,0
+15,8,Jurriën_Timber,DEF,Arsenal,3.963512,3.0,90.0,1,0,0
+15,226,Trevoh_Chalobah,DEF,Chelsea,3.5968564,11.0,90.0,1,0,0
+15,449,Bruno_Borges Fernandes,MID,Man Utd,5.256704,18.0,90.0,1,0,1
+15,16,Bukayo_Saka,MID,Arsenal,5.1664248,4.0,78.0,1,0,0
+15,487,Harvey_Barnes,MID,Newcastle,4.6685867,0.0,0.0,1,0,0
+15,237,Enzo_Fernández,MID,Chelsea,4.647192,3.0,90.0,1,0,0
+15,82,Antoine_Semenyo,MID,Man City,4.204779,3.0,90.0,1,0,0
+15,430,Erling_Haaland,FWD,Man City,6.917427,2.0,68.0,1,1,0
+15,136,Igor Thiago_Nascimento Rodrigues,FWD,Brentford,4.6561737,2.0,90.0,1,0,0
+15,602,Krisztián_Hegyi,GK,West Ham,0.04455433,0.0,0.0,0,0,0
+15,575,Micky_van de Ven,DEF,Spurs,2.641715,6.0,90.0,0,0,0
+15,78,Julián_Araujo Zúñiga,DEF,Bournemouth,0.081272185,0.0,0.0,0,0,0
+15,252,Marc_Guiu Paz,FWD,Chelsea,1.4587386,0.0,58.0,0,0,0
+16,101,Caoimhín_Kelleher,GK,Brentford,3.6873784,3.0,90.0,1,0,0
+16,8,Jurriën_Timber,DEF,Arsenal,4.133021,2.0,90.0,1,0,0
+16,226,Trevoh_Chalobah,DEF,Chelsea,3.2542648,9.0,90.0,1,0,0
+16,411,Nico_O'Reilly,DEF,Man City,2.9271042,6.0,90.0,1,0,0
+16,16,Bukayo_Saka,MID,Arsenal,5.0668864,11.0,90.0,1,0,0
+16,449,Bruno_Borges Fernandes,MID,Man Utd,4.921339,13.0,90.0,1,0,0
+16,237,Enzo_Fernández,MID,Chelsea,3.9066782,3.0,90.0,1,0,0
+16,82,Antoine_Semenyo,MID,Man City,3.7540193,6.0,90.0,1,0,0
+16,273,Adam_Wharton,MID,Crystal Palace,3.02724,4.0,90.0,1,0,0
+16,430,Erling_Haaland,FWD,Man City,6.5927415,13.0,90.0,1,1,0
+16,136,Igor Thiago_Nascimento Rodrigues,FWD,Brentford,5.1012874,2.0,90.0,1,0,1
+16,602,Krisztián_Hegyi,GK,West Ham,0.035528183,0.0,0.0,0,0,0
+16,575,Micky_van de Ven,DEF,Spurs,2.5530672,1.0,90.0,0,0,0
+16,78,Julián_Araujo Zúñiga,DEF,Bournemouth,0.09408134,0.0,0.0,0,0,0
+16,252,Marc_Guiu Paz,FWD,Chelsea,1.691183,0.0,0.0,0,0,0
+17,101,Caoimhín_Kelleher,GK,Brentford,3.6994057,13.0,90.0,1,0,0
+17,411,Nico_O'Reilly,DEF,Man City,3.9029489,6.0,90.0,1,0,0
+17,8,Jurriën_Timber,DEF,Arsenal,3.529734,6.0,90.0,1,0,0
+17,226,Trevoh_Chalobah,DEF,Chelsea,3.3900185,3.0,90.0,1,0,0
+17,16,Bukayo_Saka,MID,Arsenal,5.023342,3.0,90.0,1,0,1
+17,449,Bruno_Borges Fernandes,MID,Man Utd,4.9661703,1.0,45.0,1,0,0
+17,82,Antoine_Semenyo,MID,Man City,4.2250724,10.0,90.0,1,0,0
+17,237,Enzo_Fernández,MID,Chelsea,3.8093762,1.0,36.0,1,0,0
+17,273,Adam_Wharton,MID,Crystal Palace,3.337401,3.0,90.0,1,0,0
+17,430,Erling_Haaland,FWD,Man City,6.955025,16.0,90.0,1,1,0
+17,136,Igor Thiago_Nascimento Rodrigues,FWD,Brentford,4.007201,2.0,90.0,1,0,0
+17,602,Krisztián_Hegyi,GK,West Ham,0.046349447,0.0,0.0,0,0,0
+17,575,Micky_van de Ven,DEF,Spurs,1.8604401,0.0,90.0,0,0,0
+17,78,Julián_Araujo Zúñiga,DEF,Bournemouth,0.10873522,0.0,0.0,0,0,0
+17,252,Marc_Guiu Paz,FWD,Chelsea,1.3551908,0.0,0.0,0,0,0
+18,101,Caoimhín_Kelleher,GK,Brentford,3.6127088,4.0,90.0,1,0,0
+18,8,Jurriën_Timber,DEF,Arsenal,5.0417647,0.0,0.0,1,0,0
+18,411,Nico_O'Reilly,DEF,Man City,3.6110487,1.0,90.0,1,0,0
+18,226,Trevoh_Chalobah,DEF,Chelsea,3.4599283,0.0,90.0,1,0,0
+18,16,Bukayo_Saka,MID,Arsenal,5.611285,7.0,90.0,1,0,1
+18,450,Matheus_Santos Carneiro da Cunha,MID,Man Utd,5.049019,2.0,90.0,1,0,0
+18,237,Enzo_Fernández,MID,Chelsea,4.182693,1.0,90.0,1,0,0
+18,82,Antoine_Semenyo,MID,Man City,4.11954,9.0,90.0,1,0,0
+18,273,Adam_Wharton,MID,Crystal Palace,3.8469954,2.0,90.0,1,0,0
+18,430,Erling_Haaland,FWD,Man City,6.7610545,2.0,90.0,1,1,0
+18,661,Hugo_Ekitiké,FWD,Liverpool,5.2873535,5.0,85.0,1,0,0
+18,602,Krisztián_Hegyi,GK,West Ham,0.03893211,0.0,0.0,0,0,0
+18,575,Micky_van de Ven,DEF,Spurs,2.4512405,11.0,90.0,0,0,0
+18,78,Julián_Araujo Zúñiga,DEF,Bournemouth,0.075940736,0.0,0.0,0,0,0
+18,252,Marc_Guiu Paz,FWD,Chelsea,0.60057837,0.0,0.0,0,0,0
+19,101,Caoimhín_Kelleher,GK,Brentford,3.4777048,6.0,90.0,1,0,0
+19,5,Gabriel_dos Santos Magalhães,DEF,Arsenal,4.9397063,15.0,76.0,1,0,0
+19,226,Trevoh_Chalobah,DEF,Chelsea,3.8839529,1.0,90.0,1,0,0
+19,411,Nico_O'Reilly,DEF,Man City,3.4169552,1.0,56.0,1,0,0
+19,16,Bukayo_Saka,MID,Arsenal,5.7906713,6.0,82.0,1,0,1
+19,450,Matheus_Santos Carneiro da Cunha,MID,Man Utd,5.0241647,2.0,90.0,1,0,0
+19,82,Antoine_Semenyo,MID,Man City,4.676246,5.0,90.0,1,0,0
+19,237,Enzo_Fernández,MID,Chelsea,4.553394,9.0,90.0,1,0,0
+19,273,Adam_Wharton,MID,Crystal Palace,3.5560024,2.0,90.0,1,0,0
+19,430,Erling_Haaland,FWD,Man City,6.7043486,2.0,90.0,1,1,0
+19,661,Hugo_Ekitiké,FWD,Liverpool,5.335907,2.0,90.0,1,0,0
+19,602,Krisztián_Hegyi,GK,West Ham,0.046841588,0.0,0.0,0,0,0
+19,575,Micky_van de Ven,DEF,Spurs,2.714827,6.0,90.0,0,0,0
+19,78,Julián_Araujo Zúñiga,DEF,Bournemouth,0.07395068,0.0,0.0,0,0,0
+19,252,Marc_Guiu Paz,FWD,Chelsea,0.26849017,0.0,0.0,0,0,0
+20,101,Caoimhín_Kelleher,GK,Brentford,2.7766542,2.0,90.0,1,0,0
+20,5,Gabriel_dos Santos Magalhães,DEF,Arsenal,5.952808,9.0,90.0,1,0,1
+20,575,Micky_van de Ven,DEF,Spurs,3.1802752,7.0,90.0,1,0,0
+20,569,Cristian_Romero,DEF,Spurs,3.1318977,2.0,90.0,1,0,0
+20,16,Bukayo_Saka,MID,Arsenal,5.3203735,4.0,23.0,1,0,0
+20,82,Antoine_Semenyo,MID,Man City,4.9138227,1.0,90.0,1,0,0
+20,450,Matheus_Santos Carneiro da Cunha,MID,Man Utd,4.733156,9.0,90.0,1,0,0
+20,273,Adam_Wharton,MID,Crystal Palace,3.029868,4.0,86.0,1,0,0
+20,237,Enzo_Fernández,MID,Chelsea,3.0148706,11.0,90.0,1,0,0
+20,430,Erling_Haaland,FWD,Man City,6.847115,2.0,90.0,1,1,0
+20,661,Hugo_Ekitiké,FWD,Liverpool,5.067347,0.0,0.0,1,0,0
+20,602,Krisztián_Hegyi,GK,West Ham,0.05142663,0.0,0.0,0,0,0
+20,226,Trevoh_Chalobah,DEF,Chelsea,2.1684554,4.0,90.0,0,0,0
+20,78,Julián_Araujo Zúñiga,DEF,Bournemouth,0.0676855,0.0,0.0,0,0,0
+20,252,Marc_Guiu Paz,FWD,Chelsea,0.14651881,0.0,0.0,0,0,0
+21,101,Caoimhín_Kelleher,GK,Brentford,3.639234,13.0,90.0,1,0,0
+21,5,Gabriel_dos Santos Magalhães,DEF,Arsenal,4.7992635,6.0,90.0,1,0,1
+21,226,Trevoh_Chalobah,DEF,Chelsea,3.2428577,3.0,90.0,1,0,0
+21,575,Micky_van de Ven,DEF,Spurs,2.9857295,0.0,90.0,1,0,0
+21,450,Matheus_Santos Carneiro da Cunha,MID,Man Utd,4.725835,2.0,73.0,1,0,0
+21,16,Bukayo_Saka,MID,Arsenal,4.7001753,3.0,77.0,1,0,0
+21,82,Antoine_Semenyo,MID,Man City,4.6561003,6.0,90.0,1,0,0
+21,237,Enzo_Fernández,MID,Chelsea,4.0317783,1.0,64.0,1,0,0
+21,273,Adam_Wharton,MID,Crystal Palace,3.412326,3.0,90.0,1,0,0
+21,430,Erling_Haaland,FWD,Man City,7.007494,6.0,90.0,1,1,0
+21,136,Igor Thiago_Nascimento Rodrigues,FWD,Brentford,3.8897383,12.0,81.0,1,0,0
+21,602,Krisztián_Hegyi,GK,West Ham,0.053708564,0.0,0.0,0,0,0
+21,569,Cristian_Romero,DEF,Spurs,2.9458158,3.0,90.0,0,0,0
+21,78,Julián_Araujo Zúñiga,DEF,Bournemouth,0.07776459,0.0,0.0,0,0,0
+21,252,Marc_Guiu Paz,FWD,Chelsea,0.040740896,0.0,0.0,0,0,0
+22,101,Caoimhín_Kelleher,GK,Brentford,3.6426396,1.0,90.0,1,0,0
+22,5,Gabriel_dos Santos Magalhães,DEF,Arsenal,4.8105493,8.0,90.0,1,0,0
+22,569,Cristian_Romero,DEF,Spurs,3.7881188,8.0,90.0,1,0,0
+22,575,Micky_van de Ven,DEF,Spurs,3.2152345,0.0,90.0,1,0,0
+22,226,Trevoh_Chalobah,DEF,Chelsea,2.9680402,8.0,90.0,1,0,0
+22,382,Florian_Wirtz,MID,Liverpool,5.368913,10.0,90.0,1,0,1
+22,16,Bukayo_Saka,MID,Arsenal,4.310343,1.0,33.0,1,0,0
+22,237,Enzo_Fernández,MID,Chelsea,3.8593605,6.0,84.0,1,0,0
+22,82,Antoine_Semenyo,MID,Man City,3.2869735,2.0,90.0,1,0,0
+22,430,Erling_Haaland,FWD,Man City,6.8743625,2.0,79.0,1,1,0
+22,136,Igor Thiago_Nascimento Rodrigues,FWD,Brentford,4.698969,2.0,90.0,1,0,0
+22,602,Krisztián_Hegyi,GK,West Ham,0.045700576,0.0,0.0,0,0,0
+22,78,Julián_Araujo Zúñiga,DEF,Bournemouth,0.065933846,0.0,0.0,0,0,0
+22,273,Adam_Wharton,MID,Crystal Palace,2.9627044,1.0,90.0,0,0,0
+22,252,Marc_Guiu Paz,FWD,Chelsea,0.051530752,0.0,0.0,0,0,0
+23,101,Caoimhín_Kelleher,GK,Brentford,3.722468,1.0,90.0,1,0,0
+23,5,Gabriel_dos Santos Magalhães,DEF,Arsenal,4.4411798,1.0,90.0,1,0,0
+23,6,William_Saliba,DEF,Arsenal,3.8500242,1.0,90.0,1,0,0
+23,226,Trevoh_Chalobah,DEF,Chelsea,3.754081,4.0,90.0,1,0,0
+23,8,Jurriën_Timber,DEF,Arsenal,3.7155988,1.0,90.0,1,0,0
+23,382,Florian_Wirtz,MID,Liverpool,4.860741,2.0,90.0,1,0,0
+23,119,Bryan_Mbeumo,MID,Man Utd,4.4941893,10.0,68.0,1,0,0
+23,82,Antoine_Semenyo,MID,Man City,4.2421584,8.0,90.0,1,0,0
+23,237,Enzo_Fernández,MID,Chelsea,4.073356,8.0,90.0,1,0,0
+23,430,Erling_Haaland,FWD,Man City,7.1026063,1.0,17.0,1,1,0
+23,136,Igor Thiago_Nascimento Rodrigues,FWD,Brentford,5.5939665,2.0,90.0,1,0,1
+23,602,Krisztián_Hegyi,GK,West Ham,0.042484894,0.0,0.0,0,0,0
+23,78,Julián_Araujo Zúñiga,DEF,Bournemouth,0.06897861,0.0,0.0,0,0,0
+23,273,Adam_Wharton,MID,Crystal Palace,3.1422458,-1.0,72.0,0,0,0
+23,252,Marc_Guiu Paz,FWD,Chelsea,0.054088145,0.0,0.0,0,0,0
+24,101,Caoimhín_Kelleher,GK,Brentford,3.1684244,10.0,90.0,1,0,0
+24,5,Gabriel_dos Santos Magalhães,DEF,Arsenal,4.0519958,8.0,90.0,1,0,0
+24,226,Trevoh_Chalobah,DEF,Chelsea,3.811491,3.0,90.0,1,0,0
+24,8,Jurriën_Timber,DEF,Arsenal,3.2098036,5.0,90.0,1,0,0
+24,6,William_Saliba,DEF,Arsenal,3.083109,6.0,90.0,1,0,0
+24,119,Bryan_Mbeumo,MID,Man Utd,5.5956573,2.0,90.0,1,0,1
+24,382,Florian_Wirtz,MID,Liverpool,4.8309965,12.0,86.0,1,0,0
+24,237,Enzo_Fernández,MID,Chelsea,4.0692363,8.0,90.0,1,0,0
+24,82,Antoine_Semenyo,MID,Man City,3.9253962,7.0,90.0,1,0,0
+24,430,Erling_Haaland,FWD,Man City,6.0975604,5.0,90.0,1,1,0
+24,136,Igor Thiago_Nascimento Rodrigues,FWD,Brentford,3.9841723,2.0,90.0,1,0,0
+24,602,Krisztián_Hegyi,GK,West Ham,0.03924112,0.0,0.0,0,0,0
+24,78,Julián_Araujo Zúñiga,DEF,Bournemouth,0.06734191,0.0,0.0,0,0,0
+24,273,Adam_Wharton,MID,Crystal Palace,2.3538103,0.0,0.0,0,0,0
+24,252,Marc_Guiu Paz,FWD,Chelsea,0.06856626,0.0,0.0,0,0,0
+25,628,José_Malheiro de Sá,GK,Wolves,3.1736073,2.0,90.0,1,0,0
+25,5,Gabriel_dos Santos Magalhães,DEF,Arsenal,4.857845,6.0,90.0,1,0,0
+25,8,Jurriën_Timber,DEF,Arsenal,4.1546874,6.0,90.0,1,0,0
+25,6,William_Saliba,DEF,Arsenal,4.1165977,7.0,90.0,1,0,0
+25,226,Trevoh_Chalobah,DEF,Chelsea,3.8606913,4.0,90.0,1,0,0
+25,82,Antoine_Semenyo,MID,Man City,5.1292424,2.0,90.0,1,0,1
+25,119,Bryan_Mbeumo,MID,Man Utd,4.9544716,8.0,86.0,1,0,0
+25,382,Florian_Wirtz,MID,Liverpool,4.9487615,2.0,90.0,1,0,0
+25,237,Enzo_Fernández,MID,Chelsea,3.9230409,2.0,90.0,1,0,0
+25,430,Erling_Haaland,FWD,Man City,5.713447,11.0,90.0,1,1,0
+25,136,Igor Thiago_Nascimento Rodrigues,FWD,Brentford,3.8251307,5.0,90.0,1,0,0
+25,602,Krisztián_Hegyi,GK,West Ham,0.043568272,0.0,0.0,0,0,0
+25,78,Julián_Araujo Zúñiga,DEF,Bournemouth,0.06420267,0.0,0.0,0,0,0
+25,273,Adam_Wharton,MID,Crystal Palace,1.5062876,3.0,90.0,0,0,0
+25,252,Marc_Guiu Paz,FWD,Chelsea,0.04209949,0.0,0.0,0,0,0
+26,628,José_Malheiro de Sá,GK,Wolves,11.411227199999999,26.0,360.0,1,0,0
+26,5,Gabriel_dos Santos Magalhães,DEF,Arsenal,18.636816600000003,14.0,360.0,1,1,0
+26,8,Jurriën_Timber,DEF,Arsenal,15.4648672,6.0,360.0,1,0,1
+26,6,William_Saliba,DEF,Arsenal,15.4064488,2.0,180.0,1,0,0
+26,235,Cole_Palmer,MID,Chelsea,6.1152167,12.0,90.0,1,0,0
+26,82,Antoine_Semenyo,MID,Man City,5.440294,14.0,90.0,1,0,0
+26,237,Enzo_Fernández,MID,Chelsea,5.314062,2.0,90.0,1,0,0
+26,382,Florian_Wirtz,MID,Liverpool,4.575072,3.0,90.0,1,0,0
+26,119,Bryan_Mbeumo,MID,Man Utd,4.543793,6.0,90.0,1,0,0
+26,749,Mateus_Mané,FWD,Wolves,11.887161599999999,8.0,360.0,1,0,0
+26,817,Adam_Armstrong,FWD,Wolves,11.6466936,8.0,360.0,1,0,0
+26,602,Krisztián_Hegyi,GK,West Ham,0.03331048,0.0,0.0,0,0,0
+26,226,Trevoh_Chalobah,DEF,Chelsea,3.91814,3.0,90.0,0,0,0
+26,78,Julián_Araujo Zúñiga,DEF,Bournemouth,0.054365072,0.0,0.0,0,0,0
+26,136,Igor Thiago_Nascimento Rodrigues,FWD,Brentford,4.058464,2.0,90.0,0,0,0
+27,628,José_Malheiro de Sá,GK,Wolves,3.019182,2.0,90.0,1,0,0
+27,5,Gabriel_dos Santos Magalhães,DEF,Arsenal,4.432395,2.0,90.0,1,0,0
+27,226,Trevoh_Chalobah,DEF,Chelsea,4.213913,2.0,90.0,1,0,0
+27,6,William_Saliba,DEF,Arsenal,3.3330307,2.0,90.0,1,0,0
+27,8,Jurriën_Timber,DEF,Arsenal,3.0679727,3.0,56.0,1,0,0
+27,235,Cole_Palmer,MID,Chelsea,6.2752085,3.0,74.0,1,1,0
+27,82,Antoine_Semenyo,MID,Man City,5.868094,4.0,86.0,1,0,1
+27,449,Bruno_Borges Fernandes,MID,Man Utd,5.478236,2.0,90.0,1,0,0
+27,237,Enzo_Fernández,MID,Chelsea,5.2257566,2.0,90.0,1,0,0
+27,119,Bryan_Mbeumo,MID,Man Utd,4.8946724,6.0,77.0,1,0,0
+27,136,Igor Thiago_Nascimento Rodrigues,FWD,Brentford,4.4227576,2.0,90.0,1,0,0
+27,602,Krisztián_Hegyi,GK,West Ham,0.030324746,0.0,0.0,0,0,0
+27,78,Julián_Araujo Zúñiga,DEF,Bournemouth,0.041132905,0.0,0.0,0,0,0
+27,749,Mateus_Mané,FWD,Wolves,2.6288486,2.0,90.0,0,0,0
+27,817,Adam_Armstrong,FWD,Wolves,2.4712884,2.0,62.0,0,0,0
+28,67,Đorđe_Petrović,GK,Bournemouth,3.6913385,3.0,90.0,1,0,0
+28,5,Gabriel_dos Santos Magalhães,DEF,Arsenal,5.0486975,9.0,90.0,1,0,0
+28,373,Virgil_van Dijk,DEF,Liverpool,3.6737604,7.0,90.0,1,0,0
+28,77,James_Hill,DEF,Bournemouth,3.3421009,2.0,90.0,1,0,0
+28,449,Bruno_Borges Fernandes,MID,Man Utd,6.3201265,13.0,90.0,1,1,0
+28,82,Antoine_Semenyo,MID,Man City,5.6588902,8.0,90.0,1,0,1
+28,119,Bryan_Mbeumo,MID,Man Utd,5.499284,2.0,85.0,1,0,0
+28,235,Cole_Palmer,MID,Chelsea,4.0299315,1.0,85.0,1,0,0
+28,136,Igor Thiago_Nascimento Rodrigues,FWD,Brentford,4.4068427,6.0,90.0,1,0,0
+28,249,João Pedro_Junqueira de Jesus,FWD,Chelsea,3.6858344,2.0,90.0,1,0,0
+28,749,Mateus_Mané,FWD,Wolves,2.6413229,2.0,90.0,1,0,0
+28,602,Krisztián_Hegyi,GK,West Ham,0.03257043,0.0,0.0,0,0,0
+28,8,Jurriën_Timber,DEF,Arsenal,2.3870938,8.0,90.0,0,0,0
+28,78,Julián_Araujo Zúñiga,DEF,Bournemouth,0.053037003,0.0,0.0,0,0,0
+28,237,Enzo_Fernández,MID,Chelsea,1.656647,1.0,85.0,0,0,0
+29,67,Đorđe_Petrović,GK,Bournemouth,3.5758128,6.0,90.0,1,0,0
+29,5,Gabriel_dos Santos Magalhães,DEF,Arsenal,4.784578,11.0,90.0,1,0,0
+29,8,Jurriën_Timber,DEF,Arsenal,4.1990056,13.0,90.0,1,0,0
+29,373,Virgil_van Dijk,DEF,Liverpool,3.8135653,1.0,90.0,1,0,0
+29,82,Antoine_Semenyo,MID,Man City,6.382418,7.0,90.0,1,1,0
+29,449,Bruno_Borges Fernandes,MID,Man Utd,6.036032,8.0,90.0,1,0,1
+29,235,Cole_Palmer,MID,Chelsea,5.6243973,9.0,84.0,1,0,0
+29,119,Bryan_Mbeumo,MID,Man Utd,4.935077,1.0,76.0,1,0,0
+29,237,Enzo_Fernández,MID,Chelsea,3.915821,4.0,78.0,1,0,0
+29,249,João Pedro_Junqueira de Jesus,FWD,Chelsea,4.8531513,19.0,84.0,1,0,0
+29,136,Igor Thiago_Nascimento Rodrigues,FWD,Brentford,4.7923374,2.0,90.0,1,0,0
+29,602,Krisztián_Hegyi,GK,West Ham,0.041613854,0.0,0.0,0,0,0
+29,77,James_Hill,DEF,Bournemouth,3.2801924,8.0,90.0,0,0,0
+29,78,Julián_Araujo Zúñiga,DEF,Bournemouth,0.052873135,0.0,0.0,0,0,0
+29,749,Mateus_Mané,FWD,Wolves,2.0996902,2.0,69.0,0,0,0
+30,67,Đorđe_Petrović,GK,Bournemouth,3.522368,6.0,90.0,1,0,0
+30,373,Virgil_van Dijk,DEF,Liverpool,5.106427,2.0,90.0,1,0,0
+30,5,Gabriel_dos Santos Magalhães,DEF,Arsenal,5.051607,9.0,90.0,1,0,0
+30,8,Jurriën_Timber,DEF,Arsenal,4.731083,1.0,37.0,1,0,0
+30,449,Bruno_Borges Fernandes,MID,Man Utd,6.3163238,10.0,90.0,1,1,0
+30,82,Antoine_Semenyo,MID,Man City,6.2002277,2.0,74.0,1,0,1
+30,235,Cole_Palmer,MID,Chelsea,5.9955983,2.0,90.0,1,0,0
+30,119,Bryan_Mbeumo,MID,Man Utd,5.0796256,2.0,74.0,1,0,0
+30,237,Enzo_Fernández,MID,Chelsea,4.5846567,2.0,90.0,1,0,0
+30,249,João Pedro_Junqueira de Jesus,FWD,Chelsea,6.0036974,2.0,90.0,1,0,0
+30,136,Igor Thiago_Nascimento Rodrigues,FWD,Brentford,4.812254,6.0,90.0,1,0,0
+30,602,Krisztián_Hegyi,GK,West Ham,0.028468786,0.0,0.0,0,0,0
+30,77,James_Hill,DEF,Bournemouth,3.153121,8.0,90.0,0,0,0
+30,78,Julián_Araujo Zúñiga,DEF,Bournemouth,0.050828513,0.0,0.0,0,0,0
+30,749,Mateus_Mané,FWD,Wolves,1.9848344,1.0,45.0,0,0,0
+31,67,Đorđe_Petrović,GK,Bournemouth,3.324018,2.0,90.0,1,0,0
+31,373,Virgil_van Dijk,DEF,Liverpool,4.204882,3.0,90.0,1,0,0
+31,151,Jan Paul_van Hecke,DEF,Brighton,2.9990158,4.0,90.0,1,0,0
+31,77,James_Hill,DEF,Bournemouth,2.9799013,-1.0,90.0,1,0,0
+31,235,Cole_Palmer,MID,Chelsea,5.6496854,2.0,90.0,1,0,1
+31,449,Bruno_Borges Fernandes,MID,Man Utd,5.6212983,13.0,90.0,1,0,0
+31,119,Bryan_Mbeumo,MID,Man Utd,4.252226,2.0,70.0,1,0,0
+31,237,Enzo_Fernández,MID,Chelsea,3.7492466,2.0,90.0,1,0,0
+31,249,João Pedro_Junqueira de Jesus,FWD,Chelsea,5.7784543,2.0,77.0,1,1,0
+31,136,Igor Thiago_Nascimento Rodrigues,FWD,Brentford,5.2299767,4.0,90.0,1,0,0
+31,691,Dominic_Calvert-Lewin,FWD,Leeds,4.0115547,2.0,90.0,1,0,0
+31,602,Krisztián_Hegyi,GK,West Ham,0.03946897,0.0,0.0,0,0,0
+31,447,Ayden_Heaven,DEF,Man Utd,0.099281184,1.0,8.0,0,0,0
+31,78,Julián_Araujo Zúñiga,DEF,Bournemouth,0.05314228,0.0,0.0,0,0,0
+31,163,Jack_Hinshelwood,MID,Brighton,2.9671776,5.0,82.0,0,0,0
+32,67,Đorđe_Petrović,GK,Bournemouth,2.2598023,2.0,90.0,1,0,0
+32,373,Virgil_van Dijk,DEF,Liverpool,3.5703564,9.0,90.0,1,0,0
+32,260,Marc_Guéhi,DEF,Man City,3.5504174,15.0,90.0,1,0,0
+32,151,Jan Paul_van Hecke,DEF,Brighton,3.3721662,5.0,90.0,1,0,0
+32,449,Bruno_Borges Fernandes,MID,Man Utd,6.6338673,4.0,90.0,1,1,0
+32,82,Antoine_Semenyo,MID,Man City,5.914914,2.0,90.0,1,0,0
+32,235,Cole_Palmer,MID,Chelsea,4.9894214,4.0,90.0,1,0,0
+32,163,Jack_Hinshelwood,MID,Brighton,3.932021,3.0,74.0,1,0,0
+32,84,Marcus_Tavernier,MID,Bournemouth,3.3290806,2.0,90.0,1,0,0
+32,430,Erling_Haaland,FWD,Man City,6.3515286,2.0,90.0,1,0,1
+32,249,João Pedro_Junqueira de Jesus,FWD,Chelsea,4.8125076,2.0,81.0,1,0,0
+32,602,Krisztián_Hegyi,GK,West Ham,0.03362692,0.0,0.0,0,0,0
+32,77,James_Hill,DEF,Bournemouth,1.9380543,3.0,90.0,0,0,0
+32,447,Ayden_Heaven,DEF,Man Utd,0.2255619,0.0,0.0,0,0,0
+32,691,Dominic_Calvert-Lewin,FWD,Leeds,3.220096,2.0,90.0,0,0,0
+33,67,Đorđe_Petrović,GK,Bournemouth,14.493876799999999,4.0,360.0,1,0,0
+33,260,Marc_Guéhi,DEF,Man City,14.8377718,16.0,360.0,1,0,0
+33,151,Jan Paul_van Hecke,DEF,Brighton,13.79453,24.0,360.0,1,0,0
+33,77,James_Hill,DEF,Bournemouth,12.074402599999999,10.0,360.0,1,0,0
+33,82,Antoine_Semenyo,MID,Man City,23.7233666,10.0,308.0,1,0,1
+33,235,Cole_Palmer,MID,Chelsea,21.019279400000002,4.0,180.0,1,0,0
+33,84,Marcus_Tavernier,MID,Bournemouth,17.652729,18.0,356.0,1,0,0
+33,163,Jack_Hinshelwood,MID,Brighton,15.8784208,20.0,328.0,1,0,0
+33,430,Erling_Haaland,FWD,Man City,26.6911714,26.0,360.0,1,1,0
+33,249,João Pedro_Junqueira de Jesus,FWD,Chelsea,20.8439414,0.0,0.0,1,0,0
+33,691,Dominic_Calvert-Lewin,FWD,Leeds,18.770586,16.0,360.0,1,0,0
+33,602,Krisztián_Hegyi,GK,West Ham,0.037100505,0.0,0.0,0,0,0
+33,373,Virgil_van Dijk,DEF,Liverpool,2.6496277,8.0,90.0,0,0,0
+33,447,Ayden_Heaven,DEF,Man Utd,0.2294504,11.0,90.0,0,0,0
+33,449,Bruno_Borges Fernandes,MID,Man Utd,5.785164,6.0,90.0,0,0,0
+34,253,Dean_Henderson,GK,Crystal Palace,3.1159668,0.0,90.0,1,0,0
+34,5,Gabriel_dos Santos Magalhães,DEF,Arsenal,4.449789,8.0,90.0,1,0,0
+34,6,William_Saliba,DEF,Arsenal,4.0528173,7.0,90.0,1,0,0
+34,373,Virgil_van Dijk,DEF,Liverpool,4.018085,4.0,90.0,1,0,0
+34,257,Maxence_Lacroix,DEF,Crystal Palace,2.8578293,3.0,90.0,1,0,0
+34,449,Bruno_Borges Fernandes,MID,Man Utd,6.400143,5.0,90.0,1,1,0
+34,387,Dominik_Szoboszlai,MID,Liverpool,4.525865,1.0,90.0,1,0,0
+34,47,Morgan_Rogers,MID,Aston Villa,4.3340764,2.0,90.0,1,0,0
+34,242,Kiernan_Dewsbury-Hall,MID,Everton,3.2205884,8.0,90.0,1,0,0
+34,136,Igor Thiago_Nascimento Rodrigues,FWD,Brentford,4.5860715,1.0,90.0,1,0,1
+34,64,Ollie_Watkins,FWD,Aston Villa,4.4295816,2.0,79.0,1,0,0
+34,602,Krisztián_Hegyi,GK,West Ham,0.03068244,0.0,0.0,0,0,0
+34,447,Ayden_Heaven,DEF,Man Utd,2.4565063,2.0,90.0,0,0,0
+34,267,Ismaïla_Sarr,MID,Crystal Palace,2.7332273,5.0,90.0,0,0,0
+34,749,Mateus_Mané,FWD,Wolves,2.3975797,2.0,90.0,0,0,0
+35,253,Dean_Henderson,GK,Crystal Palace,3.1006296,2.0,90.0,1,0,0
+35,5,Gabriel_dos Santos Magalhães,DEF,Arsenal,5.124733,6.0,90.0,1,0,0
+35,6,William_Saliba,DEF,Arsenal,3.9946806,6.0,90.0,1,0,0
+35,411,Nico_O'Reilly,DEF,Man City,3.8070722,1.0,90.0,1,0,0
+35,449,Bruno_Borges Fernandes,MID,Man Utd,5.663193,5.0,90.0,1,0,1
+35,47,Morgan_Rogers,MID,Aston Villa,5.196178,1.0,90.0,1,0,0
+35,387,Dominik_Szoboszlai,MID,Liverpool,3.484638,13.0,90.0,1,0,0
+35,242,Kiernan_Dewsbury-Hall,MID,Everton,3.3405545,2.0,90.0,1,0,0
+35,267,Ismaïla_Sarr,MID,Crystal Palace,3.2514255,1.0,45.0,1,0,0
+35,430,Erling_Haaland,FWD,Man City,6.637031,7.0,90.0,1,1,0
+35,136,Igor Thiago_Nascimento Rodrigues,FWD,Brentford,4.836758,6.0,90.0,1,0,0
+35,602,Krisztián_Hegyi,GK,West Ham,0.034132604,0.0,0.0,0,0,0
+35,257,Maxence_Lacroix,DEF,Crystal Palace,2.7412765,2.0,90.0,0,0,0
+35,447,Ayden_Heaven,DEF,Man Utd,2.493891,1.0,90.0,0,0,0
+35,749,Mateus_Mané,FWD,Wolves,1.9642063,2.0,90.0,0,0,0
+36,253,Dean_Henderson,GK,Crystal Palace,13.3177312,6.0,360.0,1,0,0
+36,411,Nico_O'Reilly,DEF,Man City,17.1904774,10.0,180.0,1,0,0
+36,257,Maxence_Lacroix,DEF,Crystal Palace,12.9062086,8.0,360.0,1,0,0
+36,5,Gabriel_dos Santos Magalhães,DEF,Arsenal,5.2743244,11.0,90.0,1,0,0
+36,6,William_Saliba,DEF,Arsenal,3.6578906,5.0,90.0,1,0,0
+36,82,Antoine_Semenyo,MID,Man City,19.6749756,24.0,360.0,1,0,1
+36,267,Ismaïla_Sarr,MID,Crystal Palace,15.2040896,16.0,240.0,1,0,0
+36,449,Bruno_Borges Fernandes,MID,Man Utd,4.9892306,3.0,90.0,1,0,0
+36,387,Dominik_Szoboszlai,MID,Liverpool,4.819725,2.0,90.0,1,0,0
+36,242,Kiernan_Dewsbury-Hall,MID,Everton,3.435897,5.0,90.0,1,0,0
+36,430,Erling_Haaland,FWD,Man City,27.8425368,22.0,180.0,1,1,0
+36,602,Krisztián_Hegyi,GK,West Ham,0.03163263,0.0,0.0,0,0,0
+36,447,Ayden_Heaven,DEF,Man Utd,2.896471,0.0,0.0,0,0,0
+36,136,Igor Thiago_Nascimento Rodrigues,FWD,Brentford,3.344658,2.0,90.0,0,0,0
+36,749,Mateus_Mané,FWD,Wolves,1.8922137,2.0,66.0,0,0,0
+37,253,Dean_Henderson,GK,Crystal Palace,3.080658,0.0,90.0,1,0,0
+37,5,Gabriel_dos Santos Magalhães,DEF,Arsenal,6.415939,6.0,90.0,1,1,0
+37,6,William_Saliba,DEF,Arsenal,4.1812873,8.0,90.0,1,0,0
+37,411,Nico_O'Reilly,DEF,Man City,3.1060343,2.0,90.0,1,0,0
+37,449,Bruno_Borges Fernandes,MID,Man Utd,5.4108734,9.0,90.0,1,0,0
+37,299,Iliman_Ndiaye,MID,Everton,4.675284,2.0,90.0,1,0,0
+37,82,Antoine_Semenyo,MID,Man City,4.419793,1.0,55.0,1,0,0
+37,387,Dominik_Szoboszlai,MID,Liverpool,4.349054,9.0,90.0,1,0,0
+37,242,Kiernan_Dewsbury-Hall,MID,Everton,3.6942365,2.0,90.0,1,0,0
+37,430,Erling_Haaland,FWD,Man City,6.314084,9.0,90.0,1,0,1
+37,136,Igor Thiago_Nascimento Rodrigues,FWD,Brentford,4.9563556,2.0,90.0,1,0,0
+37,602,Krisztián_Hegyi,GK,West Ham,0.03717663,0.0,0.0,0,0,0
+37,257,Maxence_Lacroix,DEF,Crystal Palace,2.4336982,2.0,60.0,0,0,0
+37,447,Ayden_Heaven,DEF,Man Utd,1.9149046,0.0,0.0,0,0,0
+37,749,Mateus_Mané,FWD,Wolves,2.6443098,11.0,90.0,0,0,0
+38,253,Dean_Henderson,GK,Crystal Palace,3.027541,2.0,90.0,1,0,0
+38,5,Gabriel_dos Santos Magalhães,DEF,Arsenal,4.8137455,1.0,45.0,1,0,1
+38,373,Virgil_van Dijk,DEF,Liverpool,4.5934877,2.0,90.0,1,0,0
+38,411,Nico_O'Reilly,DEF,Man City,3.389807,0.0,0.0,1,0,0
+38,82,Antoine_Semenyo,MID,Man City,4.7590246,6.0,57.0,1,0,0
+38,449,Bruno_Borges Fernandes,MID,Man Utd,4.753332,14.0,90.0,1,0,0
+38,387,Dominik_Szoboszlai,MID,Liverpool,4.3606744,2.0,90.0,1,0,0
+38,299,Iliman_Ndiaye,MID,Everton,3.302714,2.0,90.0,1,0,0
+38,242,Kiernan_Dewsbury-Hall,MID,Everton,3.2660286,2.0,83.0,1,0,0
+38,430,Erling_Haaland,FWD,Man City,5.843973,0.0,0.0,1,1,0
+38,136,Igor Thiago_Nascimento Rodrigues,FWD,Brentford,3.619778,2.0,90.0,1,0,0
+38,602,Krisztián_Hegyi,GK,West Ham,0.035838544,0.0,0.0,0,0,0
+38,257,Maxence_Lacroix,DEF,Crystal Palace,2.4127514,0.0,0.0,0,0,0
+38,447,Ayden_Heaven,DEF,Man Utd,0.8553679,0.0,0.0,0,0,0
+38,749,Mateus_Mané,FWD,Wolves,3.03767,2.0,90.0,0,0,0

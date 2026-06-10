@@ -1,0 +1,39 @@
+gw,gw_score_gross,hit_cost,gw_score_net,transfers_in,transfers_out,free_available,paid_transfers,banked_before,banked_after,captain_picked,captain_used,subs_applied,formation,cost_m,missing_from_pool
+1,51.0,0,51.0,0,0,1,0,0,0,Mohamed_Salah,Mohamed_Salah,0,1-4-5-1,100.0,0
+2,44.0,4,40.0,2,2,1,1,0,0,Mohamed_Salah,Mohamed_Salah,1,1-4-5-1,99.5,0
+3,46.0,0,46.0,1,1,1,0,0,0,Mohamed_Salah,Mohamed_Salah,0,1-4-5-1,96.6,0
+4,56.0,0,56.0,1,1,1,0,0,0,Mohamed_Salah,Mohamed_Salah,0,1-4-5-1,97.7,0
+5,49.0,0,49.0,1,1,1,0,0,0,Mohamed_Salah,Mohamed_Salah,0,1-4-5-1,99.7,0
+6,29.0,0,29.0,1,1,1,0,0,0,Mohamed_Salah,Mohamed_Salah,0,1-4-5-1,97.3,0
+7,61.0,0,61.0,1,1,1,0,0,0,Bruno_Borges Fernandes,Bruno_Borges Fernandes,0,1-4-5-1,97.7,0
+8,45.0,0,45.0,1,1,1,0,0,0,Mohamed_Salah,Mohamed_Salah,0,1-4-5-1,98.4,0
+9,77.0,0,77.0,1,1,1,0,0,0,Antoine_Semenyo,Antoine_Semenyo,0,1-4-5-1,97.3,0
+10,60.0,0,60.0,1,1,1,0,0,0,Jean-Philippe_Mateta,Jean-Philippe_Mateta,0,1-4-5-1,98.5,0
+11,29.0,0,29.0,1,1,1,0,0,0,Jean-Philippe_Mateta,Jean-Philippe_Mateta,1,1-4-5-1,98.6,0
+12,25.0,0,25.0,1,1,1,0,0,0,Mohamed_Salah,Mohamed_Salah,1,1-4-5-1,100.0,0
+13,75.0,0,75.0,1,1,1,0,0,0,Mohamed_Salah,Phil_Foden,0,1-4-5-1,100.0,0
+14,38.0,0,38.0,1,1,1,0,0,0,Bryan_Mbeumo,Bryan_Mbeumo,1,1-4-5-1,99.7,0
+15,75.0,0,75.0,1,1,1,0,0,0,Bruno_Borges Fernandes,Bruno_Borges Fernandes,1,1-4-5-1,99.9,0
+16,53.0,4,49.0,2,2,1,1,0,0,Igor Thiago_Nascimento Rodrigues,Igor Thiago_Nascimento Rodrigues,0,1-3-5-2,99.3,0
+17,51.0,0,51.0,1,1,1,0,0,0,Bruno_Borges Fernandes,Bruno_Borges Fernandes,0,1-4-5-1,96.9,0
+18,49.0,0,49.0,1,1,1,0,0,0,Bukayo_Saka,Bukayo_Saka,0,1-4-5-1,98.1,0
+19,59.0,0,59.0,1,1,1,0,0,0,Bukayo_Saka,Bukayo_Saka,0,1-4-5-1,98.7,0
+20,62.0,0,62.0,1,1,1,0,0,0,Gabriel_dos Santos Magalhães,Gabriel_dos Santos Magalhães,0,1-4-5-1,92.2,0
+21,52.0,0,52.0,1,1,1,0,0,0,Gabriel_dos Santos Magalhães,Gabriel_dos Santos Magalhães,0,1-3-5-2,96.5,0
+22,67.0,0,67.0,1,1,1,0,0,0,Florian_Wirtz,Florian_Wirtz,1,1-3-5-2,99.6,0
+23,40.0,0,40.0,1,1,1,0,0,0,Igor Thiago_Nascimento Rodrigues,Igor Thiago_Nascimento Rodrigues,0,1-4-4-2,99.3,0
+24,37.0,0,37.0,1,1,1,0,0,0,Bryan_Mbeumo,Bryan_Mbeumo,0,1-4-4-2,97.5,0
+25,59.0,0,59.0,1,1,1,0,0,0,Antoine_Semenyo,Antoine_Semenyo,0,1-3-5-2,98.3,0
+26,126.0,12,114.0,4,4,1,3,0,0,Gabriel_dos Santos Magalhães,Gabriel_dos Santos Magalhães,0,1-3-5-2,97.4,0
+27,44.0,0,44.0,1,1,1,0,0,0,Cole_Palmer,Cole_Palmer,1,1-3-5-2,99.1,0
+28,78.0,0,78.0,1,1,1,0,0,0,Bruno_Borges Fernandes,Bruno_Borges Fernandes,1,1-3-4-3,98.6,0
+29,64.0,0,64.0,1,1,1,0,0,0,Antoine_Semenyo,Antoine_Semenyo,0,1-3-5-2,96.5,0
+30,53.0,0,53.0,1,1,1,0,0,0,Bruno_Borges Fernandes,Bruno_Borges Fernandes,0,1-3-4-3,99.8,0
+31,58.0,20,38.0,6,6,1,5,0,0,João Pedro_Junqueira de Jesus,João Pedro_Junqueira de Jesus,0,1-3-4-3,98.7,6
+32,41.0,0,41.0,1,1,1,0,0,0,Bruno_Borges Fernandes,Bruno_Borges Fernandes,0,1-3-5-2,99.9,0
+33,194.0,36,158.0,10,10,1,9,0,0,Erling_Haaland,Erling_Haaland,1,1-3-4-3,99.3,0
+34,49.0,40,9.0,11,11,1,10,0,0,Bruno_Borges Fernandes,Bruno_Borges Fernandes,1,1-3-4-3,100.0,11
+35,58.0,0,58.0,1,1,1,0,0,0,Bruno_Borges Fernandes,Bruno_Borges Fernandes,0,1-3-5-2,99.8,0
+36,125.0,20,105.0,6,6,1,5,0,0,Erling_Haaland,Erling_Haaland,0,1-3-5-2,99.5,0
+37,59.0,0,59.0,1,1,1,0,0,0,Erling_Haaland,Erling_Haaland,0,1-4-4-2,99.2,0
+38,34.0,0,34.0,1,1,1,0,0,0,Erling_Haaland,Antoine_Semenyo,3,1-3-5-2,99.1,0
