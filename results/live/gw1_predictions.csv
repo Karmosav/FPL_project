@@ -1,0 +1,600 @@
+element,name,web_name,team_name,position,value,opponent_team_name,was_home,status,pred_decomposed_tuned
+411,Erling_Haaland,Haaland,Man City,FWD,155,Bournemouth,True,a,7.0285463
+426,Bruno_Borges Fernandes,B.Fernandes,Man Utd,MID,120,Hull City,False,a,6.7495265
+4,Gabriel_dos Santos Magalhães,Gabriel,Arsenal,DEF,80,Coventry City,True,a,5.1784596
+397,Antoine_Semenyo,Semenyo,Man City,MID,85,Bournemouth,True,a,5.1486154
+427,Bryan_Mbeumo,Mbeumo,Man Utd,MID,80,Hull City,False,a,4.7725677
+165,João Pedro_Junqueira de Jesus,João Pedro,Chelsea,FWD,75,Fulham,False,a,4.5466805
+368,Dominik_Szoboszlai,Szoboszlai,Liverpool,MID,70,Newcastle,False,a,4.48172
+13,Declan_Rice,Rice,Arsenal,MID,75,Coventry City,True,a,4.4403667
+480,Morgan_Gibbs-White,Gibbs-White,Nott'm Forest,MID,80,Leeds,True,a,4.389162
+106,Igor Thiago_Nascimento Rodrigues,Thiago,Brentford,FWD,80,Spurs,True,a,4.3713675
+12,Bukayo_Saka,Saka,Arsenal,MID,95,Coventry City,True,a,4.357646
+40,Morgan_Rogers,Rogers,Chelsea,MID,75,Fulham,False,a,4.3333974
+8,Riccardo_Calafiori,Calafiori,Arsenal,DEF,55,Coventry City,True,a,4.2256846
+1,David_Raya Martín,Raya,Arsenal,GK,60,Coventry City,True,a,4.148695
+387,Nico_O'Reilly,O'Reilly,Man City,DEF,65,Bournemouth,True,a,4.124919
+154,Cole_Palmer,Palmer,Chelsea,MID,95,Fulham,False,a,4.1059895
+356,Virgil_van Dijk,Virgil,Liverpool,DEF,65,Newcastle,False,a,4.0731773
+557,Christos_Tzolis,Tzolis,Arsenal,MID,65,Coventry City,True,a,3.9969995
+379,Alexander_Isak,Isak,Liverpool,FWD,90,Newcastle,False,a,3.9263344
+388,Marc_Guéhi,Guéhi,Man City,DEF,60,Bournemouth,True,a,3.922989
+428,Matheus_Santos Carneiro da Cunha,Cunha,Man Utd,MID,80,Hull City,False,a,3.9149094
+366,Florian_Wirtz,Wirtz,Liverpool,MID,75,Newcastle,False,a,3.907072
+346,Dominic_Calvert-Lewin,Calvert-Lewin,Leeds,FWD,60,Nott'm Forest,False,a,3.9041529
+499,Pedro_Porro Sauceda,Pedro Porro,Spurs,DEF,55,Brentford,False,a,3.7842348
+200,Maxence_Lacroix,Lacroix,Chelsea,DEF,60,Fulham,False,a,3.7784412
+498,Marcos_Senesi Barón,Senesi,Spurs,DEF,60,Brentford,False,a,3.7768211
+229,James_Tarkowski,Tarkowski,Everton,DEF,60,Crystal Palace,True,a,3.7733886
+55,Ollie_Watkins,Watkins,Aston Villa,FWD,80,Brighton,False,a,3.7161849
+201,Daniel_Muñoz Mejía,Muñoz,Crystal Palace,DEF,55,Everton,False,a,3.6835732
+237,Iliman_Ndiaye,Ndiaye,Everton,MID,60,Crystal Palace,True,a,3.672275
+399,Rayan_Cherki,Cherki,Man City,MID,75,Bournemouth,True,a,3.6600797
+391,Joško_Gvardiol,Gvardiol,Man City,DEF,55,Bournemouth,True,a,3.6457798
+142,Reece_James,James,Chelsea,DEF,55,Fulham,False,a,3.6213303
+481,Elliot_Anderson,Anderson,Man City,MID,65,Bournemouth,True,a,3.6185775
+112,Jan Paul_van Hecke,Van Hecke,Spurs,DEF,50,Brentford,False,a,3.5915954
+25,Viktor_Gyökeres,Gyökeres,Arsenal,FWD,75,Coventry City,True,a,3.5884576
+61,Adrien_Truffert,Truffert,Bournemouth,DEF,55,Man City,False,a,3.5787673
+452,Bruno_Guimarães Rodriguez Moura,Bruno G.,Arsenal,MID,70,Coventry City,True,d,3.567999
+418,Harry_Maguire,Maguire,Man Utd,DEF,50,Hull City,False,a,3.5423677
+542,Enzo_Le Fée,E.Le Fée,Sunderland,MID,60,Ipswich Town,False,a,3.5323765
+503,Micky_van de Ven,Van de Ven,Spurs,DEF,50,Brentford,False,a,3.528062
+469,Neco_Williams,N.Williams,Nott'm Forest,DEF,50,Leeds,True,a,3.527007
+11,Cristhian_Mosquera,Mosquera,Arsenal,DEF,55,Coventry City,True,a,3.4877965
+552,Brian_Brobbey,Brobbey,Sunderland,FWD,60,Ipswich Town,False,a,3.4370065
+124,Pascal_Groß,Groß,Brighton,MID,55,Aston Villa,True,a,3.4325411
+358,Milos_Kerkez,Kerkez,Liverpool,DEF,55,Newcastle,False,a,3.427386
+423,Luke_Shaw,Shaw,Man Utd,DEF,45,Hull City,False,a,3.4269276
+412,Senne_Lammens,Lammens,Man Utd,GK,50,Hull City,False,a,3.4180305
+31,Ezri_Konsa Ngoyo,Konsa,Aston Villa,DEF,45,Brighton,False,a,3.4044905
+32,Matty_Cash,Cash,Aston Villa,DEF,45,Brighton,False,a,3.4027011
+204,Tyrick_Mitchell,Mitchell,Crystal Palace,DEF,45,Everton,False,a,3.37794
+384,Gianluigi_Donnarumma,Donnarumma,Man City,GK,55,Bournemouth,True,a,3.3641644
+260,Harry_Wilson,Wilson,Leeds,MID,65,Nott'm Forest,False,a,3.36011
+226,Jordan_Pickford,Pickford,Everton,GK,55,Crystal Palace,True,a,3.3527682
+532,Daniel_Ballard,Ballard,Sunderland,DEF,50,Ipswich Town,False,a,3.3291347
+534,Trai_Hume,Hume,Sunderland,DEF,45,Ipswich Town,False,a,3.312474
+109,Bart_Verbruggen,Verbruggen,Brighton,GK,45,Aston Villa,True,a,3.2941084
+15,Martin_Ødegaard,Ødegaard,Arsenal,MID,65,Coventry City,True,a,3.2674344
+155,Enzo_Fernández,Enzo,Chelsea,MID,70,Fulham,False,a,3.2129865
+471,Nikola_Milenković,Milenković,Nott'm Forest,DEF,55,Leeds,True,a,3.171586
+417,Diogo_Dalot Teixeira,Dalot,Man Utd,DEF,50,Hull City,False,a,3.1261942
+208,Ismaïla_Sarr,Sarr,Crystal Palace,MID,65,Everton,False,a,3.1210856
+398,Phil_Foden,Foden,Man City,MID,70,Bournemouth,True,a,3.0922225
+82,Caoimhín_Kelleher,Kelleher,Brentford,GK,50,Spurs,True,a,3.0758157
+529,Robin_Roefs,Roefs,Sunderland,GK,50,Ipswich Town,False,a,3.071064
+389,Matheus_Nunes,Matheus N.,Man City,DEF,60,Bournemouth,True,d,3.0663834
+544,Granit_Xhaka,Xhaka,Sunderland,MID,55,Ipswich Town,False,a,3.0637317
+496,Antonín_Kinský,Kinsky,Spurs,GK,45,Brentford,False,a,3.019123
+28,Emiliano_Martínez Romero,Martinez,Aston Villa,GK,50,Brighton,False,a,3.0068665
+84,Nathan_Collins,Collins,Brentford,DEF,55,Spurs,True,a,3.0041041
+449,Lewis_Hall,Hall,Newcastle,DEF,50,Liverpool,True,a,3.0012243
+533,Nordi_Mukiele,Mukiele,Sunderland,DEF,55,Ipswich Town,False,a,2.986772
+350,Alisson_Becker,A.Becker,Liverpool,GK,55,Newcastle,False,a,2.9859912
+159,Moisés_Caicedo Corozo,Caicedo,Chelsea,MID,55,Fulham,False,a,2.9778788
+367,Cody_Gakpo,Gakpo,Liverpool,MID,70,Newcastle,False,a,2.974197
+455,Sandro_Tonali,Tonali,Spurs,MID,55,Brentford,False,a,2.9728336
+400,Jérémy_Doku,Doku,Man City,MID,75,Bournemouth,True,d,2.9400506
+10,Benjamin_White,White,Arsenal,DEF,55,Coventry City,True,a,2.9108407
+236,Kiernan_Dewsbury-Hall,Dewsbury-Hall,Everton,MID,65,Crystal Palace,True,a,2.9097428
+357,Jeremie_Frimpong,Frimpong,Liverpool,DEF,55,Newcastle,False,a,2.8963327
+94,Kevin_Schade,Schade,Brentford,MID,60,Spurs,True,a,2.8904269
+259,Issa_Diop,Diop,Ipswich Town,DEF,40,Sunderland,True,a,2.8752449
+329,Joe_Rodon,Rodon,Leeds,DEF,45,Nott'm Forest,False,a,2.8604934
+223,Jean-Philippe_Mateta,Mateta,Crystal Palace,FWD,65,Everton,False,a,2.8479457
+212,Will_Hughes,Hughes,Crystal Palace,MID,45,Everton,False,a,2.8441856
+198,Dean_Henderson,Henderson,Crystal Palace,GK,50,Everton,False,d,2.8439572
+9,Piero_Hincapié,Hincapie,Arsenal,DEF,55,Coventry City,True,a,2.825225
+152,Marco_Palestra,Palestra,Chelsea,DEF,55,Fulham,False,a,2.812486
+88,Michael_Kayode,Kayode,Brentford,DEF,45,Spurs,True,a,2.7910106
+45,John_McGinn,McGinn,Aston Villa,MID,55,Brighton,False,a,2.7604759
+445,Malick_Thiaw,Thiaw,Newcastle,DEF,50,Liverpool,True,a,2.7563257
+448,Dan_Burn,Burn,Newcastle,DEF,50,Liverpool,True,a,2.7542422
+113,Ferdi_Kadıoğlu,F.Kadıoğlu,Brighton,DEF,45,Aston Villa,True,a,2.7097304
+390,Rúben_dos Santos Gato Alves Dias,Rúben,Man City,DEF,55,Bournemouth,True,a,2.689559
+57,Đorđe_Petrović,Petrović,Bournemouth,GK,45,Man City,False,a,2.6448927
+140,Robert_Lynch Sánchez,Sánchez,Chelsea,GK,50,Fulham,False,a,2.6386383
+491,Igor Jesus_Maciel da Cruz,Igor Jesus,Nott'm Forest,FWD,60,Leeds,True,a,2.6352832
+371,Ryan_Gravenberch,Gravenberch,Liverpool,MID,60,Newcastle,False,a,2.6173205
+472,Murillo_Costa dos Santos,Murillo,Nott'm Forest,DEF,55,Leeds,True,a,2.60644
+231,Michael_Keane,Keane,Everton,DEF,50,Crystal Palace,True,a,2.6029692
+393,Abdukodir_Khusanov,Khusanov,Man City,DEF,55,Bournemouth,True,a,2.5887113
+579,Ronald_Araujo,Araujo,Liverpool,DEF,55,Newcastle,False,a,2.550844
+43,Youri_Tielemans,Tielemans,Man Utd,MID,60,Hull City,False,a,2.5116289
+338,Ethan_Ampadu,Ampadu,Leeds,MID,55,Nott'm Forest,False,a,2.4863105
+127,Diego_Gómez Amarilla,Gomez,Brighton,MID,50,Aston Villa,True,a,2.481428
+250,Bernd_Leno,Leno,Fulham,GK,45,Chelsea,True,a,2.4755905
+372,Alexis_Mac Allister,Mac Allister,Liverpool,MID,55,Newcastle,False,a,2.4628668
+69,Alex_Scott,Scott,Bournemouth,MID,60,Man City,False,a,2.4522622
+68,Marcus_Tavernier,Tavernier,Bournemouth,MID,60,Man City,False,a,2.4439192
+202,Chris_Richards,Richards,Crystal Palace,DEF,50,Everton,False,a,2.4395237
+504,Luka_Vušković,Vuskovic,Brighton,DEF,50,Aston Villa,True,a,2.4304748
+334,Tarik_Muharemović,Muharemović,Leeds,DEF,50,Nott'm Forest,False,a,2.3879213
+144,Malo_Gusto,Gusto,Chelsea,DEF,50,Fulham,False,a,2.3848705
+473,Ola_Aina,Aina,Nott'm Forest,DEF,45,Leeds,True,a,2.3822484
+431,Amad_Diallo,Amad,Man Utd,MID,60,Hull City,False,a,2.3697991
+232,Jake_O'Brien,O'Brien,Everton,DEF,50,Crystal Palace,True,a,2.352679
+14,Eberechi_Eze,Eze,Arsenal,MID,65,Coventry City,True,a,2.3386436
+156,Pedro_Lomba Neto,Neto,Chelsea,MID,65,Fulham,False,a,2.3172414
+60,James_Hill,Hill,Bournemouth,DEF,55,Man City,False,a,2.2901568
+467,Matz_Sels,Sels,Nott'm Forest,GK,50,Leeds,True,a,2.2641418
+19,Martín_Zubimendi Ibáñez,Zubimendi,Arsenal,MID,55,Coventry City,True,a,2.2572198
+79,Francisco Evanilson_de Lima Barbosa,Evanilson,Bournemouth,FWD,60,Man City,False,a,2.239682
+175,Milan_van Ewijk,van Ewijk,Coventry City,DEF,40,Arsenal,False,a,2.231913
+535,Omar_Alderete,Alderete,Sunderland,DEF,50,Ipswich Town,False,a,2.2283654
+230,Jarrad_Branthwaite,Branthwaite,Everton,DEF,55,Crystal Palace,True,a,2.2132926
+67,Rayan Vitor_Simplício Rocha,Rayan,Bournemouth,MID,65,Man City,False,a,2.199365
+328,Pascal_Struijk,Struijk,Brighton,DEF,50,Aston Villa,True,a,2.1717298
+233,Vitalii_Mykolenko,Mykolenko,Everton,DEF,45,Crystal Palace,True,a,2.1465893
+442,Nick_Pope,Pope,Newcastle,GK,50,Liverpool,True,a,2.1278253
+497,Martin_Dubravka,Dubravka,Spurs,GK,40,Brentford,False,a,2.1200013
+362,Jeremy_Jacquet,Jacquet,Liverpool,DEF,50,Newcastle,False,a,2.1167479
+95,Dango_Ouattara,O.Dango,Brentford,MID,65,Spurs,True,a,2.0942175
+527,Richarlison_de Andrade,Richarlison,Spurs,FWD,60,Brentford,False,a,2.0789711
+87,Kristoffer_Ajer,Ajer,Brentford,DEF,45,Spurs,True,a,2.0747402
+565,Mamadou_Sangaré,Sangaré,Brentford,MID,55,Spurs,True,a,2.0734782
+581,Ousmane_Diomande,Diomande,Nott'm Forest,DEF,55,Leeds,True,a,2.0591028
+102,Yehor_Yarmoliuk,Yarmoliuk,Brentford,MID,50,Spurs,True,a,2.0273533
+337,Brenden_Aaronson,Aaronson,Leeds,MID,55,Nott'm Forest,False,a,2.0018015
+502,Andrew_Robertson,Robertson,Spurs,DEF,45,Brentford,False,a,1.9992341
+420,Leny_Yoro,Yoro,Man Utd,DEF,50,Hull City,False,a,1.9973332
+41,Emiliano_Buendía Stati,Buendía,Aston Villa,MID,60,Brighton,False,a,1.9919021
+392,Rayan_Aït-Nouri,Aït-Nouri,Man City,DEF,55,Bournemouth,True,a,1.9841299
+210,Adam_Wharton,Wharton,Crystal Palace,MID,55,Everton,False,a,1.9789902
+525,Mateus_Fernandes,Fernandes,Spurs,MID,60,Brentford,False,a,1.9765791
+261,Alex_Iwobi,Iwobi,Fulham,MID,55,Chelsea,True,a,1.9399168
+26,Kai_Havertz,Havertz,Arsenal,FWD,75,Coventry City,True,a,1.938824
+335,Anton_Stach,Stach,Leeds,MID,60,Nott'm Forest,False,a,1.9194106
+116,Lewis_Dunk,Dunk,Brighton,DEF,45,Aston Villa,True,a,1.9163785
+545,Noah_Sadiki,Sadiki,Sunderland,MID,50,Ipswich Town,False,a,1.9139152
+429,Marcus_Rashford,Rashford,Man Utd,MID,70,Hull City,False,a,1.9117961
+330,Jayden_Bogle,Bogle,Leeds,DEF,45,Nott'm Forest,False,a,1.9084073
+136,Danny_Welbeck,Welbeck,Chelsea,FWD,60,Fulham,False,d,1.8873366
+453,Harvey_Barnes,Barnes,Newcastle,MID,60,Liverpool,True,a,1.8463831
+105,Jaidon_Anthony,Anthony,Brentford,MID,60,Spurs,True,a,1.843268
+447,Sven_Botman,Botman,Newcastle,DEF,50,Liverpool,True,a,1.8277718
+130,Mats_Wieffer,Wieffer,Brighton,DEF,50,Aston Villa,True,a,1.8188142
+265,Sander_Berge,Berge,Fulham,MID,50,Chelsea,True,a,1.7729506
+257,Calvin_Bassey,Bassey,Fulham,DEF,45,Chelsea,True,a,1.7556183
+415,Patrick_Dorgu,Dorgu,Man Utd,MID,60,Hull City,False,a,1.7502959
+419,Lisandro_Martínez,Martinez,Man Utd,DEF,50,Hull City,False,a,1.7040921
+432,Kobbie_Mainoo,Mainoo,Man Utd,MID,55,Hull City,False,a,1.7031702
+327,Jaka_Bijol,Bijol,Leeds,DEF,50,Nott'm Forest,False,a,1.6911829
+254,Antonee_Robinson,Robinson,Fulham,DEF,45,Chelsea,True,a,1.6420193
+173,Bobby_Thomas,Thomas,Coventry City,DEF,40,Arsenal,False,a,1.6386644
+211,Yéremy_Pino Santos,Yeremy,Crystal Palace,MID,55,Everton,False,a,1.6287886
+96,Mikkel_Damsgaard,Damsgaard,Brentford,MID,55,Spurs,True,a,1.6251537
+488,Ibrahim_Sangaré,Sangaré,Nott'm Forest,MID,50,Leeds,True,a,1.6234356
+248,Norberto Bercique_Gomes Betuncal,Beto,Everton,FWD,55,Crystal Palace,True,a,1.6106689
+97,Mathias_Jensen,Jensen,Brentford,MID,55,Spurs,True,a,1.6105369
+129,Yasin_Ayari,Ayari,Brighton,MID,55,Aston Villa,True,a,1.6024673
+115,Maxim_De Cuyper,De Cuyper,Brighton,DEF,45,Aston Villa,True,a,1.5733888
+86,Keane_Lewis-Potter,Lewis-Potter,Brentford,MID,55,Spurs,True,a,1.5581634
+262,Emile_Smith Rowe,Smith Rowe,Fulham,MID,55,Chelsea,True,a,1.5541979
+501,Kevin_Danso,Danso,Spurs,DEF,50,Brentford,False,a,1.5363371
+515,James_Maddison,Maddison,Spurs,MID,65,Brentford,False,a,1.5228682
+385,James_Trafford,Trafford,Leeds,GK,50,Nott'm Forest,False,a,1.519687
+157,Estêvão_Almeida de Oliveira Gonçalves,Estêvão,Chelsea,MID,65,Fulham,False,a,1.514915
+373,Curtis_Jones,C.Jones,Liverpool,MID,55,Newcastle,False,d,1.5092914
+470,Felipe_Rodrigues da Silva,Morato,Nott'm Forest,DEF,50,Leeds,True,a,1.4811164
+70,Justin_Kluivert,Kluivert,Bournemouth,MID,60,Man City,False,a,1.4802943
+123,Jack_Hinshelwood,Hinshelwood,Brighton,MID,60,Aston Villa,True,a,1.4783502
+336,Noah_Okafor,Okafor,Leeds,MID,60,Nott'm Forest,False,a,1.4741907
+190,Loum_Tchaouna,Tchaouna,Coventry City,MID,55,Arsenal,False,a,1.4696414
+482,Callum_Hudson-Odoi,Hudson-Odoi,Nott'm Forest,MID,60,Leeds,True,a,1.46684
+222,Jørgen_Strand Larsen,Strand Larsen,Crystal Palace,FWD,60,Everton,False,a,1.4584609
+516,Rodrigo_Bentancur,Bentancur,Spurs,MID,55,Brentford,False,a,1.4549259
+514,Mathys_Tel,Tel,Spurs,MID,60,Brentford,False,a,1.4502244
+305,Leif_Davis,Davis,Ipswich Town,DEF,40,Sunderland,True,a,1.446578
+454,Anthony_Elanga,Elanga,Newcastle,MID,60,Liverpool,True,a,1.4456767
+209,Brennan_Johnson,Johnson,Everton,MID,60,Crystal Palace,True,a,1.4416068
+536,Reinildo_Mandava,Reinildo,Sunderland,DEF,45,Ipswich Town,False,a,1.4333193
+160,Alejandro_Garnacho Ferreyra,Garnacho,Aston Villa,MID,60,Brighton,False,a,1.4261338
+62,Bafodé_Diakité,Diakité,Bournemouth,DEF,50,Man City,False,a,1.4109249
+571,Florentino Ibrain_Morris Luís,Florentino,Ipswich Town,MID,50,Sunderland,True,a,1.4086528
+332,James_Justin,Justin,Leeds,DEF,45,Nott'm Forest,False,a,1.4005342
+36,Ian_Maatsen,Maatsen,Aston Villa,DEF,45,Brighton,False,a,1.3962961
+203,Jaydee_Canvot,Canvot,Crystal Palace,DEF,50,Everton,False,a,1.3859314
+214,Daichi_Kamada,Kamada,Crystal Palace,MID,50,Everton,False,a,1.3844978
+238,Jack_Grealish,Grealish,Man City,MID,65,Bournemouth,True,a,1.3833997
+446,Fabian_Schär,Schär,Newcastle,DEF,50,Liverpool,True,a,1.3776709
+162,Andrey_Nascimento dos Santos,Andrey Santos,Man Utd,MID,50,Hull City,False,a,1.3773602
+457,Jacob_Murphy,J.Murphy,Newcastle,MID,60,Liverpool,True,a,1.3708858
+484,Omari_Hutchinson,Hutchinson,Nott'm Forest,MID,55,Leeds,True,a,1.3464102
+512,Mohammed_Kudus,Kudus,Spurs,MID,65,Brentford,False,d,1.3224108
+272,Jonah_Kusi-Asare,Kusi-Asare,Fulham,FWD,45,Chelsea,True,a,1.3202658
+377,Victor_Munoz,Munoz,Liverpool,MID,65,Newcastle,False,a,1.3191321
+188,Victor_Torp,Torp,Coventry City,MID,55,Arsenal,False,a,1.3129523
+269,Ryan_Sessegnon,Sessegnon,Fulham,DEF,45,Chelsea,True,a,1.312933
+562,Daizen_Maeda,Maeda,Ipswich Town,MID,55,Sunderland,True,a,1.3082538
+549,Chemsdine_Talbi,Talbi,Sunderland,MID,55,Ipswich Town,False,a,1.3038874
+17,Mikel_Merino Zazón,Merino,Arsenal,MID,60,Coventry City,True,a,1.3038608
+258,Timothy_Castagne,Castagne,Fulham,DEF,45,Chelsea,True,a,1.3033977
+566,António João_Pereira de Albuquerque Tavares da Silva,Silva,Bournemouth,DEF,50,Man City,False,a,1.296601
+101,Jordan_Henderson,Henderson,Chelsea,MID,50,Fulham,False,d,1.2860904
+584,Gustavo_Hamer,Hamer,Coventry City,MID,55,Arsenal,False,a,1.2813057
+186,Ephron_Mason-Clark,Mason-Clark,Coventry City,MID,55,Arsenal,False,a,1.2813057
+313,Jack_Clarke,Clarke,Ipswich Town,MID,55,Sunderland,True,a,1.2792252
+315,Abdul_Fatawu,Fatawu,Ipswich Town,MID,55,Sunderland,True,a,1.2792252
+267,Saša_Lukić,Lukić,Ipswich Town,MID,50,Sunderland,True,a,1.2791543
+369,Rio_Ngumoha,Ngumoha,Liverpool,MID,60,Newcastle,False,a,1.2757577
+16,Noni_Madueke,Madueke,Arsenal,MID,65,Coventry City,True,a,1.2745614
+405,Nico_González Iglesias,N.Gonzalez,Man City,MID,55,Bournemouth,True,a,1.2714653
+256,Kenny_Tete,Tete,Fulham,DEF,45,Chelsea,True,a,1.2672901
+73,Tyler_Adams,Adams,Bournemouth,MID,50,Man City,False,d,1.2613379
+583,Pep_Chavarría,Chavarria,Chelsea,DEF,50,Fulham,False,a,1.2582574
+463,Nick_Woltemade,Woltemade,Newcastle,FWD,60,Liverpool,True,a,1.2536193
+591,Julio_Enciso,Enciso,Ipswich Town,MID,55,Sunderland,True,a,1.2525465
+318,Jaden_Philogene,Philogene,Ipswich Town,MID,55,Sunderland,True,a,1.2525465
+120,Michael_Svoboda,Svoboda,Brighton,DEF,50,Aston Villa,True,a,1.252423
+483,Dan_Ndoye,Ndoye,Nott'm Forest,MID,55,Leeds,True,a,1.2316493
+18,Gabriel_Martinelli Silva,Martinelli,Arsenal,MID,65,Coventry City,True,a,1.226904
+213,Jefferson_Lerma Solís,Lerma,Crystal Palace,MID,50,Everton,False,a,1.2226442
+149,Levi_Samuels Colwill,Colwill,Chelsea,DEF,50,Fulham,False,a,1.2212024
+364,Kostas_Tsimikas,Tsimikas,Liverpool,DEF,50,Newcastle,False,a,1.2201934
+588,Anan_Khalaili,Khalaili,Crystal Palace,DEF,50,Everton,False,a,1.2201934
+567,Lukás_Hornícek,Horníček,Newcastle,GK,50,Liverpool,True,a,1.2135367
+268,Josh_King,King,Fulham,MID,55,Chelsea,True,a,1.1991034
+34,Pau_Torres,Pau,Aston Villa,DEF,45,Brighton,False,a,1.1942036
+301,Alex_Palmer,Palmer,Ipswich Town,GK,40,Sunderland,True,a,1.1933281
+459,Lewis_Miley,L.Miley,Newcastle,MID,55,Liverpool,True,a,1.187547
+290,Regan_Slater,Slater,Hull City,MID,45,Man Utd,True,a,1.1829107
+543,Habib_Diarra,Diarra,Sunderland,MID,55,Ipswich Town,False,a,1.1705784
+439,Benjamin_Sesko,Šeško,Man Utd,FWD,70,Hull City,False,d,1.1674721
+456,Jacob_Ramsey,J.Ramsey,Newcastle,MID,50,Liverpool,True,a,1.1563284
+519,Conor_Gallagher,Gallagher,Spurs,MID,55,Brentford,False,a,1.1533896
+295,Oli_McBurnie,McBurnie,Hull City,FWD,55,Man Utd,True,a,1.1483245
+249,Thierno_Barry,Barry,Everton,FWD,55,Crystal Palace,True,a,1.144954
+241,Dwight_McNeil,McNeil,Crystal Palace,MID,55,Everton,False,a,1.1350502
+264,Oscar_Bobb,Bobb,Fulham,MID,55,Chelsea,True,a,1.1228439
+506,Destiny_Udogie,Udogie,Spurs,DEF,45,Brentford,False,a,1.1169659
+403,Sávio_Moreira de Oliveira,Savinho,Man City,MID,65,Bournemouth,True,a,1.1166819
+7,Myles_Lewis-Skelly,Lewis-Skelly,Arsenal,MID,55,Coventry City,True,a,1.1085832
+518,Pape Matar_Sarr,P.M.Sarr,Spurs,MID,50,Brentford,False,a,1.1052479
+89,Rico_Henry,Henry,Brentford,DEF,45,Spurs,True,a,1.1014497
+522,Archie_Gray,Gray,Spurs,MID,50,Brentford,False,a,1.0972801
+148,Jorrel_Hato,Hato,Chelsea,DEF,45,Fulham,False,a,1.0959959
+526,Dominic_Solanke-Mitchell,Solanke,Spurs,FWD,60,Brentford,False,a,1.0758826
+461,Bazoumana_Touré,Touré,Newcastle,MID,60,Liverpool,True,a,1.0653031
+263,Kevin_Santos Lopes de Macedo,Kevin,Fulham,MID,55,Chelsea,True,a,1.0643528
+520,Lucas_Bergvall,Bergvall,Spurs,MID,55,Brentford,False,a,1.0594393
+345,Tanaka_Ao,Tanaka,Leeds,MID,50,Nott'm Forest,False,a,1.0473983
+304,Dara_O'Shea,O'Shea,Ipswich Town,DEF,40,Sunderland,True,a,1.0399343
+325,Karl_Darlow,Darlow,Man Utd,GK,45,Hull City,False,d,1.0388632
+98,Vitaly_Janelt,Janelt,Brentford,MID,50,Spurs,True,a,1.0324624
+597,Zion_Suzuki,Suzuki,Aston Villa,GK,50,Brighton,False,a,1.0286725
+47,Boubacar_Kamara,Kamara,Aston Villa,MID,50,Brighton,False,a,1.025908
+286,Mohamed_Belloumi,Belloumi,Hull City,MID,50,Man Utd,True,a,1.0185853
+125,Georginio_Rutter,Georginio,Brighton,FWD,55,Aston Villa,True,a,1.0042781
+430,Mason_Mount,Mount,Man Utd,MID,55,Hull City,False,d,0.99684125
+326,Lucas Estella_Perri,Perri,Leeds,GK,45,Nott'm Forest,False,a,0.99285
+247,Hayden_Hackney,Hackney,Everton,MID,55,Crystal Palace,True,a,0.9927495
+42,Evann_Guessand,Guessand,Crystal Palace,MID,55,Everton,False,a,0.9863102
+587,Gerónimo_Rulli,Rulli,Man City,GK,50,Bournemouth,True,a,0.98479426
+3,Illan_Meslier,Meslier,Arsenal,GK,50,Coventry City,True,a,0.98479426
+227,Mark_Travers,Travers,Everton,GK,50,Crystal Palace,True,a,0.98479426
+568,Valentín_Barco,Barco,Chelsea,MID,55,Fulham,False,a,0.9814293
+487,Nicolás_Domínguez,Dominguez,Nott'm Forest,MID,50,Leeds,True,a,0.97643656
+570,César_Palacios,Palacios,Fulham,MID,55,Chelsea,True,a,0.96577924
+184,Matt_Grimes,Grimes,Coventry City,MID,50,Arsenal,False,a,0.96335983
+575,Caleb_Yirenkyi,Yirenkyi,Coventry City,MID,50,Arsenal,False,a,0.96335983
+309,Marcelino_Núñez,Núñez,Ipswich Town,MID,50,Sunderland,True,a,0.9630904
+287,Liam_Millar,Millar,Hull City,MID,50,Man Utd,True,a,0.9630904
+324,Anis_Mehmeti,Mehmeti,Ipswich Town,MID,50,Sunderland,True,a,0.9630904
+576,Elliot_Stroud,Stroud,Hull City,MID,50,Man Utd,True,a,0.9630904
+574,Jens_Hjertø-Dahl,Hjertø-Dahl,Hull City,MID,50,Man Utd,True,a,0.9630904
+164,Geovany_Quenda,Quenda,Chelsea,MID,55,Fulham,False,a,0.9574202
+578,Mykhailo_Mudryk,Mudryk,Chelsea,MID,55,Fulham,False,a,0.9574202
+569,Gonzalo_García,Gonzalo,Fulham,FWD,60,Chelsea,True,a,0.95412576
+74,David_Brooks,Brooks,Bournemouth,MID,50,Man City,False,d,0.9538736
+158,Jamie_Bynoe-Gittens,Gittens,Chelsea,MID,60,Fulham,False,a,0.9533806
+563,Hidemasa_Morita,Morita,Hull City,MID,50,Man Utd,True,d,0.94380987
+589,Lucas_Gourna-Douath,Gourna-Douath,Hull City,MID,50,Man Utd,True,a,0.94380987
+314,Chiedozie_Ogbene,Ogbene,Ipswich Town,MID,50,Sunderland,True,a,0.94380987
+296,David_Akintola,Akintola,Hull City,MID,50,Man Utd,True,a,0.94380987
+292,Abdülkadir_Ömür,Ömür,Hull City,MID,50,Man Utd,True,a,0.94380987
+183,Jack_Rudoni,Rudoni,Coventry City,MID,50,Arsenal,False,a,0.9428946
+185,Tatsuhiro_Sakamoto,Sakamoto,Coventry City,MID,50,Arsenal,False,a,0.9428946
+35,Lamare_Bogarde,Bogarde,Aston Villa,MID,50,Brighton,False,a,0.93681055
+242,Tyrique_George,George,Everton,MID,55,Crystal Palace,True,a,0.93352985
+553,Wilson_Isidor,Isidor,Sunderland,FWD,55,Ipswich Town,False,a,0.9286889
+33,Tyrone_Mings,Mings,Aston Villa,DEF,45,Brighton,False,a,0.9229769
+187,Josh_Eccles,Eccles,Coventry City,MID,50,Arsenal,False,a,0.9227856
+23,Fábio_Ferreira Vieira,Fábio Vieira,Arsenal,MID,55,Coventry City,True,a,0.9166976
+316,Emersonn_Correia da Silva,Emersonn,Ipswich Town,FWD,55,Sunderland,True,a,0.91188455
+460,Joe_Willock,Willock,Newcastle,MID,50,Liverpool,True,a,0.9080068
+564,Kjell_Scherpen,Scherpen,Ipswich Town,GK,45,Sunderland,True,a,0.9074227
+300,Christian_Walton,Walton,Ipswich Town,GK,45,Sunderland,True,a,0.9074227
+351,Giorgi_Mamardashvili,Mamardashvili,Liverpool,GK,50,Newcastle,False,a,0.9051878
+492,Taiwo_Awoniyi,Awoniyi,Coventry City,FWD,55,Arsenal,False,a,0.89884394
+556,Matt_Targett,Targett,Hull City,DEF,40,Man Utd,True,a,0.8977922
+572,Konstantinos_Tzolakis,Tzolakis,Hull City,GK,45,Man Utd,True,a,0.8847081
+323,Kasey_McAteer,McAteer,Ipswich Town,MID,45,Sunderland,True,a,0.8817807
+490,Chris_Wood,Wood,Nott'm Forest,FWD,60,Leeds,True,a,0.8753829
+44,Leon_Bailey,Bailey,Aston Villa,MID,55,Brighton,False,a,0.86331636
+485,Dilane_Bakwa,Bakwa,Nott'm Forest,MID,55,Leeds,True,a,0.862628
+370,Federico_Chiesa,Chiesa,Liverpool,MID,55,Newcastle,False,a,0.8450606
+383,Harvey_Elliott,Elliott,Liverpool,MID,55,Newcastle,False,a,0.8443208
+245,Tyler_Dibling,Dibling,Everton,MID,55,Crystal Palace,True,a,0.84104156
+422,Noussair_Mazraoui,Mazraoui,Man Utd,DEF,45,Hull City,False,a,0.8406866
+339,Sean_Longstaff,Longstaff,Leeds,MID,50,Nott'm Forest,False,a,0.8391923
+486,James_McAtee,McAtee,Nott'm Forest,MID,55,Leeds,True,a,0.8329161
+255,Jorge_Cuenca Barreno,J.Cuenca,Fulham,DEF,45,Chelsea,True,a,0.82006776
+167,Liam_Delap,Delap,Chelsea,FWD,55,Fulham,False,a,0.81992084
+474,Jair_Paula da Cunha Filho,Jair Cunha,Nott'm Forest,DEF,45,Leeds,True,a,0.81009156
+464,Yoane_Wissa,Wissa,Newcastle,FWD,60,Liverpool,True,a,0.8095088
+243,Carlos_Alcaraz Durán,Alcaraz,Everton,MID,50,Crystal Palace,True,a,0.7996169
+90,Aaron_Hickey,Hickey,Brentford,DEF,45,Spurs,True,a,0.7977851
+22,Ethan_Nwaneri,Nwaneri,Arsenal,MID,55,Coventry City,True,a,0.7951738
+71,Lewis_Cook,Cook,Bournemouth,MID,50,Man City,False,a,0.7945304
+523,Mikey_Moore,Moore,Spurs,MID,50,Brentford,False,a,0.79429924
+406,Mateo_Kovačić,Kovačić,Man City,MID,55,Bournemouth,True,a,0.7917325
+153,Axel_Disasi,Disasi,Chelsea,DEF,45,Fulham,False,a,0.78928816
+2,Kepa_Arrizabalaga Revuelta,Arrizabalaga,Arsenal,GK,50,Coventry City,True,a,0.7881295
+114,Olivier_Boscagli,Boscagli,Brighton,DEF,45,Aston Villa,True,a,0.7874587
+24,Reiss_Nelson,Nelson,Arsenal,MID,55,Coventry City,True,a,0.7871271
+166,Nicolas_Jackson,N.Jackson,Chelsea,FWD,65,Fulham,False,a,0.7831185
+37,Victor_Lindelöf,Lindelöf,Aston Villa,DEF,45,Brighton,False,a,0.77741414
+554,Kayne_van Oevelen,Van Oevelen,Ipswich Town,GK,45,Sunderland,True,a,0.77616006
+215,Justin_Devenny,Devenny,Crystal Palace,MID,50,Everton,False,a,0.7759298
+218,Cheick_Doucouré,Doucouré,Crystal Palace,MID,50,Everton,False,a,0.7730994
+46,Ross_Barkley,Barkley,Aston Villa,MID,50,Brighton,False,a,0.773032
+110,Carl_Rushworth,Rushworth,Coventry City,GK,45,Arsenal,False,a,0.772002
+104,Frank_Onyeka,Onyeka,Coventry City,MID,50,Arsenal,False,a,0.7707148
+195,Ellis_Simms,Simms,Coventry City,FWD,50,Arsenal,False,a,0.7698047
+194,Brandon_Thomas-Asante,Thomas-Asante,Coventry City,FWD,50,Arsenal,False,a,0.7698047
+343,Daniel_James,James,Leeds,MID,50,Nott'm Forest,False,a,0.76915294
+548,Chris_Rigg,Rigg,Sunderland,MID,50,Ipswich Town,False,a,0.7616655
+93,Jannik_Schuster,Schuster,Brentford,DEF,45,Spurs,True,a,0.7582185
+559,Aladji_Bamba,Bamba,Newcastle,MID,50,Liverpool,True,a,0.7555704
+558,Xaver_Schlager,Schlager,Nott'm Forest,MID,50,Leeds,True,a,0.7555704
+135,Zadok_Yohanna,Yohanna,Brighton,MID,50,Aston Villa,True,a,0.7555704
+462,Sean_Steur,Steur,Newcastle,MID,50,Liverpool,True,a,0.7555704
+580,Shea_Charles,Charles,Fulham,MID,50,Chelsea,True,a,0.7555704
+217,Matheus_França de Oliveira,M.França,Crystal Palace,MID,50,Everton,False,a,0.7529935
+219,Jesurun_Rak-Sakyi,J.Rak-Sakyi,Crystal Palace,MID,50,Everton,False,a,0.7529935
+595,Zavier_Gozo,Gozo,Crystal Palace,MID,50,Everton,False,a,0.7529935
+436,Toby_Collyer,Collyer,Man Utd,MID,50,Hull City,False,a,0.7529935
+381,Lewis_Koumas,Koumas,Liverpool,MID,50,Newcastle,False,a,0.7529935
+277,John_Egan,Egan,Hull City,DEF,40,Man Utd,True,a,0.7499389
+421,Ayden_Heaven,Heaven,Man Utd,DEF,45,Hull City,False,a,0.74733627
+111,Jason_Steele,Steele,Brighton,GK,40,Aston Villa,True,a,0.743754
+289,Matt_Crooks,Crooks,Hull City,MID,45,Man Utd,True,a,0.7437319
+64,Adam_Smith,Smith,Bournemouth,DEF,45,Man City,False,a,0.7409447
+347,Lukas_Nmecha,Nmecha,Leeds,FWD,55,Nott'm Forest,False,a,0.7392803
+246,Merlin_Röhl,Röhl,Everton,MID,50,Crystal Palace,True,a,0.73924077
+593,Amar_Dedic,Dedić,Newcastle,DEF,45,Liverpool,True,a,0.73691076
+410,Jeremy_Monga,Monga,Man City,MID,50,Bournemouth,True,a,0.73683757
+407,Claudio_Echeverri,Echeverri,Man City,MID,50,Bournemouth,True,a,0.73683757
+244,Harrison_Armstrong,Armstrong,Everton,MID,50,Crystal Palace,True,a,0.7350568
+126,Matt_O'Riley,O'Riley,Brighton,MID,55,Aston Villa,True,a,0.7289442
+547,Romaine_Mundle,Mundle,Sunderland,MID,50,Ipswich Town,False,a,0.7282191
+395,Rico_Lewis,Lewis,Man City,DEF,45,Bournemouth,True,a,0.7255411
+539,Luke_O'Nien,O'Nien,Sunderland,DEF,40,Ipswich Town,False,a,0.72098255
+192,Kaine_Andrews,Andrews,Coventry City,MID,45,Arsenal,False,a,0.7205572
+81,Álvaro_Rodríguez,Rodríguez,Bournemouth,FWD,60,Man City,False,d,0.7166534
+396,Vitor_de Oliveira Nunes dos Reis,Vitor Reis,Man City,DEF,45,Bournemouth,True,a,0.7163957
+119,João Pedro_Loureiro da Costa,Costinha,Brighton,DEF,45,Aston Villa,True,a,0.7163957
+92,Kim_Ji-soo,Ji-soo,Brentford,DEF,45,Spurs,True,a,0.7163957
+20,Max_Dowman,Dowman,Arsenal,MID,55,Coventry City,True,a,0.71487844
+288,Kieran_Dowell,Dowell,Hull City,MID,45,Man Utd,True,a,0.71209973
+271,Rodrigo_Muniz Carvalho,Muniz,Fulham,FWD,55,Chelsea,True,a,0.70760614
+161,Roméo_Lavia,Lavia,Chelsea,MID,50,Fulham,False,a,0.70745987
+108,Callum_Wilson,Wilson,Brentford,FWD,55,Spurs,True,a,0.6933503
+306,Jacob_Greaves,Greaves,Ipswich Town,DEF,40,Sunderland,True,a,0.69012356
+21,Christian_Nørgaard,Nørgaard,Everton,MID,50,Crystal Palace,True,d,0.6844239
+478,Luca_Netz,Netz,Nott'm Forest,DEF,45,Leeds,True,a,0.68339473
+577,Takehiro_Tomiyasu,Tomiyasu,Crystal Palace,DEF,45,Everton,False,a,0.68118954
+541,Thomas_Meunier,Meunier,Sunderland,DEF,45,Ipswich Town,False,a,0.68118954
+147,Tosin_Adarabioyo,Tosin,Chelsea,DEF,45,Fulham,False,a,0.6712549
+465,William_Osula,Osula,Newcastle,FWD,60,Liverpool,True,a,0.671137
+320,Chuba_Akpom,Akpom,Ipswich Town,FWD,50,Sunderland,True,a,0.6647359
+551,Nilson_Angulo,Angulo,Sunderland,MID,50,Ipswich Town,False,a,0.6602317
+189,George_Shepherd,Shepherd,Coventry City,MID,45,Arsenal,False,a,0.65937936
+573,Juanlu_Sánchez,Sanchez,Bournemouth,DEF,45,Man City,False,a,0.6591603
+146,Benoît_Badiashile Mukinayi,B.Badiashile,Chelsea,DEF,45,Fulham,False,a,0.6569936
+76,Alex_Tóth,Tóth.A,Bournemouth,MID,50,Man City,False,a,0.65403634
+321,Sindre_Walle Egeli,Walle Egeli,Ipswich Town,FWD,45,Sunderland,True,a,0.6496153
+317,George_Hirst,Hirst,Ipswich Town,FWD,50,Sunderland,True,a,0.64820886
+440,Joshua_Zirkzee,Zirkzee,Man Utd,FWD,55,Hull City,False,a,0.6465843
+191,Raphael_Borges Rodrigues,Borges Rodrigues,Coventry City,MID,45,Arsenal,False,a,0.6441827
+172,Ben_Wilson,Wilson,Coventry City,GK,45,Arsenal,False,a,0.64412516
+401,Omar_Marmoush,Marmoush,Man City,FWD,70,Bournemouth,True,a,0.64068836
+118,Igor Julio_dos Santos de Paulo,Igor,Brighton,DEF,45,Aston Villa,True,a,0.6390008
+207,Oscar_Mingueza,Mingueza,Crystal Palace,DEF,45,Everton,False,a,0.6376947
+279,Semi_Ajayi,Ajayi,Hull City,DEF,40,Man Utd,True,a,0.63562745
+586,Nobel_Mendy,Mendy,Hull City,DEF,40,Man Utd,True,a,0.63562745
+103,Josh_Dasilva,Dasilva,Brentford,MID,50,Spurs,True,a,0.6315876
+151,Josh_Acheampong,Acheampong,Chelsea,DEF,45,Fulham,False,a,0.62676823
+434,Jack_Fletcher,J.Fletcher,Man Utd,MID,50,Hull City,False,a,0.62542546
+435,Shea_Lacey,Lacey,Man Utd,MID,50,Hull City,False,a,0.6227822
+282,Ryan_Giles,Giles,Hull City,DEF,40,Man Utd,True,a,0.62277466
+599,Sidiki_Cherif,Cherif,Coventry City,FWD,50,Arsenal,False,a,0.6178632
+561,Aaron_Anselmino,Anselmino,Chelsea,DEF,45,Fulham,False,a,0.6170063
+596,Matteo_Ruggeri,Ruggeri,Aston Villa,DEF,45,Brighton,False,a,0.6170063
+598,Nico_Elvedi,Elvedi,Leeds,DEF,45,Nott'm Forest,False,a,0.6170063
+280,Lewie_Coyle,Coyle,Hull City,DEF,40,Man Utd,True,a,0.61008763
+117,Diego_Coppola,Coppola,Brighton,DEF,45,Aston Villa,True,a,0.60984445
+52,Alysson Edward Franco_da Rocha dos Santos,Alysson,Aston Villa,MID,50,Brighton,False,a,0.6064588
+216,Romain_Esse,Esse,Crystal Palace,MID,50,Everton,False,a,0.60433465
+550,Djiamgone Jocelin Ta_Bi,Jocelin.T,Sunderland,MID,50,Ipswich Town,False,a,0.60372865
+273,Dillon_Phillips,Phillips,Hull City,GK,40,Man Utd,True,a,0.6022693
+375,Trey_Nyoni,Nyoni,Liverpool,MID,50,Newcastle,False,a,0.59860736
+592,Abdoul_Ouattara,Ouattara,Ipswich Town,DEF,40,Sunderland,True,a,0.59711766
+308,Darnell_Furlong,Furlong,Ipswich Town,DEF,40,Sunderland,True,a,0.59711766
+303,Cédric_Kipré,Kipré,Ipswich Town,DEF,40,Sunderland,True,a,0.59711766
+322,Ali_Al-Hamadi,Al-Hamadi,Ipswich Town,FWD,50,Sunderland,True,a,0.595187
+72,Ben_Gannon-Doak,Gannon-Doak,Bournemouth,MID,50,Man City,False,a,0.5877323
+91,Ethan_Pinnock,Pinnock,Brentford,DEF,45,Spurs,True,a,0.5868164
+585,Lucas_Herrington,Herrington,Hull City,DEF,40,Man Utd,True,a,0.58460987
+374,Endo_Wataru,Endo,Liverpool,MID,50,Newcastle,False,a,0.57621384
+206,Chadi_Riad Dnanou,Chadi Riad,Crystal Palace,DEF,45,Everton,False,a,0.56228364
+234,Nathan_Patterson,Patterson,Everton,DEF,45,Crystal Palace,True,a,0.5600199
+100,Fábio_Freitas Gouveia Carvalho,Carvalho,Brentford,MID,50,Spurs,True,d,0.5564628
+468,John Victor_Maciel Furtado,John,Nott'm Forest,GK,45,Leeds,True,a,0.5538306
+594,Promise_David,David,Brighton,FWD,60,Aston Villa,True,a,0.55237895
+224,Eddie_Nketiah,Nketiah,Crystal Palace,FWD,55,Everton,False,a,0.5491906
+58,Fraser_Forster,Forster,Bournemouth,GK,40,Man City,False,a,0.547166
+27,Gabriel_Fernando de Jesus,G.Jesus,Arsenal,FWD,60,Coventry City,True,a,0.54160523
+150,Mamadou_Sarr,M.Sarr,Chelsea,DEF,45,Fulham,False,a,0.5409913
+205,Borna_Sosa,Sosa,Crystal Palace,DEF,45,Everton,False,a,0.53999597
+284,Cathal_McCarthy,McCarthy,Hull City,DEF,40,Man Utd,True,a,0.53883106
+285,Paddy_McNair,McNair,Hull City,DEF,40,Man Utd,True,a,0.53883106
+307,Ben_Johnson,Johnson,Ipswich Town,DEF,40,Sunderland,True,a,0.53883106
+537,Jenson_Seelt,Seelt,Sunderland,DEF,45,Ipswich Town,False,a,0.5337249
+228,Tom_King,King,Everton,GK,45,Crystal Palace,True,a,0.53312796
+590,Steven_Benda,Benda,Nott'm Forest,GK,45,Leeds,True,a,0.53312796
+386,Marcus_Bettinelli,Bettinelli,Man City,GK,45,Bournemouth,True,a,0.53312796
+444,Ewen_Jaouen,Jaouen,Newcastle,GK,45,Liverpool,True,a,0.53312796
+443,Mark_Gillespie,Gillespie,Newcastle,GK,45,Liverpool,True,a,0.53312796
+283,Matty_Jacob,Jacob,Hull City,DEF,40,Man Utd,True,d,0.52772266
+29,Marco_Bizot,M.Bizot,Aston Villa,GK,45,Brighton,False,a,0.52262443
+560,Mike_Penders,Penders,Chelsea,GK,45,Fulham,False,a,0.51518744
+83,Hákon Rafn_Valdimarsson,Valdimarsson,Brentford,GK,45,Spurs,True,a,0.5125558
+378,James_McConnell,McConnell,Liverpool,MID,45,Newcastle,False,a,0.48689324
+182,Aurèle_Amenda,Amenda,Coventry City,DEF,40,Arsenal,False,a,0.4863137
+176,Jay_Dasilva,Dasilva,Coventry City,DEF,40,Arsenal,False,a,0.4863137
+270,Harrison_Reed,Reed,Fulham,MID,45,Chelsea,True,a,0.4843344
+174,Liam_Kitching,Kitching,Coventry City,DEF,40,Arsenal,False,a,0.47707918
+56,Tammy_Abraham,Abraham,Aston Villa,FWD,55,Brighton,False,d,0.4693448
+138,Charalampos_Kostoulas,Kostoulas,Brighton,FWD,55,Aston Villa,True,a,0.46362633
+171,Oliver_Dovin,Dovin,Coventry City,GK,40,Arsenal,False,a,0.45614114
+302,David_Button,Button,Ipswich Town,GK,40,Sunderland,True,a,0.4437047
+180,Luke_Woolfenden,Woolfenden,Coventry City,DEF,40,Arsenal,False,a,0.43715927
+163,Dário_Luís Essugo,D.Essugo,Chelsea,MID,45,Fulham,False,a,0.43441918
+178,Jake_Bidwell,Bidwell,Coventry City,DEF,40,Arsenal,False,a,0.42934135
+177,Kaine_Kesler-Hayden,Kesler-Hayden,Coventry City,DEF,40,Arsenal,False,a,0.42934135
+409,Divine_Mukasa,Mukasa,Man City,MID,45,Bournemouth,True,a,0.42901087
+493,Arnaud_Kalimuendo,Kalimuendo,Nott'm Forest,FWD,55,Leeds,True,a,0.42598915
+524,Callum_Olusesi,Olusesi,Spurs,MID,45,Brentford,False,a,0.42521378
+38,Andrés_García,A.García,Aston Villa,DEF,40,Brighton,False,a,0.42455113
+134,Nehemiah_Oriola,Oriola,Brighton,MID,45,Aston Villa,True,a,0.42442283
+179,Joel_Latibeaudiere,Latibeaudiere,Coventry City,DEF,40,Arsenal,False,a,0.4218708
+181,Miguel_Brau,Brau,Coventry City,DEF,40,Arsenal,False,a,0.4218708
+50,Bradley_Burrowes,Burrowes,Aston Villa,MID,45,Brighton,False,a,0.4138962
+51,George_Hemmings,George Hemmings,Aston Villa,MID,45,Brighton,False,a,0.40453753
+137,Stefanos_Tzimas,Tzimas,Brighton,FWD,55,Aston Villa,True,d,0.39740255
+476,Omar_Richards,O.Richards,Nott'm Forest,DEF,40,Leeds,True,a,0.38487172
+479,Tyler_Bindon,Bindon,Nott'm Forest,DEF,40,Leeds,True,a,0.38487172
+235,Adam_Aznou,Aznou,Everton,DEF,40,Crystal Palace,True,a,0.38487172
+170,Emmanuel_Emegha,Emegha,Chelsea,FWD,50,Fulham,False,a,0.37673572
+555,Remi_Matthews,Matthews,Crystal Palace,GK,40,Everton,False,a,0.3733291
+438,Tyler_Fletcher,Fletcher,Man Utd,MID,45,Hull City,False,a,0.37273595
+168,Marc_Guiu Paz,Marc Guiu,Chelsea,FWD,50,Fulham,False,a,0.36489603
+477,Zach_Abbott,Abbott,Nott'm Forest,DEF,40,Leeds,True,a,0.3643488
+437,Bendito_Mantato,Bendito Mantato,Man Utd,MID,45,Hull City,False,a,0.36332837
+221,Joél_Drakes-Thomas,Drakes-Thomas,Crystal Palace,MID,45,Everton,False,a,0.35317853
+251,Benjamin_Lecomte,Lecomte,Fulham,GK,40,Chelsea,True,a,0.3394105
+365,Calvin_Ramsay,Ramsay,Liverpool,DEF,40,Newcastle,False,a,0.32404777
+424,Harry_Amass,Amass,Man Utd,DEF,40,Hull City,False,a,0.32404777
+511,João Victor_de Souza Menezes,Souza,Spurs,DEF,40,Brentford,False,a,0.3190355
+361,Wellity_Lucky,Lucky,Liverpool,DEF,40,Newcastle,False,a,0.317302
+441,Chido_Obi,Obi,Man Utd,FWD,45,Hull City,False,a,0.29887596
+66,Julio_Soler Barreto,Soler,Bournemouth,DEF,40,Man City,False,d,0.29527554
+531,Melker_Ellborg,Ellborg,Sunderland,GK,45,Ipswich Town,False,a,0.28956756
+508,Ben_Davies,Davies,Spurs,DEF,40,Brentford,False,a,0.2833493
+495,Brandon_Austin,Austin,Spurs,GK,40,Brentford,False,a,0.28272358
+510,James_Rowswell,Rowswell,Spurs,DEF,40,Brentford,False,a,0.28149682
+509,Jun'ai_Byfield,Byfield,Spurs,DEF,40,Brentford,False,a,0.28149682
+528,Dane_Scarlett,Scarlett,Spurs,FWD,45,Brentford,False,a,0.26931876
+352,Freddie_Woodman,Woodman,Liverpool,GK,40,Newcastle,False,a,0.25789097
+252,Alfie_McNally,McNally,Fulham,GK,40,Chelsea,True,a,0.25314185
+107,Kaye_Furo,Furo,Brentford,FWD,45,Spurs,True,a,0.24382524
+466,Sean_Neave,Neave,Newcastle,FWD,45,Liverpool,True,a,0.24018468
+59,Will_Dennis,Dennis,Bournemouth,GK,40,Man City,False,a,0.23846549
+355,Harvey_Davies,Davies,Liverpool,GK,40,Newcastle,False,a,0.23253295
+199,Walter_Benítez,Benitez,Crystal Palace,GK,45,Everton,False,a,0.20480466
+169,Shumaira_Mheuka,Mheuka,Chelsea,FWD,45,Fulham,False,a,0.19188285
+354,Vitezslav_Jaros,Jaros,Liverpool,GK,40,Newcastle,False,i,0.0
+30,Lucas_Digne,Digne,Aston Villa,DEF,45,Brighton,False,u,0.0
+546,Simon_Adingra,Adingra,Sunderland,MID,50,Ipswich Town,False,i,0.0
+39,Kosta_Nedeljkovic,Nedeljkovic,Aston Villa,DEF,40,Brighton,False,u,0.0
+353,Armin_Pecsi,Pecsi,Liverpool,GK,40,Newcastle,False,u,0.0
+331,Gabriel_Gudmundsson,Gudmundsson,Leeds,DEF,45,Nott'm Forest,False,i,0.0
+65,Julián_Araujo Zúñiga,J.Araujo,Bournemouth,DEF,45,Man City,False,i,0.0
+5,Jurriën_Timber,J.Timber,Arsenal,DEF,65,Coventry City,True,i,0.0
+348,Joël_Piroe,Piroe,Leeds,FWD,50,Nott'm Forest,False,u,0.0
+294,Óscar_Zambrano,Zambrano,Hull City,MID,45,Man Utd,True,i,0.0
+278,Charlie_Hughes,Hughes,Hull City,DEF,40,Man Utd,True,i,0.0
+310,Azor_Matusiwa,Matusiwa,Ipswich Town,MID,50,Sunderland,True,i,0.0
+333,Sebastiaan_Bornauw,Bornauw,Leeds,DEF,45,Nott'm Forest,False,u,0.0
+63,Veljko_Milosavljevic,Milosavljević,Bournemouth,DEF,50,Man City,False,i,0.0
+344,Ilia_Gruev,Gruev,Leeds,MID,50,Nott'm Forest,False,i,0.0
+349,Mateo_Joseph Fernández-Regatillo,Mateo Joseph,Leeds,FWD,45,Nott'm Forest,False,i,0.0
+311,Wes_Burns,Burns,Ipswich Town,MID,50,Sunderland,True,u,0.0
+6,William_Saliba,Saliba,Arsenal,DEF,60,Coventry City,True,i,0.0
+298,Enis_Destan,Destan,Hull City,FWD,45,Man Utd,True,u,0.0
+54,Joao_Gomes,Gomes,Aston Villa,MID,55,Brighton,False,i,0.0
+299,Mason_Burstow,Burstow,Hull City,FWD,45,Man Utd,True,u,0.0
+53,Johan_Manzambi,Manzambi,Aston Villa,MID,60,Brighton,False,i,0.0
+319,Sam_Szmodics,Szmodics,Ipswich Town,MID,50,Sunderland,True,u,0.0
+281,Cody_Drameh,Drameh,Hull City,DEF,40,Man Utd,True,i,0.0
+291,Eliot_Matazo,Matazo,Hull City,MID,45,Man Utd,True,i,0.0
+49,Samuel_Iling-Junior,Iling Jr,Aston Villa,MID,50,Brighton,False,u,0.0
+582,Brian_Madjo,Madjo,Aston Villa,FWD,55,Brighton,False,i,0.0
+48,Amadou_Onana,Onana,Aston Villa,MID,50,Brighton,False,i,0.0
+340,Joe_Gelhardt,Gelhardt,Hull City,MID,50,Man Utd,True,i,0.0
+312,Jack_Taylor,Taylor,Ipswich Town,MID,45,Sunderland,True,i,0.0
+341,Wilfried_Gnonto,Gnonto,Leeds,MID,50,Nott'm Forest,False,i,0.0
+297,Darko_Gyabi,Gyabi,Hull City,MID,45,Man Utd,True,i,0.0
+342,Jack_Harrison,Harrison,Leeds,MID,50,Nott'm Forest,False,u,0.0
+293,Abu_Kamara,Kamara,Hull City,MID,50,Man Utd,True,u,0.0
+425,Tyler_Fredricson,Fredricson,Man Utd,DEF,40,Hull City,False,u,0.0
+75,Ryan_Christie,Christie,Bournemouth,MID,50,Man City,False,s,0.0
+128,Facundo_Buonanotte,Buonanotte,Brighton,MID,50,Aston Villa,True,u,0.0
+489,Ryan_Yates,Yates,Nott'm Forest,MID,45,Leeds,True,i,0.0
+131,Carlos_Baleba,Baleba,Brighton,MID,50,Aston Villa,True,i,0.0
+132,Harry_Howell,Howell,Brighton,MID,45,Aston Villa,True,u,0.0
+239,James_Garner,Garner,Everton,MID,60,Crystal Palace,True,i,0.0
+133,Tom_Watson,Watson,Brighton,MID,50,Aston Villa,True,u,0.0
+475,Nicolò_Savona,Savona,Nott'm Forest,DEF,45,Leeds,True,i,0.0
+139,Evan_Ferguson,Ferguson,Brighton,FWD,50,Aston Villa,True,i,0.0
+141,Filip_Jörgensen,Jörgensen,Chelsea,GK,50,Fulham,False,u,0.0
+143,Trevoh_Chalobah,Chalobah,Chelsea,DEF,55,Fulham,False,u,0.0
+145,Wesley_Fofana,Fofana,Chelsea,DEF,50,Fulham,False,s,0.0
+225,Christantus_Uche,Uche,Crystal Palace,FWD,50,Everton,False,u,0.0
+394,Max_Alleyne,Alleyne,Man City,DEF,50,Bournemouth,True,u,0.0
+220,Rio_Cardines,Cardines,Crystal Palace,DEF,45,Everton,False,u,0.0
+402,Rodrigo 'Rodri'_Hernandez Cascante,Rodrigo,Man City,MID,65,Bournemouth,True,u,0.0
+404,Tijjani_Reijnders,Reijnders,Man City,MID,60,Bournemouth,True,u,0.0
+408,Kalvin_Phillips,Phillips,Man City,MID,50,Bournemouth,True,u,0.0
+458,Joelinton Cássio_Apolinário de Lira,Joelinton,Newcastle,MID,55,Liverpool,True,i,0.0
+451,Alex_Murphy,A.Murphy,Newcastle,DEF,40,Liverpool,True,u,0.0
+450,Tino_Livramento,Livramento,Newcastle,DEF,50,Liverpool,True,i,0.0
+413,Altay_Bayındır,Bayindir,Man Utd,GK,45,Hull City,False,u,0.0
+414,Tom_Heaton,Heaton,Man Utd,GK,40,Hull City,False,i,0.0
+416,Matthijs_de Ligt,De Ligt,Man Utd,DEF,50,Hull City,False,i,0.0
+433,Manuel_Ugarte Ribeiro,Ugarte,Man Utd,MID,50,Hull City,False,i,0.0
+197,Norman_Bassette,Bassette,Coventry City,FWD,45,Arsenal,False,u,0.0
+196,Jahnoah_Markelo,Markelo,Coventry City,FWD,50,Arsenal,False,u,0.0
+240,Tim_Iroegbunam,Iroegbunam,Everton,MID,50,Crystal Palace,True,i,0.0
+382,Jayden_Danns,Danns,Liverpool,FWD,45,Newcastle,False,i,0.0
+540,Arthur_Masuaku,Masuaku,Sunderland,DEF,40,Ipswich Town,False,u,0.0
+494,Guglielmo_Vicario,Vicario,Spurs,GK,45,Brentford,False,u,0.0
+276,Thimothée_Lo-Tutala,Lo-Tutala,Hull City,GK,40,Man Utd,True,u,0.0
+538,Leo Fuhr_Hjelde,Hjelde,Sunderland,DEF,40,Ipswich Town,False,u,0.0
+275,Harvey_Cartwright,Cartwright,Hull City,GK,40,Man Utd,True,u,0.0
+77,Amine_Adli,Adli,Bournemouth,MID,50,Man City,False,i,0.0
+78,Junior_Kroupi,Kroupi.Jr,Bournemouth,MID,75,Man City,False,i,0.0
+80,Enes_Ünal,Enes Ünal,Bournemouth,FWD,55,Man City,False,u,0.0
+274,Jack_Butland,Butland,Hull City,GK,45,Man Utd,True,i,0.0
+530,Anthony_Patterson,Patterson,Sunderland,GK,40,Ipswich Town,False,u,0.0
+85,Sepp_van den Berg,Van den Berg,Brentford,DEF,50,Spurs,True,i,0.0
+359,Joe_Gomez,Gomez,Liverpool,DEF,50,Newcastle,False,i,0.0
+360,Conor_Bradley,Bradley,Liverpool,DEF,50,Newcastle,False,i,0.0
+521,Dejan_Kulusevski,Kulusevski,Spurs,MID,65,Brentford,False,i,0.0
+363,Giovanni_Leoni,Leoni,Liverpool,DEF,40,Newcastle,False,i,0.0
+99,Antoni_Milambo,Milambo,Brentford,MID,50,Spurs,True,i,0.0
+517,Wilson_Odobert,Odobert,Spurs,MID,55,Brentford,False,i,0.0
+513,Xavi_Simons,Xavi,Spurs,MID,60,Brentford,False,i,0.0
+193,Haji_Wright,Wright,Coventry City,FWD,55,Arsenal,False,i,0.0
+507,Ashley_Phillips,Phillips,Spurs,DEF,45,Brentford,False,u,0.0
+253,Joachim_Andersen,Andersen,Fulham,DEF,50,Chelsea,True,s,0.0
+505,Djed_Spence,Spence,Spurs,DEF,45,Brentford,False,u,0.0
+376,Stefan_Bajčetić Maquieira,Bajcetic,Liverpool,MID,50,Newcastle,False,i,0.0
+500,Cristian_Romero,Romero,Spurs,DEF,50,Brentford,False,u,0.0
+121,Mitoma_Kaoru,Mitoma,Brighton,MID,60,Aston Villa,True,i,0.0
+122,Yankuba_Minteh,Minteh,Brighton,MID,60,Aston Villa,True,i,0.0
+380,Hugo_Ekitiké,Ekitiké,Liverpool,FWD,75,Newcastle,False,i,0.0
+266,Tom_Cairney,Cairney,Fulham,MID,50,Chelsea,True,i,0.0

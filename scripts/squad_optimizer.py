@@ -28,7 +28,29 @@ BUDGET_TENTHS = 1000  # GBP 100m, prices stored as 0.1m units
 MAX_PER_CLUB = 3
 TRANSFERS_CAP_PER_GW = 20  # FPL hard limit
 MAX_BANKED_TRANSFERS = 4   # max extras beyond this GW's auto-1 (2025/26 rule)
-HIT_COST = 4               # points deducted per transfer beyond what's available
+HIT_COST = 4               # ACTUAL points deducted per paid transfer — never change
+                           # this; it must match the real FPL rule for scoring.
+
+# Conservative-hit guard. The ILP's own objective sees a hit as a pure
+# arithmetic tie: take it whenever predicted gain exceeds HIT_COST by any
+# amount, including a hair. In practice predictions carry real error
+# (MAE_played ~1.9 pts/player), and a paid transfer swaps out one player's
+# predictions for another's — roughly sqrt(2)*MAE of noise on the swing
+# alone, before accounting for unmodeled risk like rotation (the 2026/27
+# GW3 hit: Semenyo+Mbeumo -> Foden+Gibbs-White was taken on a predicted edge
+# of ~0.5-2 pts over breakeven and lost by 14 real points when Foden played
+# 24 minutes).
+#
+# `hit_margin` (a parameter on the transfer-aware optimizers below) raises
+# the bar the OPTIMIZER must clear before it will spend a hit, by charging
+# it (HIT_COST + hit_margin) inside the objective — while the points actually
+# deducted on the scoreboard always stay HIT_COST, exactly as FPL scores it.
+#
+# The function-level default is 0.0 (no guard), so every existing backtest
+# and reported result (2,735 / 2,363 / 2,463 pts, etc.) stays exactly
+# reproducible unless a caller opts in. HIT_MARGIN below is that opt-in
+# value — `predict_next_gw.py` (the live weekly runner) passes it explicitly.
+HIT_MARGIN = 2.0
 
 # vaastav and FPL API both drift between "GK"/"GKP" and the 2024-25 "AM"
 # (attacking midfielder) bucket. Normalize to four canonical positions.
@@ -150,6 +172,7 @@ def optimize_squad_with_transfers(
     position_col: str = "position",
     team_col: str = "team_name",
     id_col: str = "element",
+    hit_margin: float = 0.0,
 ) -> dict:
     """Pick next-GW squad given the previous squad and banked transfers (2025/26 rules).
 
@@ -158,6 +181,11 @@ def optimize_squad_with_transfers(
       - You get ``banked_transfers + 1`` "free" transfers this GW (cap 5, i.e.
         banked is 0..4). Extra transfers cost -4 points each.
       - Hard cap: ``TRANSFERS_CAP_PER_GW`` transfers max in one GW.
+
+    ``hit_margin`` (see HIT_MARGIN above) makes the optimizer require a
+    predicted gain of HIT_COST + hit_margin before it will spend a paid
+    transfer. It only affects the internal decision; the hit actually
+    deducted from the score is always HIT_COST, exactly as FPL scores it.
 
     Simplifying assumption (pass 1): prices in ``value_col`` are used uniformly
     for every player in the new squad. This ignores the 50% sell-on fee and any
@@ -202,7 +230,7 @@ def optimize_squad_with_transfers(
     prob += (
         pulp.lpSum(pred[i] * s[i] for i in idx)
         + pulp.lpSum(pred[i] * c[i] for i in idx)
-        - HIT_COST * paid
+        - (HIT_COST + hit_margin) * paid
     )
 
     # Budget (using current GW prices for the whole new squad)
@@ -311,6 +339,7 @@ def optimize_squad_horizon(
     id_col: str = "element",
     gw_weights: Optional[list[float]] = None,
     candidate_pool_size: int = 150,
+    hit_margin: float = 0.0,
 ) -> dict:
     """Plan transfers over a multi-GW horizon, return the FIRST GW's decision.
 
@@ -324,6 +353,12 @@ def optimize_squad_horizon(
     Pool trimming: keep only the top ``candidate_pool_size`` players per GW by
     predicted points, unioned with ``current_squad_ids``. Without this the ILP
     has ~12k+ binaries and solves slowly; with it the solver finishes in seconds.
+
+    ``hit_margin`` (see HIT_MARGIN above) makes the optimizer require a
+    predicted horizon-wide gain of HIT_COST + hit_margin before it will spend
+    ANY paid transfer, in any gameweek of the horizon. It only affects the
+    internal decision; the hit actually deducted from the score is always
+    HIT_COST, exactly as FPL scores it.
     """
     H = len(horizon_pools)
     if H == 0:
@@ -388,7 +423,7 @@ def optimize_squad_horizon(
             pred = float(pdata[t][pid][pred_col])
             obj_terms.append(gw_weights[t] * pred * s[pid, t])
             obj_terms.append(gw_weights[t] * pred * c[pid, t])
-        obj_terms.append(-gw_weights[t] * HIT_COST * paid[t])
+        obj_terms.append(-gw_weights[t] * (HIT_COST + hit_margin) * paid[t])
     prob += pulp.lpSum(obj_terms)
 
     # Per-GW constraints
@@ -783,6 +818,7 @@ def backtest_with_transfers(
     dataset_csv: Path,
     pred_col: str = "pred_mlp",
     output_csv: Optional[Path] = None,
+    hit_margin: float = 0.0,
 ) -> pd.DataFrame:
     """Walk the season GW1 -> GW38 carrying squad state and banked transfers.
 
@@ -825,6 +861,7 @@ def backtest_with_transfers(
         else:
             res = optimize_squad_with_transfers(
                 chunk, current_squad_ids, banked, pred_col=pred_col,
+                hit_margin=hit_margin,
             )
 
         realized = score_squad_realistic(res["squad"], "total_points")
@@ -867,6 +904,7 @@ def backtest_with_horizon(
     gw_weights: Optional[list[float]] = None,
     candidate_pool_size: int = 150,
     output_csv: Optional[Path] = None,
+    hit_margin: float = 0.0,
 ) -> pd.DataFrame:
     """Rolling-horizon backtest. At every GW, re-plan over the next ``horizon``
     GWs (clipped at season end), then commit only the first GW's decision."""
@@ -905,6 +943,7 @@ def backtest_with_horizon(
                 horizon_pools, current_squad_ids, banked,
                 pred_col=pred_col, gw_weights=gw_weights,
                 candidate_pool_size=candidate_pool_size,
+                hit_margin=hit_margin,
             )
 
         realized = score_squad_realistic(res["squad"], "total_points")

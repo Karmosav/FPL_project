@@ -280,7 +280,7 @@ def train_decomposed(
     with torch.no_grad():
         out_val = model(X_val_t)
         pred_val = tensor_to_numpy(expected_fpl_points_torch(out_val, pos_val_t))
-    return pred_val, epochs_ran
+    return model, pred_val, epochs_ran
 
 
 # ---- feature matrix builder, parametrised by dropped group ----------------
@@ -369,7 +369,7 @@ def main():
         X_train_s = scaler.fit_transform(X_train).astype(np.float32)
         X_val_s = scaler.transform(X_val).astype(np.float32)
 
-        pred_val, epochs_ran = train_decomposed(X_train_s, y_train, X_val_s, y_val)
+        _model, pred_val, epochs_ran = train_decomposed(X_train_s, y_train, X_val_s, y_val)
         m = eval_metrics(y_val["total_points"], pred_val, played_mask)
         m.update({
             "ablation": name,

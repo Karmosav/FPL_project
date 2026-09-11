@@ -64,6 +64,89 @@ python scripts/run_live_chips.py
 python scripts/run_feature_ablations.py
 ```
 
+## Live weekly runner (current season)
+
+```bash
+python scripts/predict_next_gw.py               # auto-detects the next gameweek
+python scripts/predict_next_gw.py --no-cache    # refetch from the FPL API
+python scripts/predict_next_gw.py --horizon 6   # look further ahead (default 4)
+python scripts/predict_next_gw.py --fresh-squad # ignore saved state, pick from scratch
+python scripts/predict_next_gw.py --hit-margin 0   # disable the conservative-hit guard
+python scripts/predict_next_gw.py --no-chips       # skip chip evaluation
+python scripts/predict_next_gw.py --use-chip wildcard   # force a chip this week
+```
+
+Season and gameweek are read from the API (`events.is_next`), so the script does
+not need editing between seasons. It plans transfers over a rolling multi-gameweek
+horizon — the same multi-period ILP used in the backtest, where horizon planning
+was worth ~370 points a season over greedy single-gameweek optimisation.
+
+Feature parity with training is structural rather than reimplemented: completed
+gameweeks and synthetic rows for each upcoming fixture are concatenated, then the
+same `add_leakage_safe_features` used to build the training set runs over the whole
+frame.
+
+**Form is frozen across the horizon.** Beyond the first horizon gameweek the
+intervening results have not happened, so rolling form cannot legitimately advance.
+Left alone, `.shift(1).rolling(w)` would walk off the end of the observed data and
+decay to NaN, making later gameweeks look like cold-start rows and biasing the
+optimizer toward the near term. `freeze_form_across_horizon` broadcasts
+last-observed form forward; only fixture-dependent columns (opponent, home/away,
+rest days, opponent strength) vary by gameweek.
+
+Squad state persists to `data/live_state/squad_state.json`. Injured and suspended
+players are zeroed out via the API `status` flag before optimisation.
+
+**Conservative-hit guard.** The optimizer's objective sees a hit as a pure
+arithmetic tie: it takes a -4 the moment predicted gain exceeds 4 points by
+any amount, including a fraction of a point. Real predictions carry error
+(MAE_played ~1.9 pts/player), and a paid transfer swaps two players' worth of
+predictions at once — in 2026/27 GW3 the optimizer took a -4 hit
+(Semenyo+Mbeumo -> Foden+Gibbs-White) on a predicted edge of roughly 0.5-2
+points over breakeven, and lost by 14 real points when Foden was rotated to
+24 minutes. `HIT_MARGIN` in `squad_optimizer.py` raises the bar the optimizer
+must clear before spending a hit — it only changes the internal decision,
+never the points actually deducted (`HIT_COST` stays the true FPL -4).
+
+The function-level default is `hit_margin=0.0` so every historical backtest
+number already reported stays exactly reproducible; `predict_next_gw.py`
+opts into the guard by default (`--hit-margin` defaults to `HIT_MARGIN = 2.0`,
+i.e. an effective 6-point break-even). Pass `--hit-margin 0` to reproduce the
+old unguarded behaviour. On the 2024-25 validation backtest the guard reduced
+paid hits (29 -> 20) and *improved* the season net total, so it is not purely
+a safety trade-off.
+
+**Live chip strategy.** Every gameweek the runner evaluates each chip still
+available and either fires the best one or explicitly saves them all. Note this
+is separate from `chip_strategy.py`, which schedules chips retrospectively
+across a *completed* season for backtesting — the live path has to decide with
+only the current gameweek's information.
+
+Rules enforced: two of each chip per season, one per half (GW1-19, GW20-38);
+Wildcard and Free Hit cannot fire in GW1; at most one chip per gameweek.
+Availability and usage are tracked in `squad_state.json` under `chips_used`.
+
+How each uplift is estimated:
+
+| Chip | Uplift estimate | Needs re-optimisation? |
+|---|---|---|
+| Triple Captain | captain's predicted points (the extra 1x) | no — changes scoring, not selection |
+| Bench Boost | sum of the four bench players' predictions | no |
+| Wildcard | horizon objective with unlimited free transfers, minus the normal plan's | yes |
+| Free Hit | best possible one-week XI minus the normal plan's XI, for that GW only | yes |
+
+A chip is only fired if its uplift clears a threshold (`CHIP_BASE_THRESHOLD`),
+which is deliberately stricter than the hit guard: a chip spent in GW4 is gone
+until GW20, so the opportunity cost is half a season rather than 4 points.
+Thresholds are calibrated against realised chip returns in the 2025/26 backtest
+(~1-28 points; the duds were the low ones) and **decay toward the end of each
+half** — with two gameweeks left before a chip expires, a mediocre return beats
+letting it lapse. Use `--chip-threshold-scale` to tune globally.
+
+Free Hit is handled correctly on the state side: the one-week squad it buys is
+*not* carried forward, so the next gameweek plans from the squad held before the
+chip.
+
 ## Pipeline at a glance
 
 ### Phase 1-2 — data + features

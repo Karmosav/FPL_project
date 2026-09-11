@@ -3,3 +3,7 @@ __pycache__/
 .DS_Store
 .ipynb_checkpoints/
 .venv/
+
+# Regenerable FPL API response caches (26MB + 3.5MB, refetched on demand)
+data/processed/_cache/
+data/live_state/_cache/
