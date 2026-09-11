@@ -97,6 +97,22 @@ rest days, opponent strength) vary by gameweek.
 Squad state persists to `data/live_state/squad_state.json`. Injured and suspended
 players are zeroed out via the API `status` flag before optimisation.
 
+**State is split into `confirmed_*` and `pending_*`, on purpose.** Re-running
+the predictor for the same still-unplayed gameweek used to be dangerous:
+`squad_state.json` only ever stored one squad, so a second run for the same
+GW treated the first run's recommendation as an already-played squad and
+planned a second transfer on top of it — silently spending a free transfer
+that did not exist yet, with no hit charged either time (this happened once,
+turning a single Foden->Tavernier swap into a second phantom transfer).
+
+`confirmed_*` is the squad actually settled after the last gameweek the API
+reports as `finished`; it is the only thing ever used as the planning basis.
+`pending_*` is just the most recent recommendation and may be for a gameweek
+that has not been played. `promote_if_finished()` copies pending -> confirmed
+once, the run after the API confirms that gameweek is over. This makes
+calling the predictor twice for the same upcoming deadline idempotent — both
+runs plan from the same confirmed squad and produce the same result.
+
 **Conservative-hit guard.** The optimizer's objective sees a hit as a pure
 arithmetic tie: it takes a -4 the moment predicted gain exceeds 4 points by
 any amount, including a fraction of a point. Real predictions carry error

@@ -551,15 +551,55 @@ def load_state():
     return json.loads(STATE_PATH.read_text())
 
 
-def save_state(squad_ids, banked, gw, season, chips_used=None):
+def save_state(confirmed_gw, confirmed_squad_ids, confirmed_banked,
+               pending_gw, pending_squad_ids, pending_banked, season,
+               chips_used=None):
+    """Persist two distinct things, on purpose:
+
+    - confirmed_*: the squad actually settled after the last gameweek the API
+      reports as finished. This is always the correct basis to PLAN from.
+    - pending_*: the most recent recommendation, which may be for a
+      gameweek that has not been played yet.
+
+    Without this split, running the predictor twice for the same upcoming
+    gameweek would treat the first run's recommendation as if it had already
+    been played, and "spend" a second free transfer that does not exist yet
+    (this actually happened once: a same-day re-run for GW4 turned a single
+    Rogers->Tavernier swap into two transfers, Mheuka->Barry on top of it,
+    with no hit charged for either since each run only ever sees +1 free).
+    Planning always reads confirmed_*, so re-running for an unplayed
+    gameweek is idempotent — it always starts from the same true basis.
+    confirmed_* only advances once ``promote_if_finished`` sees the API
+    report that gameweek as finished.
+    """
     STATE_PATH.parent.mkdir(parents=True, exist_ok=True)
     STATE_PATH.write_text(json.dumps({
         "season": season,
-        "last_gw": gw,
-        "squad_ids": sorted(int(x) for x in squad_ids),
-        "banked_transfers": int(banked),
+        "confirmed_gw": confirmed_gw,
+        "confirmed_squad_ids": sorted(int(x) for x in confirmed_squad_ids),
+        "confirmed_banked": int(confirmed_banked),
+        "pending_gw": pending_gw,
+        "pending_squad_ids": sorted(int(x) for x in pending_squad_ids),
+        "pending_banked": int(pending_banked),
         "chips_used": chips_used or {},
     }, indent=2))
+
+
+def promote_if_finished(state, bootstrap):
+    """If the pending gameweek is now reported finished by the API, promote
+    it to confirmed. Returns the (possibly updated) state; does not write to
+    disk — the caller's next save_state call persists whatever this returns."""
+    if not state or not state.get("pending_gw"):
+        return state
+    finished_gws = {e["id"] for e in bootstrap["events"] if e.get("finished")}
+    if state["pending_gw"] in finished_gws:
+        state = dict(state)
+        state["confirmed_gw"] = state["pending_gw"]
+        state["confirmed_squad_ids"] = state["pending_squad_ids"]
+        state["confirmed_banked"] = state["pending_banked"]
+        state["pending_gw"] = None
+        state["pending_squad_ids"] = []
+    return state
 
 
 # --------------------------------------------------------------------------
@@ -674,11 +714,16 @@ def main():
         pools.append(pg)
 
     state = None if args.fresh_squad else load_state()
-    if state and state.get("season") == season and state.get("squad_ids"):
-        banked = int(state.get("banked_transfers", 0))
-        prev_ids = set(state["squad_ids"])
+    if state:
+        state = promote_if_finished(state, bootstrap)
+    if state and state.get("season") == season and state.get("confirmed_squad_ids"):
+        banked = int(state.get("confirmed_banked", 0))
+        prev_ids = set(state["confirmed_squad_ids"])
         print(f"Planning transfers over GW{horizon_gws[0]}-GW{horizon_gws[-1]} "
-              f"from saved squad (after GW{state.get('last_gw')}, {banked} banked)...")
+              f"from confirmed squad (after GW{state.get('confirmed_gw')}, {banked} banked)...")
+        if state.get("pending_gw") == target_gw:
+            print(f"  (re-planning GW{target_gw} — a prior recommendation for this "
+                  f"still-unplayed gameweek exists but is not the planning basis)")
         res = optimize_squad_horizon(
             pools, prev_ids, banked, pred_col=PRED_COL,
             hit_margin=args.hit_margin,
@@ -707,7 +752,7 @@ def main():
 
     if args.no_chips:
         print("Chip evaluation skipped (--no-chips).")
-    elif not (state and state.get("squad_ids")) and args.use_chip is None:
+    elif not (state and state.get("confirmed_squad_ids")) and args.use_chip is None:
         # Opening squad: chips make no sense before a squad exists.
         print("Chip evaluation skipped (no prior squad yet).")
     else:
@@ -721,8 +766,8 @@ def main():
                 )
             chosen_chip = args.use_chip
             chip_eval = evaluate_chips(
-                [chosen_chip], pools, set(state["squad_ids"]),
-                int(state.get("banked_transfers", 0)), res, PRED_COL,
+                [chosen_chip], pools, set(state["confirmed_squad_ids"]),
+                int(state.get("confirmed_banked", 0)), res, PRED_COL,
                 args.hit_margin,
             )
             print(f"Chip forced by --use-chip: {CHIP_LABELS[chosen_chip]}")
@@ -733,8 +778,8 @@ def main():
             print(f"Evaluating chips available in GW{target_gw}: "
                   f"{', '.join(CHIP_LABELS[c] for c in candidates)}")
             chip_eval = evaluate_chips(
-                candidates, pools, set(state["squad_ids"]),
-                int(state.get("banked_transfers", 0)), res, PRED_COL,
+                candidates, pools, set(state["confirmed_squad_ids"]),
+                int(state.get("confirmed_banked", 0)), res, PRED_COL,
                 args.hit_margin,
             )
             best_name, best_margin = None, 0.0
@@ -809,19 +854,32 @@ def main():
         if target_gw not in chips_used[chosen_chip]:
             chips_used[chosen_chip].append(int(target_gw))
 
-    # Free Hit reverts: next gameweek starts from the squad we held BEFORE the
-    # chip, not the one-week team it bought. Every other case carries forward
-    # the squad actually fielded.
-    if chosen_chip == "free_hit" and state and state.get("squad_ids"):
-        carry_ids = state["squad_ids"]
-        carry_banked = int(state.get("banked_transfers", 0))
+    # Free Hit reverts: the recommendation for NEXT gameweek starts from the
+    # squad we held BEFORE the chip, not the one-week team it bought. Every
+    # other case carries forward the squad actually fielded this GW.
+    if chosen_chip == "free_hit" and state and state.get("confirmed_squad_ids"):
+        pending_ids = state["confirmed_squad_ids"]
+        pending_banked = int(state.get("confirmed_banked", 0))
         print("  note: Free Hit squad is for this GW only — saved state keeps the "
               "pre-chip squad for GW planning.")
     else:
-        carry_ids = squad["element"]
-        carry_banked = res.get("banked_next", 0)
+        pending_ids = squad["element"]
+        pending_banked = res.get("banked_next", 0)
 
-    save_state(carry_ids, carry_banked, target_gw, season, chips_used=chips_used)
+    # confirmed_* is untouched here — it only advances once a LATER run sees
+    # the API report target_gw as finished (see promote_if_finished). This is
+    # what makes re-running for the same unplayed gameweek idempotent: the
+    # planning basis next time is still this same confirmed_*, not whatever
+    # we just recommended.
+    prior_confirmed_gw = state.get("confirmed_gw") if state else None
+    prior_confirmed_ids = state.get("confirmed_squad_ids", []) if state else []
+    prior_confirmed_banked = state.get("confirmed_banked", 0) if state else 0
+
+    save_state(
+        prior_confirmed_gw, prior_confirmed_ids, prior_confirmed_banked,
+        target_gw, list(pending_ids), pending_banked,
+        season, chips_used=chips_used,
+    )
 
     remaining = available_chips(chips_used, min(target_gw + 1, 38))
     print(f"\nChips still available after this GW: "

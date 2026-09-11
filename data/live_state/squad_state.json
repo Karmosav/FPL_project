@@ -1,7 +1,26 @@
 {
   "season": "2026-27",
-  "last_gw": 4,
-  "squad_ids": [
+  "confirmed_gw": 3,
+  "confirmed_squad_ids": [
+    1,
+    4,
+    8,
+    40,
+    107,
+    111,
+    165,
+    169,
+    174,
+    356,
+    368,
+    388,
+    398,
+    426,
+    480
+  ],
+  "confirmed_banked": 0,
+  "pending_gw": 4,
+  "pending_squad_ids": [
     1,
     4,
     8,
@@ -18,6 +37,6 @@
     426,
     480
   ],
-  "banked_transfers": 0,
+  "pending_banked": 0,
   "chips_used": {}
 }
